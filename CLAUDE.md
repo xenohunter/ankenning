@@ -3,7 +3,7 @@
 Free static web app (GitHub Pages) that builds Anki decks in the browser from curated multilingual vocabulary.
 
 - Repo: https://github.com/xenohunter/ankenning. Site: https://xenohunter.github.io/ankenning/
-- Working copy: `/home/xenohunter/projects/ankigen` (WSL). **This repo is the single source of truth.** Never assume another copy exists or is newer.
+- Working copy: `/home/xenohunter/projects/ankenning` (WSL). **This repo is the single source of truth.** Never assume another copy exists or is newer.
 - Formerly AnkiGen (renamed in November 2026 at the request of Anki's steward; ARCHITECTURE §14). "Anki" must not be part of the product's name; saying it works with Anki is fine. Keep the independence note (`foot.independent`) in every page's footer, and keep the legacy `ankigen` identifiers listed in §14 (ID prefix, clip names, storage keys, env variables).
 
 ## Git: the owner commits, you don't

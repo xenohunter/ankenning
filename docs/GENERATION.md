@@ -2,7 +2,7 @@
 
 The data is written by Claude in **units**: small, self-contained jobs. Each unit is validated by the linter and merged into `data/` on its own. Units run through the **Anthropic API** (Message Batches for bulk work, plain Messages for sequential work). An interactive Claude session can also run them (§5).
 
-Run everything from the repo root (`/home/xenohunter/projects/ankigen`). You need Node 18+ and, for API runs, a `.env` file in the repo root with `ANKIGEN_API_KEY=…` (copy `.env.example`). `batch.mjs` reads it itself. Don't export `ANTHROPIC_API_KEY` in your shell: Claude Code would then bill the API instead of your plan. The pronunciation audio has its own tool and key (§7).
+Run everything from the repo root (`/home/xenohunter/projects/ankenning`). You need Node 18+ and, for API runs, a `.env` file in the repo root with `ANKIGEN_API_KEY=…` (copy `.env.example`). `batch.mjs` reads it itself. Don't export `ANTHROPIC_API_KEY` in your shell: Claude Code would then bill the API instead of your plan. The pronunciation audio has its own tool and key (§7).
 
 ## 1. Phases and units
 

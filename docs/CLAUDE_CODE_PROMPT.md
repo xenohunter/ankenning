@@ -1,6 +1,6 @@
 # Prompt for Claude Code
 
-Paste everything below the line into Claude Code, started in the repo root (`/home/xenohunter/projects/ankigen`, WSL).
+Paste everything below the line into Claude Code, started in the repo root (`/home/xenohunter/projects/ankenning`, WSL).
 
 ---
 

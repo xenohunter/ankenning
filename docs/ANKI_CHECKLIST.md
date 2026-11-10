@@ -24,7 +24,7 @@ So this checklist is about what only the real apps show: their import dialogs, c
    - Or turn off automatic sync for the test.
 4. **Build each file right before its step**, in WSL from the repo root.
    - Anki updates a note only from a file whose export time is later than the last one's, to the second. Files built back to back in the same second count as "already present".
-   - Files go to `tmp/anki-test/<step>/`. In Windows Explorer that is `\\wsl$\Ubuntu\home\xenohunter\projects\ankigen\tmp\anki-test\`.
+   - Files go to `tmp/anki-test/<step>/`. In Windows Explorer that is `\\wsl$\Ubuntu\home\xenohunter\projects\ankenning\tmp\anki-test\`.
    - For the phone, copy a file over (cloud drive, USB, or a message to yourself) and open it with AnkiDroid.
 
 Steps 1–8 use the small test dataset in `tests/fixtures/data`, 15 concepts in en/ru/ja/de/sr. Step 9 uses the real English data. Steps 10–11 go back to the test dataset, with its pronunciation clips (`tests/fixtures/data/audio/`).
