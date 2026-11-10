@@ -1,4 +1,4 @@
-# AnkiGen data format
+# Ankenning data format
 
 The vocabulary is **concept-centric**. A *concept* is one sense (`word-bank-finance`, not "bank"), defined once in a language-neutral inventory. Every language — English included — describes the concepts in its own files. A deck for "learning A, speaking B" pairs A's entry and B's entry for the same concept ID, so there are no pairwise translation tables. 15 languages need 15 file sets, not 210 pair files.
 

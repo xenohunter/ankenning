@@ -18,7 +18,7 @@ export const STRINGS = {
   'head.languageNow': 'Interface language: {language}',
   'help.about': 'About {topic}',
   support: 'Support this project:',
-  fatal: 'AnkiGen could not load its word lists. Check your connection and reload the page.',
+  fatal: 'Ankenning could not load its word lists. Check your connection and reload the page.',
 
   'step.learn': 'I’m learning',
   'step.know': 'I speak',
@@ -78,10 +78,12 @@ export const STRINGS = {
   'update.title': 'Updating your deck',
   'update.intro':
     'Changed fields, added modules, or want newer data? Download again and import the new file into Anki (File → Import) with the default options. Anki updates your existing notes and their layout, adds new words to the same deck, and keeps your review progress.',
-  'update.edits': 'Your own edits and tags on AnkiGen notes are replaced by the new version. Flags, suspended cards and progress are kept.',
+  'update.rename':
+    'Ankenning used to be called AnkiGen. If your deck list in Anki still shows “AnkiGen”, rename that deck to “Ankenning” before importing an update, or the new cards go to a second deck.',
+  'update.edits': 'Your own edits and tags on Ankenning notes are replaced by the new version. Flags, suspended cards and progress are kept.',
   'update.deck':
     'New cards go to the deck with exactly this name. If you renamed or moved it, they appear in a new deck with the original name, and you can move them.',
-  'update.noteType': 'If you changed the fields of the AnkiGen note type, tick “Merge note types” when importing, or Anki can’t update these notes.',
+  'update.noteType': 'If you changed the fields of the Ankenning note type, tick “Merge note types” when importing, or Anki can’t update these notes.',
   'update.reverse': 'Turned reverse cards off? Anki keeps the old ones as blank cards. Remove them with Tools → Empty Cards.',
 
   'share.copy': 'Copy link',
@@ -121,7 +123,7 @@ export const STRINGS = {
   'feedback.button': 'Feedback',
   'feedback.title': 'Feedback ({shortcut})',
 
-  'langs.title': 'Supported languages — AnkiGen',
+  'langs.title': 'Supported languages — Ankenning',
   'langs.heading': 'Supported languages',
   'langs.extras': 'Cards can also show: {fields}',
   'langs.build': 'Build a deck',
@@ -134,6 +136,7 @@ export const STRINGS = {
   'foot.source': 'Source on GitHub',
   'foot.license': 'Code under the {mit} license; vocabulary under {cc}.',
   'foot.author': 'Created by {name}',
+  'foot.independent': 'Ankenning is an independent project, not affiliated with or endorsed by Anki Software LLC.',
 };
 
 /**
@@ -141,19 +144,19 @@ export const STRINGS = {
  * "one" and "other"; Russian also "few" and "many". {n} is the number, formatted for the language.
  */
 export const PLURALS = {
-  title: { one: 'AnkiGen — free Anki vocabulary decks in {n} language', other: 'AnkiGen — free Anki vocabulary decks in {n} languages' },
+  title: { one: 'Ankenning — free Anki vocabulary decks in {n} language', other: 'Ankenning — free Anki vocabulary decks in {n} languages' },
   lede: { one: 'Free Anki vocabulary decks in {n} language, built right in your browser.', other: 'Free Anki vocabulary decks in {n} languages, built right in your browser.' },
   description: {
     one: 'Build free Anki vocabulary decks right in your browser: {n} language, topic modules and the card fields you want. Download an .apkg for Anki or AnkiDroid.',
     other: 'Build free Anki vocabulary decks right in your browser: {n} languages, topic modules and the card fields you want. Download an .apkg for Anki or AnkiDroid.',
   },
   langsLede: {
-    one: 'AnkiGen makes Anki decks in {n} language, with definitions in the same language.',
-    other: 'AnkiGen makes Anki decks in {n} languages. Learn any of them from any other, or on its own with definitions in the same language.',
+    one: 'Ankenning makes Anki decks in {n} language, with definitions in the same language.',
+    other: 'Ankenning makes Anki decks in {n} languages. Learn any of them from any other, or on its own with definitions in the same language.',
   },
   langsDescription: {
-    one: 'The {n} language AnkiGen makes free Anki vocabulary decks in, and how to ask for another one.',
-    other: 'The {n} languages AnkiGen makes free Anki vocabulary decks in, and how to ask for another one.',
+    one: 'The {n} language Ankenning makes free Anki vocabulary decks in, and how to ask for another one.',
+    other: 'The {n} languages Ankenning makes free Anki vocabulary decks in, and how to ask for another one.',
   },
   word: { one: '{n} word', other: '{n} words' },
   note: { one: '{n} note', other: '{n} notes' },

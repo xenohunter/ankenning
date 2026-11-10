@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "O vocabulário foi redigido por uma máquina e só está revisto em parte. As tuas sugestões são muito bem-vindas.",
     "head.draftTopic": "o vocabulário em rascunho",
@@ -9,7 +9,7 @@
     "head.languageNow": "Idioma da interface: {language}",
     "help.about": "Sobre {topic}",
     "support": "Apoiar este projeto:",
-    "fatal": "O AnkiGen não conseguiu carregar as listas de palavras. Verifica a ligação e recarrega a página.",
+    "fatal": "O Ankenning não conseguiu carregar as listas de palavras. Verifica a ligação e recarrega a página.",
     "step.learn": "Estou a aprender",
     "step.know": "Falo",
     "step.modules": "Módulos",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Atualizar o teu baralho",
     "update.intro": "Alteraste campos, juntaste módulos ou queres dados mais recentes? Descarrega de novo e importa o novo ficheiro no Anki (File → Import) com as opções predefinidas. O Anki atualiza as notas existentes e o respetivo aspeto, adiciona as palavras novas ao mesmo baralho e mantém o teu progresso de revisão.",
-    "update.edits": "As tuas próprias alterações e etiquetas nas notas do AnkiGen são substituídas pela nova versão. As bandeiras, os cartões suspensos e o progresso mantêm-se.",
+    "update.rename": "O Ankenning chamava-se antes AnkiGen. Se a tua lista de baralhos no Anki ainda mostra «AnkiGen», muda o nome desse baralho para «Ankenning» antes de importares uma atualização; caso contrário, os cartões novos vão para um segundo baralho.",
+    "update.edits": "As tuas próprias alterações e etiquetas nas notas do Ankenning são substituídas pela nova versão. As bandeiras, os cartões suspensos e o progresso mantêm-se.",
     "update.deck": "Os cartões novos vão para o baralho com exatamente este nome. Se o renomeaste ou moveste, aparecem num baralho novo com o nome original, e podes movê-los.",
-    "update.noteType": "Se alteraste os campos do tipo de nota do AnkiGen, assinala «Merge note types» ao importar; caso contrário, o Anki não consegue atualizar estas notas.",
+    "update.noteType": "Se alteraste os campos do tipo de nota do Ankenning, assinala «Merge note types» ao importar; caso contrário, o Anki não consegue atualizar estas notas.",
     "update.reverse": "Desligaste os cartões invertidos? O Anki mantém os antigos como cartões vazios. Remove-os com Tools → Empty Cards.",
     "share.copy": "Copiar ligação",
     "share.copied": "Ligação copiada",
@@ -96,7 +97,7 @@
     "list.open": "Lista de palavras: {size}",
     "feedback.button": "Comentários",
     "feedback.title": "Comentários ({shortcut})",
-    "langs.title": "Línguas disponíveis — AnkiGen",
+    "langs.title": "Línguas disponíveis — Ankenning",
     "langs.heading": "Línguas disponíveis",
     "langs.extras": "Os cartões também podem mostrar: {fields}",
     "langs.build": "Criar um baralho",
@@ -108,6 +109,7 @@
     "foot.source": "Código-fonte no GitHub",
     "foot.license": "Código sob a licença {mit}; vocabulário sob {cc}.",
     "foot.author": "Criado por {name}",
+    "foot.independent": "O Ankenning é um projeto independente, não afiliado à Anki Software LLC nem endossado por ela.",
     "fb.title": "Comentários",
     "fb.close": "Fechar",
     "fb.about": "Sobre {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "ID do conceito",
     "audio.label": "Áudio da pronúncia",
-    "audio.warning": "A parte mais experimental do AnkiGen, ainda um protótipo: as gravações são geradas por uma máquina e ninguém as verificou. A acentuação, as leituras e o sotaque podem estar errados, por isso não confies nelas. Se é a tua língua materna e as gravações soam mal, avisa-nos com o botão «Comentários»: se for preciso, retiramos o áudio dessa língua.",
-    "audio.oldDecks": "Já importaste um baralho do AnkiGen antes de haver áudio? Da primeira vez que importares uma atualização, assinala «Merge note types» nas opções de importação do Anki; caso contrário, o Anki ignora as tuas notas existentes, porque o tipo de nota delas tem agora um campo para o áudio.",
+    "audio.warning": "A parte mais experimental do Ankenning, ainda um protótipo: as gravações são geradas por uma máquina e ninguém as verificou. A acentuação, as leituras e o sotaque podem estar errados, por isso não confies nelas. Se é a tua língua materna e as gravações soam mal, avisa-nos com o botão «Comentários»: se for preciso, retiramos o áudio dessa língua.",
+    "audio.oldDecks": "Já importaste um baralho do Ankenning antes de haver áudio? Da primeira vez que importares uma atualização, assinala «Merge note types» nas opções de importação do Anki; caso contrário, o Anki ignora as tuas notas existentes, porque o tipo de nota delas tem agora um campo para o áudio.",
     "audio.help1": "Acrescenta uma gravação de cada palavra que aprendes: só a palavra, sem os exemplos, a tradução ou a definição. Toca na frente dos cartões diretos e no verso dos invertidos.",
     "audio.help2": "As gravações são feitas com o Google Cloud Text-to-Speech.",
     "audio.help3": "Para remover os ficheiros de som mais tarde, desliga o áudio, descarrega o baralho e importa-o de novo; depois apaga no Anki os ficheiros que já não são usados com Tools → Check Media.",
@@ -179,9 +181,9 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — baralhos de vocabulário gratuitos para o Anki em {n} língua",
-      "many": "AnkiGen — baralhos de vocabulário gratuitos para o Anki em {n} de línguas",
-      "other": "AnkiGen — baralhos de vocabulário gratuitos para o Anki em {n} línguas"
+      "one": "Ankenning — baralhos de vocabulário gratuitos para o Anki em {n} língua",
+      "many": "Ankenning — baralhos de vocabulário gratuitos para o Anki em {n} de línguas",
+      "other": "Ankenning — baralhos de vocabulário gratuitos para o Anki em {n} línguas"
     },
     "lede": {
       "one": "Baralhos de vocabulário gratuitos para o Anki em {n} língua, criados diretamente no teu navegador.",
@@ -194,14 +196,14 @@
       "other": "Cria baralhos de vocabulário gratuitos para o Anki diretamente no navegador: {n} línguas, módulos temáticos e os campos de cartão que quiseres. Descarrega um .apkg para o Anki ou o AnkiDroid."
     },
     "langsLede": {
-      "one": "O AnkiGen cria baralhos do Anki em {n} língua, com definições na mesma língua.",
-      "many": "O AnkiGen cria baralhos do Anki em {n} de línguas. Aprende qualquer uma delas com traduções para qualquer outra, ou com definições na mesma língua.",
-      "other": "O AnkiGen cria baralhos do Anki em {n} línguas. Aprende qualquer uma delas com traduções para qualquer outra, ou com definições na mesma língua."
+      "one": "O Ankenning cria baralhos do Anki em {n} língua, com definições na mesma língua.",
+      "many": "O Ankenning cria baralhos do Anki em {n} de línguas. Aprende qualquer uma delas com traduções para qualquer outra, ou com definições na mesma língua.",
+      "other": "O Ankenning cria baralhos do Anki em {n} línguas. Aprende qualquer uma delas com traduções para qualquer outra, ou com definições na mesma língua."
     },
     "langsDescription": {
-      "one": "A {n} língua em que o AnkiGen cria baralhos de vocabulário gratuitos para o Anki, e como pedir outra.",
-      "many": "As {n} de línguas em que o AnkiGen cria baralhos de vocabulário gratuitos para o Anki, e como pedir outra.",
-      "other": "As {n} línguas em que o AnkiGen cria baralhos de vocabulário gratuitos para o Anki, e como pedir outra."
+      "one": "A {n} língua em que o Ankenning cria baralhos de vocabulário gratuitos para o Anki, e como pedir outra.",
+      "many": "As {n} de línguas em que o Ankenning cria baralhos de vocabulário gratuitos para o Anki, e como pedir outra.",
+      "other": "As {n} línguas em que o Ankenning cria baralhos de vocabulário gratuitos para o Anki, e como pedir outra."
     },
     "word": {
       "one": "{n} palavra",

@@ -100,7 +100,7 @@ The app's own texts in other languages (`data/ui/<code>.json`, with the landing 
 For units the API runner gave up on, or for careful manual work. Prefer Sonnet unless the unit is judgment-heavy. Prompt:
 
 ```
-Continue AnkiGen data generation in this repo. Follow docs/GENERATION.md §5.
+Continue Ankenning data generation in this repo. Follow docs/GENERATION.md §5.
 1. Run: node tools/gen/plan.mjs start
 2. Loop until the planner says STOP (or until the units I name are done):
    a. node tools/gen/plan.mjs next

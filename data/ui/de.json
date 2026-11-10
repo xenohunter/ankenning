@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Das Vokabular wurde maschinell entworfen und ist erst teilweise geprüft. Feedback ist sehr willkommen.",
     "head.draftTopic": "Vokabular-Entwurf",
@@ -9,7 +9,7 @@
     "head.languageNow": "Sprache der Oberfläche: {language}",
     "help.about": "Erklärung: {topic}",
     "support": "Unterstütze dieses Projekt:",
-    "fatal": "AnkiGen konnte seine Wortlisten nicht laden. Prüfe deine Verbindung und lade die Seite neu.",
+    "fatal": "Ankenning konnte seine Wortlisten nicht laden. Prüfe deine Verbindung und lade die Seite neu.",
     "step.learn": "Ich lerne",
     "step.know": "Ich spreche",
     "step.modules": "Module",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Dein Deck aktualisieren",
     "update.intro": "Felder geändert, Module hinzugefügt oder neuere Daten gewünscht? Lade das Deck erneut herunter und importiere die neue Datei mit den Standardoptionen in Anki (File → Import). Anki aktualisiert deine vorhandenen Notizen samt Layout, fügt neue Wörter zum selben Deck hinzu und behält deinen Lernfortschritt.",
-    "update.edits": "Deine eigenen Änderungen und Schlagwörter an AnkiGen-Notizen werden durch die neue Version ersetzt. Markierungen, ausgesetzte Karten und Lernfortschritt bleiben erhalten.",
+    "update.rename": "Ankenning hieß früher AnkiGen. Wenn deine Deckliste in Anki noch „AnkiGen“ zeigt, benenne dieses Deck vor dem Import eines Updates in „Ankenning“ um, sonst landen die neuen Karten in einem zweiten Deck.",
+    "update.edits": "Deine eigenen Änderungen und Schlagwörter an Ankenning-Notizen werden durch die neue Version ersetzt. Markierungen, ausgesetzte Karten und Lernfortschritt bleiben erhalten.",
     "update.deck": "Neue Karten landen im Deck mit genau diesem Namen. Wenn du es umbenannt oder verschoben hast, erscheinen sie in einem neuen Deck mit dem ursprünglichen Namen, und du kannst sie verschieben.",
-    "update.noteType": "Wenn du die Felder des AnkiGen-Notiztyps geändert hast, setze beim Import das Häkchen bei „Merge note types“, sonst kann Anki diese Notizen nicht aktualisieren.",
+    "update.noteType": "Wenn du die Felder des Ankenning-Notiztyps geändert hast, setze beim Import das Häkchen bei „Merge note types“, sonst kann Anki diese Notizen nicht aktualisieren.",
     "update.reverse": "Umgekehrte Karten ausgeschaltet? Anki behält die alten als leere Karten. Entferne sie mit Tools → Empty Cards.",
     "share.copy": "Link kopieren",
     "share.copied": "Link kopiert",
@@ -96,7 +97,7 @@
     "list.open": "Wortliste: {size}",
     "feedback.button": "Feedback",
     "feedback.title": "Feedback ({shortcut})",
-    "langs.title": "Unterstützte Sprachen — AnkiGen",
+    "langs.title": "Unterstützte Sprachen — Ankenning",
     "langs.heading": "Unterstützte Sprachen",
     "langs.extras": "Karten können auch zeigen: {fields}",
     "langs.build": "Deck erstellen",
@@ -108,6 +109,7 @@
     "foot.source": "Quellcode auf GitHub",
     "foot.license": "Code unter der {mit}-Lizenz; Vokabular unter {cc}.",
     "foot.author": "Erstellt von {name}",
+    "foot.independent": "Ankenning ist ein unabhängiges Projekt, das weder mit Anki Software LLC verbunden ist noch von ihr unterstützt wird.",
     "fb.title": "Feedback",
     "fb.close": "Schließen",
     "fb.about": "Zum Wort {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "Emoji",
     "fb.field.conceptId": "Konzept-ID",
     "audio.label": "Aussprache als Audio",
-    "audio.warning": "Der experimentellste Teil von AnkiGen, noch ein Prototyp: Die Aufnahmen sind maschinell erzeugt und von niemandem geprüft. Betonung, Lesung und Akzent können falsch sein, also verlass dich nicht darauf. Du sprichst die Sprache als Muttersprache und die Aufnahmen klingen schlecht? Sag uns über den Button „Feedback“ Bescheid: Wenn nötig, nehmen wir das Audio einer Sprache wieder heraus.",
-    "audio.oldDecks": "Hast du schon ein AnkiGen-Deck importiert, bevor es Audio gab? Setze beim ersten Import eines Updates in Ankis Importoptionen das Häkchen bei „Merge note types“, sonst überspringt Anki deine vorhandenen Notizen: Ihr Notiztyp hat jetzt ein Feld für das Audio.",
+    "audio.warning": "Der experimentellste Teil von Ankenning, noch ein Prototyp: Die Aufnahmen sind maschinell erzeugt und von niemandem geprüft. Betonung, Lesung und Akzent können falsch sein, also verlass dich nicht darauf. Du sprichst die Sprache als Muttersprache und die Aufnahmen klingen schlecht? Sag uns über den Button „Feedback“ Bescheid: Wenn nötig, nehmen wir das Audio einer Sprache wieder heraus.",
+    "audio.oldDecks": "Hast du schon ein Ankenning-Deck importiert, bevor es Audio gab? Setze beim ersten Import eines Updates in Ankis Importoptionen das Häkchen bei „Merge note types“, sonst überspringt Anki deine vorhandenen Notizen: Ihr Notiztyp hat jetzt ein Feld für das Audio.",
     "audio.help1": "Fügt eine Aufnahme jedes Wortes hinzu, das du lernst: nur das Wort, nicht seine Beispiele, Übersetzung oder Definition. Sie wird auf der Vorderseite der Vorwärtskarten und auf der Rückseite der umgekehrten Karten abgespielt.",
     "audio.help2": "Die Aufnahmen werden mit Google Cloud Text-to-Speech erzeugt.",
     "audio.help3": "Um die Audiodateien später zu entfernen, schalte das Audio aus, lade das Deck herunter und importiere es erneut. Lösche dann in Anki die ungenutzten Dateien mit Tools → Check Media.",
@@ -179,8 +181,8 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — kostenlose Anki-Vokabeldecks in {n} Sprache",
-      "other": "AnkiGen — kostenlose Anki-Vokabeldecks in {n} Sprachen"
+      "one": "Ankenning — kostenlose Anki-Vokabeldecks in {n} Sprache",
+      "other": "Ankenning — kostenlose Anki-Vokabeldecks in {n} Sprachen"
     },
     "lede": {
       "one": "Kostenlose Anki-Vokabeldecks in {n} Sprache, direkt in deinem Browser erstellt.",
@@ -191,12 +193,12 @@
       "other": "Erstelle kostenlose Anki-Vokabeldecks direkt im Browser: {n} Sprachen, Themenmodule und die Kartenfelder, die du willst. Lade eine .apkg-Datei für Anki oder AnkiDroid herunter."
     },
     "langsLede": {
-      "one": "AnkiGen erstellt Anki-Decks in {n} Sprache, mit Definitionen in derselben Sprache.",
-      "other": "AnkiGen erstellt Anki-Decks in {n} Sprachen. Lerne jede davon mit Übersetzungen in jede andere oder mit Definitionen in derselben Sprache."
+      "one": "Ankenning erstellt Anki-Decks in {n} Sprache, mit Definitionen in derselben Sprache.",
+      "other": "Ankenning erstellt Anki-Decks in {n} Sprachen. Lerne jede davon mit Übersetzungen in jede andere oder mit Definitionen in derselben Sprache."
     },
     "langsDescription": {
-      "one": "Die {n} Sprache, in der AnkiGen kostenlose Anki-Vokabeldecks erstellt, und wie du eine weitere vorschlägst.",
-      "other": "Die {n} Sprachen, in denen AnkiGen kostenlose Anki-Vokabeldecks erstellt, und wie du eine weitere vorschlägst."
+      "one": "Die {n} Sprache, in der Ankenning kostenlose Anki-Vokabeldecks erstellt, und wie du eine weitere vorschlägst.",
+      "other": "Die {n} Sprachen, in denen Ankenning kostenlose Anki-Vokabeldecks erstellt, und wie du eine weitere vorschlägst."
     },
     "word": {
       "one": "{n} Wort",

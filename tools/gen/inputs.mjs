@@ -175,7 +175,7 @@ export function compact(obj) {
 
 // ---------- System prompt for API runs ----------
 
-const API_PREAMBLE = `You are a careful lexicographer generating data for AnkiGen, a multilingual flashcard generator.
+const API_PREAMBLE = `You are a careful lexicographer generating data for Ankenning, a multilingual flashcard generator.
 You run inside an automated pipeline: you cannot run commands or read files. Everything you need is below and in the user message.
 Instructions below may mention running scripts (plan.mjs, merge-unit.mjs); the pipeline does that for you.
 Respond with ONE JSON object exactly as described under "Output" in the unit instructions — no prose, no code fences.`;

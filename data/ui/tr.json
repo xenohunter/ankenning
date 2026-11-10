@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Kelime hazinesi makine tarafından taslak olarak hazırlandı ve yalnızca kısmen kontrol edildi. Geri bildirimlerinizi bekliyoruz.",
     "head.draftTopic": "taslak kelime hazinesi",
@@ -9,7 +9,7 @@
     "head.languageNow": "Arayüz dili: {language}",
     "help.about": "Açıklama: {topic}",
     "support": "Bu projeyi destekleyin:",
-    "fatal": "AnkiGen kelime listelerini yükleyemedi. Bağlantınızı kontrol edip sayfayı yeniden yükleyin.",
+    "fatal": "Ankenning kelime listelerini yükleyemedi. Bağlantınızı kontrol edip sayfayı yeniden yükleyin.",
     "step.learn": "Öğrendiğim dil",
     "step.know": "Konuştuğum dil",
     "step.modules": "Modüller",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Destenizi güncelleme",
     "update.intro": "Alanları mı değiştirdiniz, modül mü eklediniz ya da daha yeni veri mi istiyorsunuz? Yeniden indirin ve yeni dosyayı varsayılan seçeneklerle Anki'ye aktarın (File → Import). Anki mevcut notlarınızı ve düzenlerini günceller, yeni kelimeleri aynı desteye ekler ve tekrar ilerlemenizi korur.",
-    "update.edits": "AnkiGen notlarında yaptığınız düzenlemeler ve etiketler yeni sürümle değiştirilir. Bayraklar, askıya alınmış kartlar ve ilerlemeniz korunur.",
+    "update.rename": "Ankenning'in eski adı AnkiGen'di. Anki'deki deste listenizde hâlâ “AnkiGen” görünüyorsa, bir güncellemeyi içe aktarmadan önce o destenin adını “Ankenning” olarak değiştirin; aksi hâlde yeni kartlar ikinci bir desteye gider.",
+    "update.edits": "Ankenning notlarında yaptığınız düzenlemeler ve etiketler yeni sürümle değiştirilir. Bayraklar, askıya alınmış kartlar ve ilerlemeniz korunur.",
     "update.deck": "Yeni kartlar tam olarak bu adı taşıyan desteye eklenir. Desteyi yeniden adlandırdıysanız veya taşıdıysanız, kartlar özgün adı taşıyan yeni bir destede görünür ve onları taşıyabilirsiniz.",
-    "update.noteType": "AnkiGen not türünün alanlarını değiştirdiyseniz, içe aktarırken “Merge note types” seçeneğini işaretleyin; aksi hâlde Anki bu notları güncelleyemez.",
+    "update.noteType": "Ankenning not türünün alanlarını değiştirdiyseniz, içe aktarırken “Merge note types” seçeneğini işaretleyin; aksi hâlde Anki bu notları güncelleyemez.",
     "update.reverse": "Ters kartları kapattınız mı? Anki eskileri boş kart olarak tutar. Tools → Empty Cards ile kaldırın.",
     "share.copy": "Bağlantıyı kopyala",
     "share.copied": "Bağlantı kopyalandı",
@@ -96,7 +97,7 @@
     "list.open": "Kelime listesi: {size}",
     "feedback.button": "Geri bildirim",
     "feedback.title": "Geri bildirim ({shortcut})",
-    "langs.title": "Desteklenen diller — AnkiGen",
+    "langs.title": "Desteklenen diller — Ankenning",
     "langs.heading": "Desteklenen diller",
     "langs.extras": "Kartlarda ayrıca gösterilebilir: {fields}",
     "langs.build": "Deste oluştur",
@@ -108,6 +109,7 @@
     "foot.source": "GitHub'da kaynak kodu",
     "foot.license": "Kod {mit} lisansı altında; kelime hazinesi {cc} altında.",
     "foot.author": "Hazırlayan: {name}",
+    "foot.independent": "Ankenning bağımsız bir projedir; Anki Software LLC ile bağlantılı değildir ve onun tarafından onaylanmamıştır.",
     "fb.title": "Geri bildirim",
     "fb.close": "Kapat",
     "fb.about": "Kelime: {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "kavram kimliği",
     "audio.label": "Telaffuz sesi",
-    "audio.warning": "AnkiGen'in en deneysel bölümü, henüz bir prototip: kayıtlar makineyle üretildi ve kimse kontrol etmedi. Vurgu, okunuş ve aksan yanlış olabilir; bu yüzden bunlara güvenmeyin. Ana diliniz buysa ve kayıtlar kötü geliyorsa, “Geri bildirim” düğmesiyle bize bildirin: gerekirse o dilin sesini kaldırırız.",
-    "audio.oldDecks": "Ses eklenmeden önce bir AnkiGen destesini içe aktardınız mı? Bir güncellemeyi ilk kez içe aktarırken Anki'nin içe aktarma seçeneklerinde “Merge note types” seçeneğini işaretleyin; aksi hâlde Anki mevcut notlarınızı atlar, çünkü not türlerinde artık ses için bir alan var.",
+    "audio.warning": "Ankenning'in en deneysel bölümü, henüz bir prototip: kayıtlar makineyle üretildi ve kimse kontrol etmedi. Vurgu, okunuş ve aksan yanlış olabilir; bu yüzden bunlara güvenmeyin. Ana diliniz buysa ve kayıtlar kötü geliyorsa, “Geri bildirim” düğmesiyle bize bildirin: gerekirse o dilin sesini kaldırırız.",
+    "audio.oldDecks": "Ses eklenmeden önce bir Ankenning destesini içe aktardınız mı? Bir güncellemeyi ilk kez içe aktarırken Anki'nin içe aktarma seçeneklerinde “Merge note types” seçeneğini işaretleyin; aksi hâlde Anki mevcut notlarınızı atlar, çünkü not türlerinde artık ses için bir alan var.",
     "audio.help1": "Öğrendiğiniz her kelimenin kaydını ekler: yalnızca kelimenin kendisini; örnekleri, çevirisi veya tanımı eklenmez. Kayıt, düz kartların ön yüzünde ve ters kartların arka yüzünde çalar.",
     "audio.help2": "Kayıtlar Google Cloud Text-to-Speech ile yapılır.",
     "audio.help3": "Ses dosyalarını daha sonra kaldırmak için sesi kapatın, desteyi indirip yeniden içe aktarın, ardından Anki'de kullanılmayan dosyaları Tools → Check Media ile silin.",
@@ -179,8 +181,8 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — {n} dilde ücretsiz Anki kelime desteleri",
-      "other": "AnkiGen — {n} dilde ücretsiz Anki kelime desteleri"
+      "one": "Ankenning — {n} dilde ücretsiz Anki kelime desteleri",
+      "other": "Ankenning — {n} dilde ücretsiz Anki kelime desteleri"
     },
     "lede": {
       "one": "{n} dilde ücretsiz Anki kelime desteleri, doğrudan tarayıcınızda hazırlanır.",
@@ -191,12 +193,12 @@
       "other": "Ücretsiz Anki kelime destelerini doğrudan tarayıcınızda hazırlayın: {n} dil, konu modülleri ve istediğiniz kart alanları. Anki veya AnkiDroid için bir .apkg dosyası indirin."
     },
     "langsLede": {
-      "one": "AnkiGen {n} dilde, aynı dildeki tanımlarla Anki desteleri hazırlar.",
-      "other": "AnkiGen {n} dilde Anki desteleri hazırlar. Herhangi birini başka herhangi bir dildeki çevirilerle ya da aynı dildeki tanımlarla öğrenin."
+      "one": "Ankenning {n} dilde, aynı dildeki tanımlarla Anki desteleri hazırlar.",
+      "other": "Ankenning {n} dilde Anki desteleri hazırlar. Herhangi birini başka herhangi bir dildeki çevirilerle ya da aynı dildeki tanımlarla öğrenin."
     },
     "langsDescription": {
-      "one": "AnkiGen'in ücretsiz Anki kelime desteleri hazırladığı {n} dil ve yeni bir dili nasıl önerebileceğiniz.",
-      "other": "AnkiGen'in ücretsiz Anki kelime desteleri hazırladığı {n} dil ve yeni bir dili nasıl önerebileceğiniz."
+      "one": "Ankenning'in ücretsiz Anki kelime desteleri hazırladığı {n} dil ve yeni bir dili nasıl önerebileceğiniz.",
+      "other": "Ankenning'in ücretsiz Anki kelime desteleri hazırladığı {n} dil ve yeni bir dili nasıl önerebileceğiniz."
     },
     "word": {
       "one": "{n} kelime",

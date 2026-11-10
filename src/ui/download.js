@@ -55,7 +55,7 @@ export function mountDownload(root, app, { onSaved } = {}) {
     null,
     h('p', null, h('strong', null, msg('update.title'))),
     h('p', null, msg('update.intro')),
-    h('ul', null, ...['update.edits', 'update.deck', 'update.noteType', 'update.reverse'].map((key) => h('li', null, msg(key)))),
+    h('ul', null, ...['update.rename', 'update.edits', 'update.deck', 'update.noteType', 'update.reverse'].map((key) => h('li', null, msg(key)))),
   );
   root.append(
     h('dl', { class: 'dl-summary' }, h('dt', null, msg('download.deck')), deck, h('dt', null, msg('download.size')), size, ...audio, h('dt', null, msg('download.file')), file),

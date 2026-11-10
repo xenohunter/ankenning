@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "El vocabulario lo ha redactado una máquina y solo está revisado en parte. Tus comentarios son muy bienvenidos.",
     "head.draftTopic": "el vocabulario en borrador",
@@ -9,7 +9,7 @@
     "head.languageNow": "Idioma de la interfaz: {language}",
     "help.about": "Sobre {topic}",
     "support": "Apoya este proyecto:",
-    "fatal": "AnkiGen no ha podido cargar sus listas de palabras. Comprueba tu conexión y recarga la página.",
+    "fatal": "Ankenning no ha podido cargar sus listas de palabras. Comprueba tu conexión y recarga la página.",
     "step.learn": "Estoy aprendiendo",
     "step.know": "Hablo",
     "step.modules": "Módulos",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Actualizar tu mazo",
     "update.intro": "¿Has cambiado campos, añadido módulos o quieres datos más recientes? Descarga el mazo de nuevo e importa el archivo nuevo en Anki (File → Import) con las opciones predeterminadas. Anki actualiza tus notas existentes y su diseño, añade las palabras nuevas al mismo mazo y conserva tu progreso de repaso.",
-    "update.edits": "Tus propios cambios y etiquetas en las notas de AnkiGen se sustituyen por la nueva versión. Las marcas, las tarjetas suspendidas y el progreso se conservan.",
+    "update.rename": "Ankenning antes se llamaba AnkiGen. Si tu lista de mazos en Anki todavía muestra «AnkiGen», cambia el nombre de ese mazo a «Ankenning» antes de importar una actualización; si no, las tarjetas nuevas irán a un segundo mazo.",
+    "update.edits": "Tus propios cambios y etiquetas en las notas de Ankenning se sustituyen por la nueva versión. Las marcas, las tarjetas suspendidas y el progreso se conservan.",
     "update.deck": "Las tarjetas nuevas van al mazo con exactamente este nombre. Si lo has renombrado o movido, aparecerán en un mazo nuevo con el nombre original, y podrás moverlas.",
-    "update.noteType": "Si has cambiado los campos del tipo de nota de AnkiGen, marca «Merge note types» al importar; si no, Anki no podrá actualizar estas notas.",
+    "update.noteType": "Si has cambiado los campos del tipo de nota de Ankenning, marca «Merge note types» al importar; si no, Anki no podrá actualizar estas notas.",
     "update.reverse": "¿Has desactivado las tarjetas inversas? Anki conserva las antiguas como tarjetas vacías. Elimínalas con Tools → Empty Cards.",
     "share.copy": "Copiar enlace",
     "share.copied": "Enlace copiado",
@@ -96,7 +97,7 @@
     "list.open": "Lista de palabras: {size}",
     "feedback.button": "Comentarios",
     "feedback.title": "Comentarios ({shortcut})",
-    "langs.title": "Idiomas disponibles — AnkiGen",
+    "langs.title": "Idiomas disponibles — Ankenning",
     "langs.heading": "Idiomas disponibles",
     "langs.extras": "Las tarjetas también pueden mostrar: {fields}",
     "langs.build": "Crear un mazo",
@@ -108,6 +109,7 @@
     "foot.source": "Código en GitHub",
     "foot.license": "Código con licencia {mit}; vocabulario con licencia {cc}.",
     "foot.author": "Creado por {name}",
+    "foot.independent": "Ankenning es un proyecto independiente, no afiliado a Anki Software LLC ni respaldado por ella.",
     "fb.title": "Comentarios",
     "fb.close": "Cerrar",
     "fb.about": "Sobre {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "ID de concepto",
     "audio.label": "Audio de pronunciación",
-    "audio.warning": "La parte más experimental de AnkiGen, todavía un prototipo: las grabaciones las genera una máquina y nadie las ha revisado. La acentuación, las lecturas y el acento pueden estar mal, así que no te fíes de ellas. Si es tu lengua materna y las grabaciones suenan mal, avísanos con el botón «Comentarios»: si hace falta, retiraremos el audio de ese idioma.",
-    "audio.oldDecks": "¿Ya has importado un mazo de AnkiGen antes de que hubiera audio? La primera vez que importes una actualización, marca «Merge note types» en las opciones de importación de Anki; si no, Anki omitirá tus notas existentes, porque su tipo de nota ahora tiene un campo para el audio.",
+    "audio.warning": "La parte más experimental de Ankenning, todavía un prototipo: las grabaciones las genera una máquina y nadie las ha revisado. La acentuación, las lecturas y el acento pueden estar mal, así que no te fíes de ellas. Si es tu lengua materna y las grabaciones suenan mal, avísanos con el botón «Comentarios»: si hace falta, retiraremos el audio de ese idioma.",
+    "audio.oldDecks": "¿Ya has importado un mazo de Ankenning antes de que hubiera audio? La primera vez que importes una actualización, marca «Merge note types» en las opciones de importación de Anki; si no, Anki omitirá tus notas existentes, porque su tipo de nota ahora tiene un campo para el audio.",
     "audio.help1": "Añade una grabación de cada palabra que aprendes: solo la palabra, sin sus ejemplos, su traducción ni su definición. Suena en el anverso de las tarjetas directas y en el reverso de las inversas.",
     "audio.help2": "Las grabaciones se hacen con Google Cloud Text-to-Speech.",
     "audio.help3": "Para quitar los archivos de sonido más adelante, desactiva el audio, descarga el mazo y vuelve a importarlo; después borra en Anki los archivos que ya no se usan con Tools → Check Media.",
@@ -179,9 +181,9 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — mazos de vocabulario gratuitos para Anki en {n} idioma",
-      "many": "AnkiGen — mazos de vocabulario gratuitos para Anki en {n} de idiomas",
-      "other": "AnkiGen — mazos de vocabulario gratuitos para Anki en {n} idiomas"
+      "one": "Ankenning — mazos de vocabulario gratuitos para Anki en {n} idioma",
+      "many": "Ankenning — mazos de vocabulario gratuitos para Anki en {n} de idiomas",
+      "other": "Ankenning — mazos de vocabulario gratuitos para Anki en {n} idiomas"
     },
     "lede": {
       "one": "Mazos de vocabulario gratuitos para Anki en {n} idioma, creados directamente en tu navegador.",
@@ -194,14 +196,14 @@
       "other": "Crea mazos de vocabulario gratuitos para Anki directamente en tu navegador: {n} idiomas, módulos temáticos y los campos de tarjeta que quieras. Descarga un .apkg para Anki o AnkiDroid."
     },
     "langsLede": {
-      "one": "AnkiGen crea mazos de Anki en {n} idioma, con definiciones en el mismo idioma.",
-      "many": "AnkiGen crea mazos de Anki en {n} de idiomas. Aprende cualquiera de ellos con traducciones a cualquier otro, o con definiciones en el mismo idioma.",
-      "other": "AnkiGen crea mazos de Anki en {n} idiomas. Aprende cualquiera de ellos con traducciones a cualquier otro, o con definiciones en el mismo idioma."
+      "one": "Ankenning crea mazos de Anki en {n} idioma, con definiciones en el mismo idioma.",
+      "many": "Ankenning crea mazos de Anki en {n} de idiomas. Aprende cualquiera de ellos con traducciones a cualquier otro, o con definiciones en el mismo idioma.",
+      "other": "Ankenning crea mazos de Anki en {n} idiomas. Aprende cualquiera de ellos con traducciones a cualquier otro, o con definiciones en el mismo idioma."
     },
     "langsDescription": {
-      "one": "El {n} idioma en el que AnkiGen crea mazos de vocabulario gratuitos para Anki, y cómo pedir otro.",
-      "many": "Los {n} de idiomas en los que AnkiGen crea mazos de vocabulario gratuitos para Anki, y cómo pedir otro.",
-      "other": "Los {n} idiomas en los que AnkiGen crea mazos de vocabulario gratuitos para Anki, y cómo pedir otro."
+      "one": "El {n} idioma en el que Ankenning crea mazos de vocabulario gratuitos para Anki, y cómo pedir otro.",
+      "many": "Los {n} de idiomas en los que Ankenning crea mazos de vocabulario gratuitos para Anki, y cómo pedir otro.",
+      "other": "Los {n} idiomas en los que Ankenning crea mazos de vocabulario gratuitos para Anki, y cómo pedir otro."
     },
     "word": {
       "one": "{n} palabra",

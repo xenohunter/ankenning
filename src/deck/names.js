@@ -17,11 +17,11 @@ export function pairLabel(meta, config) {
 
 /** @param {Config} config @param {any} meta */
 export function deckName(config, meta) {
-  return `AnkiGen::${pairLabel(meta, config)}`;
+  return `Ankenning::${pairLabel(meta, config)}`;
 }
 
-/** ankigen-<learn>-<know>-<data version>.apkg; same-language decks repeat the language. @param {Config} config @param {any} meta */
+/** ankenning-<learn>-<know>-<data version>.apkg; same-language decks repeat the language. @param {Config} config @param {any} meta */
 export function apkgFileName(config, meta) {
   const know = config.know === SAME ? config.learn : config.know;
-  return `ankigen-${config.learn}-${know}-${meta.version.data}.apkg`;
+  return `ankenning-${config.learn}-${know}-${meta.version.data}.apkg`;
 }

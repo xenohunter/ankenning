@@ -10,16 +10,17 @@ The import logic was run against Anki's own backend (the `anki` Python package 2
 - **Re-imports:** each step below gives the numbers stated, and review history survives.
 - **Rendering:** for 162 cards across 7 configurations, Anki's rendering equals the site's preview, character for character.
 - **Pronunciation audio** (2026-10-28, same three backends): the clips land in `collection.media` byte for byte, and the same file again adds none; turning audio on later updates the notes and adds the clips; turning it off empties the Audio field, and Check Media lists the clips as unused. Anki's own sound tags put the clip on the forward question only and on the reverse answer only. A 19-field deck from before the Audio field is "conflicting" until "Merge note types" is ticked.
+- **The rename from AnkiGen** (2026-11-10, backend 26.9.3): an Ankenning file imported over an AnkiGen deck updates the notes and renames the note type; without renaming the deck first, the new cards land in a second deck (ARCHITECTURE §7.4). Step 13 shows it in the app.
 
 So this checklist is about what only the real apps show: their import dialogs, cards on real screens in light and dark mode, typing answers, and opening files on a phone.
 
 ## Setup
 
 1. **Write down the versions:** Anki desktop (Help → About) and AnkiDroid (Settings → About).
-2. **Desktop:** use a throwaway profile (File → Switch Profile → Add, e.g. "ankigen-test"). A new profile is not logged in to AnkiWeb, so nothing syncs.
+2. **Desktop:** use a throwaway profile (File → Switch Profile → Add, e.g. "ankenning-test"). A new profile is not logged in to AnkiWeb, so nothing syncs.
 3. **AnkiDroid:** don't sync until you've deleted the test decks and their note types.
    - Delete the decks: long-press the deck → Delete.
-   - Delete the note types: Manage note types → each "AnkiGen …" type.
+   - Delete the note types: Manage note types → each "Ankenning …" type.
    - Or turn off automatic sync for the test.
 4. **Build each file right before its step**, in WSL from the repo root.
    - Anki updates a note only from a file whose export time is later than the last one's, to the second. Files built back to back in the same second count as "already present".
@@ -36,7 +37,7 @@ Steps 1–8 use the small test dataset in `tests/fixtures/data`, 15 concepts in 
 node tools/apkg.mjs '#v1&l=ru&k=en&m=core-1&x=2' --data tests/fixtures/data --out tmp/anki-test/1
 ```
 
-Do: File → Import → `tmp/anki-test/1/ankigen-ru-en-<date>.apkg`.
+Do: File → Import → `tmp/anki-test/1/ankenning-ru-en-<date>.apkg`.
 
 - [ ] **Import options** (take a screenshot). Leave the defaults:
   - Merge note types: off
@@ -45,16 +46,16 @@ Do: File → Import → `tmp/anki-test/1/ankigen-ru-en-<date>.apkg`.
   - Include reviews: off
   - Import any deck presets: off
 - [ ] **Result:** "10 new notes imported" (in the log: "Notes added from file: 10").
-- [ ] **Deck list:** "AnkiGen" with the child deck "Русский (English)", 10 new cards.
+- [ ] **Deck list:** "Ankenning" with the child deck "Русский (English)", 10 new cards.
 - [ ] **Deck overview** (click the deck):
-  - It shows "Made with AnkiGen · data 2026.10.17".
-  - The "AnkiGen" link points to `https://xenohunter.github.io/ankigen/#v1&l=ru&k=en&m=core-1&x=2`. It is a 404 until the site is live.
+  - It shows "Made with Ankenning · data 2026.10.17".
+  - The "Ankenning" link points to `https://xenohunter.github.io/ankenning/#v1&l=ru&k=en&m=core-1&x=2`. It is a 404 until the site is live.
   - The deck uses the "Default" options preset (gear → Options).
 - [ ] **Browse, Notes mode:**
-  - Note type is "AnkiGen Русский (English)".
+  - Note type is "Ankenning Русский (English)".
   - Sort Field shows e.g. "вода́ f.".
   - Created is today (not 1970, not "invalid date").
-  - Tags look like `ankigen::foundations::core-1`.
+  - Tags look like `ankenning::foundations::core-1`.
 - [ ] **Edit one note:** 20 fields, Word … Reverse, Audio. Rows switched off are empty, and so are Reverse and Audio.
 
 Then study 3 cards and press Good on each.
@@ -89,7 +90,7 @@ node tools/apkg.mjs '#v1&l=ru&k=en&m=core-1,time&f=forms:f,ipa:o&x=1' --data tes
 
 - [ ] **Result:** 1 note added and 10 updated.
 - [ ] **The new note:** "су́тки pl. only" → "a full day of 24 hours, day and night together".
-  - It is in the same deck, with the tag `ankigen::foundations::time`.
+  - It is in the same deck, with the tag `ankenning::foundations::time`.
   - It comes after the existing new cards.
 
 **Step 4: Reverse cards and typing**
@@ -119,7 +120,7 @@ node tools/apkg.mjs '#v1&l=ru&k=en&m=core-1,time&f=forms:f,ipa:o&x=1' --data tes
 node tools/apkg.mjs '#v1&l=ja&k=de&m=core-1,residence&r=1' --data tests/fixtures/data --out tmp/anki-test/6
 ```
 
-- [ ] **Result:** 14 notes and 28 cards in a new deck "AnkiGen › 日本語 (Deutsch)".
+- [ ] **Result:** 14 notes and 28 cards in a new deck "Ankenning › 日本語 (Deutsch)".
 - [ ] **Forward front:** "水" only, with no reading (Reading is on the back by default).
 - [ ] **Back of 水:**
   - "みず" as furigana over 水, centred and small.
@@ -146,7 +147,7 @@ node tools/apkg.mjs '#v1&l=de&k=ru&m=core-1&r=1&t=1' --data tests/fixtures/data 
 node tools/apkg.mjs '#v1&l=sr&k=en&m=core-1&f=otherScript:b&sr=l' --data tests/fixtures/data --out tmp/anki-test/8
 ```
 
-- [ ] **Deck name:** "AnkiGen › Српски (English)". It stays in Cyrillic on purpose: Anki matches decks by name, so the name must not change with the script choice.
+- [ ] **Deck name:** "Ankenning › Српски (English)". It stays in Cyrillic on purpose: Anki matches decks by name, so the name must not change with the script choice.
 - [ ] **Card:** front "voda f."; back with an OTHER SCRIPT section "вода" and forms "gen. vode · pl. vode".
 
 **Step 9: A full-size deck**
@@ -197,6 +198,24 @@ node tools/apkg.mjs '#v1&l=en&k=ar&m=core-1&x=2' --out tmp/anki-test/12
 - [ ] **en → ar:** the translations are Arabic without vowel marks, the captions (الأمثلة…) read right to left, and the English examples stay left to right.
 - [ ] **Fonts:** the vowel marks are legible and not clipped at the top or bottom of a line.
 
+**Step 13: A deck from before the rename** (once; in a fresh profile)
+
+Build a deck at the last commit before the project was renamed, and the same pair with one more module now:
+
+```
+mkdir -p tmp/anki-test/13/old && git archive c09cc56 src tools vendor css data/meta tests/fixtures package.json | tar -x -C tmp/anki-test/13/old
+(cd tmp/anki-test/13/old && node tools/apkg.mjs '#v1&l=ru&k=en&m=core-1&x=2' --data tests/fixtures/data --out ..)
+node tools/apkg.mjs '#v1&l=ru&k=en&m=core-1,time&x=2' --data tests/fixtures/data --out tmp/anki-test/13
+```
+
+Do: import `ankigen-ru-en-<date>.apkg`. Rename the deck "AnkiGen" to "Ankenning" (gear → Rename), then import `ankenning-ru-en-<date>.apkg`.
+
+- [ ] **Result:** 1 note added and 10 updated, all 11 cards in "Ankenning › Русский (English)".
+- [ ] **Note type:** now called "Ankenning Русский (English)"; no "+" copy.
+- [ ] **Tags:** `ankenning::…`. Tools → Check Database removes the old `ankigen::…` tags from the sidebar.
+- [ ] **Deck overview:** "Made with Ankenning", the link pointing to `https://xenohunter.github.io/ankenning/#…`.
+- [ ] **Without the rename** (another fresh profile): the 10 cards stay in "AnkiGen › Русский (English)" and the new one goes to a new "Ankenning › Русский (English)", as the page's update help warns.
+
 ## AnkiDroid
 
 Repeat a shorter round on the phone, in a fresh state (or after deleting the desktop-tested decks there).
@@ -233,7 +252,8 @@ Repeat a shorter round on the phone, in a fresh state (or after deleting the des
 | Message | Cause | What to do |
 |---|---|---|
 | "N notes already present in your collection." | The same file again, or a file that is not newer | Nothing |
-| "N notes were not imported, because their note type has changed, and 'Merge note types' was not enabled." | The AnkiGen note type was edited (fields added, removed or renamed), or the deck was downloaded before 2026-10-28 (19 fields; AnkiGen then added the Audio field) | Re-import with "Merge note types" ticked |
+| "N notes were not imported, because their note type has changed, and 'Merge note types' was not enabled." | The Ankenning note type was edited (fields added, removed or renamed), or the deck was downloaded before 2026-10-28 (19 fields; Ankenning then added the Audio field) | Re-import with "Merge note types" ticked |
 | Unused files `ankigen-<lang>-….mp3` in Check Media | Audio was turned off, or words changed their clips | "Delete Unused" in Check Media |
-| A second "AnkiGen::…" deck appears | The original deck was renamed or moved | Move the new cards into your deck |
+| A second "Ankenning::…" deck appears | The original deck was renamed or moved | Move the new cards into your deck |
+| "Ankenning › …" appears next to "AnkiGen › …" | A deck made before the rename was updated without renaming it first | Move the new deck's cards into the AnkiGen deck (Browse → Change Deck), delete the empty Ankenning deck, then rename AnkiGen to Ankenning |
 | "The front of this card is blank." | Reverse cards were turned off | Tools → Empty Cards |

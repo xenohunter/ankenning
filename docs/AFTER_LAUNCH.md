@@ -1,8 +1,8 @@
 # After the launch
 
-Things to do once the site is live at https://xenohunter.github.io/ankigen/.
+Things to do once the site is live at https://xenohunter.github.io/ankenning/.
 
-1. **Search Console.** Add the property `https://xenohunter.github.io/ankigen/` (type "URL prefix"). The verification meta tag is in `index.html` (`google-site-verification`), so press Verify once it is deployed. Then submit `https://xenohunter.github.io/ankigen/sitemap.xml` under Sitemaps. A few days later, check under Pages that the `decks/` pages are indexed.
+1. **Search Console.** Add the property `https://xenohunter.github.io/ankenning/` (type "URL prefix"). The verification meta tag is in `index.html` (`google-site-verification`), so press Verify once it is deployed. Then submit `https://xenohunter.github.io/ankenning/sitemap.xml` under Sitemaps. A few days later, check under Pages that the `decks/` pages are indexed.
 2. **Phone check**, on an iPhone (Safari) and on Android (Chrome):
    - pick a pair and a module, open Preview, select a word on a card and tap Feedback (the corner button): the dialog should quote it;
    - tap Reset all, then Cancel, then Reset all again and confirm: the page should come back with nothing chosen;

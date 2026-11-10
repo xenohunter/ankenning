@@ -23,14 +23,14 @@ const dark = window.matchMedia('(prefers-color-scheme: dark)');
 const PAGE = location.origin === 'null' ? '*' : location.origin;
 
 /**
- * Runs in every frame (as source text, so it must not use anything from this module). Posts { ankigen: 1, type }
+ * Runs in every frame (as source text, so it must not use anything from this module). Posts { ankenning: 1, type }
  * messages to the page: 'size' with the body's height, 'selection' with the selected text and where it is (or
  * null), 'shortcut' for Ctrl/Cmd+Enter. Clears its selection when the page posts 'clear'.
  * @param {string} page the page's origin
  */
 function bridge(page) {
   /** @param {object} message */
-  const post = (message) => parent.postMessage({ ankigen: 1, ...message }, page);
+  const post = (message) => parent.postMessage({ ankenning: 1, ...message }, page);
   const body = document.body;
   let height = -1;
   const size = () => {
@@ -56,7 +56,7 @@ function bridge(page) {
     post({ type: 'shortcut' });
   });
   window.addEventListener('message', (event) => {
-    if (event.source === parent && event.data?.ankigen === 1 && event.data.type === 'clear') document.getSelection()?.removeAllRanges();
+    if (event.source === parent && event.data?.ankenning === 1 && event.data.type === 'clear') document.getSelection()?.removeAllRanges();
   });
 }
 
@@ -128,7 +128,7 @@ export function mountPreview(root, app, { id, isActive, frames, onReset }) {
   window.addEventListener('message', (event) => {
     const face = faces.find((f) => f.frame.contentWindow === event.source);
     const data = event.data;
-    if (!face?.frame.contentWindow || data?.ankigen !== 1) return;
+    if (!face?.frame.contentWindow || data?.ankenning !== 1) return;
     if (data.type === 'size') {
       const height = Number(data.height);
       if (!Number.isFinite(height) || height < 0 || height > 50_000) return;

@@ -171,7 +171,7 @@ test('speech check: near-silence from Chirp 3 HD is caught from the frames, with
 // ---------------------------------------------------------------- packs and fetching
 
 test('packs: each clip once, by the primary module of its first use, content-hashed; same clips, same bytes', () => {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-audio-'));
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-audio-'));
   try {
     const clip = (/** @type {string} */ name, /** @type {number} */ n) => (fs.writeFileSync(path.join(dir, name), new Uint8Array(n).fill(n)), name);
     const manifest = {
@@ -293,7 +293,7 @@ test('.apkg: the clips as zip entries 0, 1, … and the media map, in order of f
 });
 
 test('tools/apkg.mjs reads the clips from data/audio and writes the same package as buildApkg', async () => {
-  const out = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-apkg-'));
+  const out = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-apkg-'));
   try {
     const args = ['tools/apkg.mjs', '#v1&l=ja&k=de&m=core-1,residence&r=1&a=1', '--data', 'tests/fixtures/data', '--out', out, '--now', String(NOW)];
     assert.match(execFileSync(process.execPath, args, { cwd: REPO, encoding: 'utf8' }), /14 notes, 28 cards, 14 clips/);

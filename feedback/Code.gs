@@ -1,5 +1,5 @@
 /**
- * AnkiGen feedback endpoint — Google Apps Script web app bound to a Google Sheet.
+ * Ankenning feedback endpoint — Google Apps Script web app bound to a Google Sheet.
  * Setup: docs/FEEDBACK.md. Deploy as Web app → Execute as: Me → Who has access: Anyone.
  *
  * The page POSTs JSON with Content-Type text/plain (no CORS preflight). Every report becomes one row.
@@ -47,7 +47,7 @@ var KEY_MAP = {
 };
 
 function doGet() {
-  return json_({ ok: true, service: 'ankigen-feedback' });
+  return json_({ ok: true, service: 'ankenning-feedback' });
 }
 
 function doPost(e) {

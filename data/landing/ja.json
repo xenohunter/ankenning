@@ -1,16 +1,16 @@
 {
-  "source": "107f384fc871",
+  "source": "2d6ff94ca70a",
   "texts": {
     "decks": "デッキ",
     "cta": "デッキを作る",
-    "ctaNote": "この言語ペアと「{module}」を選んだ状態で AnkiGen を開きます。",
+    "ctaNote": "この言語ペアと「{module}」を選んだ状態で Ankenning を開きます。",
     "deck": "Anki デッキ：{deck}",
-    "intro": "AnkiGen は、無料の Anki デッキをブラウザ上で作るツールです。トピック別の単語に、訳と例文が付いています。モジュールとカードに表示する内容を選んで、Anki や AnkiDroid 用の .apkg ファイルをダウンロードしてください。アカウント登録もインストールも不要です。",
+    "intro": "Ankenning は、無料の Anki デッキをブラウザ上で作るツールです。トピック別の単語に、訳と例文が付いています。モジュールとカードに表示する内容を選んで、Anki や AnkiDroid 用の .apkg ファイルをダウンロードしてください。アカウント登録もインストールも不要です。",
     "cardsHeading": "カードの内容",
     "cardsIntro": "カードには、学習する単語とその訳が表示されます。そのほかに表示する内容と、表裏のどちらの面に表示するかは、次の項目から選べます：",
     "captions": "「{caption}」のようなカードの見出しは日本語で表示されます。",
     "modulesHeading": "モジュール",
-    "modulesIntro": "複数のモジュールに含まれる単語も、デッキには1回だけ入ります。各モジュールのリンクからは、そのモジュールだけを選んだ状態で AnkiGen が開きます。ほかのモジュールはそこで追加できます。",
+    "modulesIntro": "複数のモジュールに含まれる単語も、デッキには1回だけ入ります。各モジュールのリンクからは、そのモジュールだけを選んだ状態で Ankenning が開きます。ほかのモジュールはそこで追加できます。",
     "sampleWords": "単語の例",
     "local": "この言語にしかない語：{count}（{example}など）。ほかの言語には正確に対応する語がないため、カードでは日本語で説明します。",
     "howHeading": "使い方",
@@ -19,7 +19,7 @@
     "step3": ".apkg ファイルをダウンロードして Anki で開く（File → Import）か、スマートフォンでタップして AnkiDroid で開きます。",
     "update": "フィールドを変更したとき、モジュールを追加したとき、新しいデータがほしいときは、もう一度ダウンロードして、新しいファイルを Anki に読み込んでください（File → Import、オプションは初期設定のまま）。既存のノートとレイアウトが更新され、新しい単語が同じデッキに追加されます。学習の進捗もそのまま残ります。",
     "aboutHeading": "語彙について",
-    "about": "単語、訳、例文は AI モデルで下書きを作り、言語ごとに人の手で確認を進めています。おかしな点を見つけたら、AnkiGen のプレビューカード上でその部分を選択して Ctrl+Enter（Mac は ⌘+Enter）を押すか、そこにあるフィードバックボタンを使ってください。報告はすべて、みんなが使うデッキの改善に役立ちます。",
+    "about": "単語、訳、例文は AI モデルで下書きを作り、言語ごとに人の手で確認を進めています。おかしな点を見つけたら、Ankenning のプレビューカード上でその部分を選択して Ctrl+Enter（Mac は ⌘+Enter）を押すか、そこにあるフィードバックボタンを使ってください。報告はすべて、みんなが使うデッキの改善に役立ちます。",
     "moreHeading": "ほかのデッキ",
     "moreForYou": "日本語話者向けのほかのデッキ",
     "allDecks": "言語ペア別のデッキ一覧"
@@ -292,154 +292,154 @@
   "pairs": {
     "en": {
       "name": "日本語話者のための英語",
-      "title": "日本語話者向け無料英語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料英語Ankiデッキ — Ankenning",
       "description": "英語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきの英単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けの英語ページ"
     },
     "de": {
       "name": "日本語話者のためのドイツ語",
-      "title": "日本語話者向け無料ドイツ語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ドイツ語Ankiデッキ — Ankenning",
       "description": "ドイツ語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのドイツ語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのドイツ語ページ"
     },
     "nl": {
       "name": "日本語話者のためのオランダ語",
-      "title": "日本語話者向け無料オランダ語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料オランダ語Ankiデッキ — Ankenning",
       "description": "オランダ語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのオランダ語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのオランダ語ページ"
     },
     "sv": {
       "name": "日本語話者のためのスウェーデン語",
-      "title": "日本語話者向け無料スウェーデン語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料スウェーデン語Ankiデッキ — Ankenning",
       "description": "スウェーデン語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのスウェーデン語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのスウェーデン語ページ"
     },
     "zh": {
       "name": "日本語話者のための中国語",
-      "title": "日本語話者向け無料中国語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料中国語Ankiデッキ — Ankenning",
       "description": "中国語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきの中国語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けの中国語ページ"
     },
     "vi": {
       "name": "日本語話者のためのベトナム語",
-      "title": "日本語話者向け無料ベトナム語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ベトナム語Ankiデッキ — Ankenning",
       "description": "ベトナム語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのベトナム語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのベトナム語ページ"
     },
     "ko": {
       "name": "日本語話者のための韓国語",
-      "title": "日本語話者向け無料韓国語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料韓国語Ankiデッキ — Ankenning",
       "description": "韓国語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきの韓国語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けの韓国語ページ"
     },
     "es": {
       "name": "日本語話者のためのスペイン語",
-      "title": "日本語話者向け無料スペイン語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料スペイン語Ankiデッキ — Ankenning",
       "description": "スペイン語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのスペイン語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのスペイン語ページ"
     },
     "fr": {
       "name": "日本語話者のためのフランス語",
-      "title": "日本語話者向け無料フランス語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料フランス語Ankiデッキ — Ankenning",
       "description": "フランス語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのフランス語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのフランス語ページ"
     },
     "pt": {
       "name": "日本語話者のためのポルトガル語",
-      "title": "日本語話者向け無料ポルトガル語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ポルトガル語Ankiデッキ — Ankenning",
       "description": "ポルトガル語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのポルトガル語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのポルトガル語ページ"
     },
     "it": {
       "name": "日本語話者のためのイタリア語",
-      "title": "日本語話者向け無料イタリア語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料イタリア語Ankiデッキ — Ankenning",
       "description": "イタリア語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのイタリア語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのイタリア語ページ"
     },
     "ru": {
       "name": "日本語話者のためのロシア語",
-      "title": "日本語話者向け無料ロシア語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ロシア語Ankiデッキ — Ankenning",
       "description": "ロシア語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのロシア語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのロシア語ページ"
     },
     "pl": {
       "name": "日本語話者のためのポーランド語",
-      "title": "日本語話者向け無料ポーランド語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ポーランド語Ankiデッキ — Ankenning",
       "description": "ポーランド語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのポーランド語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのポーランド語ページ"
     },
     "uk": {
       "name": "日本語話者のためのウクライナ語",
-      "title": "日本語話者向け無料ウクライナ語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ウクライナ語Ankiデッキ — Ankenning",
       "description": "ウクライナ語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのウクライナ語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのウクライナ語ページ"
     },
     "sr": {
       "name": "日本語話者のためのセルビア語",
-      "title": "日本語話者向け無料セルビア語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料セルビア語Ankiデッキ — Ankenning",
       "description": "セルビア語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのセルビア語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのセルビア語ページ"
     },
     "ga": {
       "name": "日本語話者のためのアイルランド語",
-      "title": "日本語話者向け無料アイルランド語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料アイルランド語Ankiデッキ — Ankenning",
       "description": "アイルランド語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのアイルランド語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのアイルランド語ページ"
     },
     "gd": {
       "name": "日本語話者のためのスコットランド・ゲール語",
-      "title": "日本語話者向け無料スコットランド・ゲール語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料スコットランド・ゲール語Ankiデッキ — Ankenning",
       "description": "スコットランド・ゲール語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのスコットランド・ゲール語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのスコットランド・ゲール語ページ"
     },
     "ar": {
       "name": "日本語話者のためのアラビア語",
-      "title": "日本語話者向け無料アラビア語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料アラビア語Ankiデッキ — Ankenning",
       "description": "アラビア語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのアラビア語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのアラビア語ページ"
     },
     "tr": {
       "name": "日本語話者のためのトルコ語",
-      "title": "日本語話者向け無料トルコ語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料トルコ語Ankiデッキ — Ankenning",
       "description": "トルコ語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのトルコ語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのトルコ語ページ"
     },
     "el": {
       "name": "日本語話者のためのギリシャ語",
-      "title": "日本語話者向け無料ギリシャ語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ギリシャ語Ankiデッキ — Ankenning",
       "description": "ギリシャ語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのギリシャ語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのギリシャ語ページ"
     },
     "hu": {
       "name": "日本語話者のためのハンガリー語",
-      "title": "日本語話者向け無料ハンガリー語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料ハンガリー語Ankiデッキ — Ankenning",
       "description": "ハンガリー語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのハンガリー語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのハンガリー語ページ"
     },
     "hy": {
       "name": "日本語話者のためのアルメニア語",
-      "title": "日本語話者向け無料アルメニア語Ankiデッキ — AnkiGen",
+      "title": "日本語話者向け無料アルメニア語Ankiデッキ — Ankenning",
       "description": "アルメニア語を学ぶ日本語話者向けの無料Ankiデッキ。{modules}に分かれた{words}を収録し、日本語訳と例文付き。AnkiとAnkiDroidで使えます。",
       "lede": "日本語訳つきのアルメニア語の単語を集めた無料のAnkiデッキを、ブラウザ上で作れます。",
       "others": "他の言語話者向けのアルメニア語ページ"

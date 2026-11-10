@@ -77,7 +77,7 @@ const ZIP_TIME = new Date(1980, 0, 1);
 /** Shown on the deck's overview screen; the link reopens this exact configuration. @param {Config} config @param {any} meta */
 function deckDescription(config, meta) {
   const url = SITE_URL + encodeHash(config, meta);
-  return `Made with <a href="${escapeAttr(url)}">AnkiGen</a> · data ${escapeHtml(meta.version.data)}`;
+  return `Made with <a href="${escapeAttr(url)}">Ankenning</a> · data ${escapeHtml(meta.version.data)}`;
 }
 
 /**

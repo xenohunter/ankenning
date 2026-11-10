@@ -1,4 +1,4 @@
-// Shared data access + validation for AnkiGen vocabulary data.
+// Shared data access + validation for Ankenning vocabulary data.
 // Zero dependencies. Node >= 18. Used by tools/lint-data.mjs, tools/gen/*.mjs and tests.
 // The browser app has its own loader; keep the format rules in docs/DATA_FORMAT.md in sync with this file.
 

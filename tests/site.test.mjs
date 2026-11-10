@@ -108,6 +108,10 @@ function checkPageTexts(page) {
   return keys.length;
 }
 
+test('the app and the languages page say in their footer that the project is independent of Anki', () => {
+  for (const page of [html, read(LANGUAGES_PAGE)]) assert.match(page, /<footer class="site-foot">[\s\S]*data-t="foot\.independent"[\s\S]*<\/footer>/);
+});
+
 test('the texts of index.html are the English of src/ui/strings.js, and the early language check knows the languages', () => {
   assert.ok(checkPageTexts(html) > 15);
   assert.equal(html.match(/<title>([^<]*)<\/title>/)?.[1], PLURALS.title.other.replace('{n}', String(active.length)));

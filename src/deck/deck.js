@@ -20,8 +20,8 @@ export function buildDeck({ config, meta, concepts, learnData, knowData, css, au
   return { notes, noteType: noteType(ctx, css) };
 }
 
-/** Anki tags for a note: ankigen::<category>::<module> for each selected module it belongs to. @param {any} meta @param {string[]} modules */
+/** Anki tags for a note: ankenning::<category>::<module> for each selected module it belongs to. @param {any} meta @param {string[]} modules */
 export function noteTags(meta, modules) {
   const category = new Map(meta.modules.categories.flatMap((/** @type {any} */ cat) => cat.modules.map((/** @type {any} */ m) => [m.id, cat.id])));
-  return modules.map((m) => `ankigen::${category.get(m)}::${m}`);
+  return modules.map((m) => `ankenning::${category.get(m)}::${m}`);
 }

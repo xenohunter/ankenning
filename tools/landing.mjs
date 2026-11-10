@@ -116,15 +116,15 @@ export function englishTexts(meta, know) {
     texts: {
       decks: 'Decks',
       cta: 'Build your deck',
-      ctaNote: 'Opens AnkiGen with this pair and {module} chosen.',
+      ctaNote: 'Opens Ankenning with this pair and {module} chosen.',
       deck: 'Anki deck: {deck}',
       intro:
-        'AnkiGen builds free Anki decks right in your browser: words by topic, each with its translation and example sentences. Choose the modules and what each card shows, then download an .apkg file for Anki or AnkiDroid. No account, nothing to install.',
+        'Ankenning builds free Anki decks right in your browser: words by topic, each with its translation and example sentences. Choose the modules and what each card shows, then download an .apkg file for Anki or AnkiDroid. No account, nothing to install.',
       cardsHeading: 'What the cards show',
       cardsIntro: 'Each card shows the word you are learning and its translation. You choose what else it shows, and on which side:',
       captions: `Card captions, such as “{caption}”, are in ${k}.`,
       modulesHeading: 'Modules',
-      modulesIntro: 'A word that belongs to several modules is in the deck once. Each module opens AnkiGen with just that module chosen; you can add more there.',
+      modulesIntro: 'A word that belongs to several modules is in the deck once. Each module opens Ankenning with just that module chosen; you can add more there.',
       sampleWords: 'Sample words',
       local: 'Words only this language has: {count}, such as {example}. Other languages have no exact word for these, so your cards explain them in your language.',
       howHeading: 'How it works',
@@ -133,7 +133,7 @@ export function englishTexts(meta, know) {
       step3: 'Download the .apkg file and open it with Anki (File → Import), or tap it on your phone to open it in AnkiDroid.',
       update: STRINGS['update.intro'],
       aboutHeading: 'About the vocabulary',
-      about: `${STRINGS['head.draftHelp1']} If something looks wrong, select it on a preview card in AnkiGen and press Ctrl+Enter (⌘+Enter on a Mac), or use the Feedback button there. Every report helps fix the deck for everyone.`,
+      about: `${STRINGS['head.draftHelp1']} If something looks wrong, select it on a preview card in Ankenning and press Ctrl+Enter (⌘+Enter on a Mac), or use the Feedback button there. Every report helps fix the deck for everyone.`,
       moreHeading: 'More decks',
       moreForYou: `More decks for ${k} speakers`,
       allDecks: 'All decks by language pair',
@@ -151,7 +151,7 @@ export function englishTexts(meta, know) {
           const l = nameOf(meta, learn);
           return [learn, {
             name: `${l} for ${k} speakers`,
-            title: `Free ${l} Anki deck for ${k} speakers — AnkiGen`,
+            title: `Free ${l} Anki deck for ${k} speakers — Ankenning`,
             description: `Free Anki deck for ${k} speakers learning ${l}: {words} in {modules}, with ${k} translations and examples, for Anki and AnkiDroid.`,
             lede: `A free Anki deck of ${l} words with ${k} translations, built in your browser.`,
             others: `${l} for speakers of other languages`,
@@ -404,13 +404,13 @@ const AUTHOR = { '@type': 'Person', name: AUTHOR_NAME, url: AUTHOR_URL };
  * data), breadcrumb, footer.
  * @param {{ v: Voice, dir: string, title: string, description: string, trail: { name: string, dir: string }[], body: string,
  *   alternates?: { hreflang: string, dir: string }[], about?: object[] }} page
- *   trail: the breadcrumb after AnkiGen, ending with this page; alternates: hreflang links; about: more
+ *   trail: the breadcrumb after Ankenning, ending with this page; alternates: hreflang links; about: more
  *   structured data
  */
 function pageHtml({ v, dir, title, description, trail, body, alternates = [], about = [] }) {
   const root = '../'.repeat(depth(dir));
   const url = SITE_URL + dir;
-  const crumbs = [{ name: 'AnkiGen', dir: '' }, ...trail];
+  const crumbs = [{ name: 'Ankenning', dir: '' }, ...trail];
   const last = crumbs.length - 1;
   const breadcrumb = {
     '@type': 'BreadcrumbList',
@@ -442,14 +442,14 @@ ${languages}<meta name="color-scheme" content="light dark">
 <link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${root}apple-touch-icon.png">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="AnkiGen">
+<meta property="og:site_name" content="Ankenning">
 <meta property="og:url" content="${url}">
 <meta property="og:title" content="${escapeAttr(title)}">
 <meta property="og:description" content="${escapeAttr(description)}">
 <meta property="og:image" content="${SITE_URL}og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="AnkiGen: free Anki vocabulary decks in 23 languages, with a sample card for the Japanese word 水, water.">
+<meta property="og:image:alt" content="Ankenning: free Anki vocabulary decks in 23 languages, with a sample card for the Japanese word 水, water.">
 <meta property="og:locale" content="${ogLocale(v.locale)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@${AUTHOR_URL.split('/').pop()}">
@@ -470,6 +470,7 @@ ${body}
   <p class="foot-line"><a href="${root}${DECKS_DIR}">${escapeHtml(appText(v, 'foot.decks'))}</a> · <a href="${root}${LANGUAGES_PAGE}?lang=${v.lang}">${escapeHtml(appText(v, 'foot.languages'))}</a> · <a href="${REPO_URL}" ${EXTERNAL}>${escapeHtml(appText(v, 'foot.source'))}</a></p>
   <p class="foot-line">${license}</p>
   <p class="foot-line">${author}</p>
+  <p class="foot-line">${escapeHtml(appText(v, 'foot.independent'))}</p>
 </footer>
 </body>
 </html>
@@ -673,7 +674,7 @@ function hubHtml(list, meta, voices) {
 <p>${escapeHtml(description)} Every deck is built in your browser, with no account and nothing to install.</p>
 ${sections.join('\n')}`;
   const english = voice(meta, 'en', null);
-  return pageHtml({ v: english, dir: DECKS_DIR, title: 'Anki vocabulary decks by language pair — AnkiGen', description, trail: [{ name: english.t.texts.decks, dir: DECKS_DIR }], body });
+  return pageHtml({ v: english, dir: DECKS_DIR, title: 'Anki vocabulary decks by language pair — Ankenning', description, trail: [{ name: english.t.texts.decks, dir: DECKS_DIR }], body });
 }
 
 /** @param {string[]} dirs relative to the site root */

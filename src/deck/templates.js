@@ -120,7 +120,7 @@ export function noteType(ctx, css) {
   );
 
   return {
-    name: `AnkiGen ${pairLabel(ctx.meta, ctx.config)}`,
+    name: `Ankenning ${pairLabel(ctx.meta, ctx.config)}`,
     fields: [...FIELD_NAMES],
     sortField: 0,
     templates: [

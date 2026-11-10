@@ -1,16 +1,16 @@
 {
-  "source": "2b54bc14bffa",
+  "source": "0ea1e130b148",
   "texts": {
     "decks": "Bộ thẻ",
     "cta": "Tạo bộ thẻ của bạn",
-    "ctaNote": "Mở AnkiGen với cặp ngôn ngữ này và mô-đun “{module}” đã được chọn.",
+    "ctaNote": "Mở Ankenning với cặp ngôn ngữ này và mô-đun “{module}” đã được chọn.",
     "deck": "Bộ thẻ Anki: {deck}",
-    "intro": "AnkiGen tạo bộ thẻ Anki miễn phí ngay trong trình duyệt: từ vựng theo chủ đề, mỗi từ có bản dịch và câu ví dụ. Bạn chọn các mô-đun và nội dung hiện trên mỗi thẻ, rồi tải về tệp .apkg để dùng với Anki hoặc AnkiDroid. Không cần tài khoản, không cần cài đặt gì.",
+    "intro": "Ankenning tạo bộ thẻ Anki miễn phí ngay trong trình duyệt: từ vựng theo chủ đề, mỗi từ có bản dịch và câu ví dụ. Bạn chọn các mô-đun và nội dung hiện trên mỗi thẻ, rồi tải về tệp .apkg để dùng với Anki hoặc AnkiDroid. Không cần tài khoản, không cần cài đặt gì.",
     "cardsHeading": "Thẻ hiển thị những gì",
     "cardsIntro": "Mỗi thẻ có từ bạn đang học và bản dịch của từ đó. Bạn chọn thêm nội dung nào sẽ hiện và hiện ở mặt nào:",
     "captions": "Chú thích trên thẻ, chẳng hạn “{caption}”, bằng tiếng Việt.",
     "modulesHeading": "Mô-đun",
-    "modulesIntro": "Từ thuộc nhiều mô-đun chỉ xuất hiện một lần trong bộ thẻ. Mỗi mô-đun mở AnkiGen với riêng mô-đun đó được chọn; bạn có thể chọn thêm ở đó.",
+    "modulesIntro": "Từ thuộc nhiều mô-đun chỉ xuất hiện một lần trong bộ thẻ. Mỗi mô-đun mở Ankenning với riêng mô-đun đó được chọn; bạn có thể chọn thêm ở đó.",
     "sampleWords": "Từ mẫu",
     "local": "Từ chỉ có trong ngôn ngữ này: {count}, ví dụ {example}. Các ngôn ngữ khác không có từ tương đương chính xác, nên thẻ sẽ giải thích chúng bằng tiếng Việt.",
     "howHeading": "Cách hoạt động",
@@ -19,7 +19,7 @@
     "step3": "Tải tệp .apkg về và mở bằng Anki (File → Import), hoặc chạm vào tệp trên điện thoại để mở bằng AnkiDroid.",
     "update": "Đã đổi trường, thêm mô-đun hoặc muốn dữ liệu mới hơn? Hãy tải lại rồi nhập tệp mới vào Anki (File → Import) với các tùy chọn mặc định. Anki sẽ cập nhật các ghi chú và bố cục hiện có, thêm từ mới vào cùng bộ thẻ và giữ nguyên tiến độ ôn tập của bạn.",
     "aboutHeading": "Về từ vựng",
-    "about": "Từ, bản dịch và câu ví dụ được soạn thảo bằng mô hình AI và đang được con người kiểm tra lần lượt từng ngôn ngữ. Nếu thấy chỗ nào sai, hãy chọn đoạn đó trên thẻ xem trước trong AnkiGen rồi nhấn Ctrl+Enter (⌘+Enter trên máy Mac), hoặc dùng nút Góp ý ở đó. Mỗi báo cáo đều giúp sửa bộ thẻ cho mọi người.",
+    "about": "Từ, bản dịch và câu ví dụ được soạn thảo bằng mô hình AI và đang được con người kiểm tra lần lượt từng ngôn ngữ. Nếu thấy chỗ nào sai, hãy chọn đoạn đó trên thẻ xem trước trong Ankenning rồi nhấn Ctrl+Enter (⌘+Enter trên máy Mac), hoặc dùng nút Góp ý ở đó. Mỗi báo cáo đều giúp sửa bộ thẻ cho mọi người.",
     "moreHeading": "Thêm bộ thẻ",
     "moreForYou": "Thêm bộ thẻ cho người nói tiếng Việt",
     "allDecks": "Tất cả bộ thẻ theo cặp ngôn ngữ"
@@ -292,154 +292,154 @@
   "pairs": {
     "en": {
       "name": "Tiếng Anh cho người Việt",
-      "title": "Tiếng Anh: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Anh: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Anh: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Anh kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Anh cho người nói các ngôn ngữ khác"
     },
     "de": {
       "name": "Tiếng Đức cho người Việt",
-      "title": "Tiếng Đức: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Đức: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Đức: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Đức kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Đức cho người nói các ngôn ngữ khác"
     },
     "nl": {
       "name": "Tiếng Hà Lan cho người Việt",
-      "title": "Tiếng Hà Lan: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Hà Lan: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Hà Lan: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Hà Lan kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Hà Lan cho người nói các ngôn ngữ khác"
     },
     "sv": {
       "name": "Tiếng Thụy Điển cho người Việt",
-      "title": "Tiếng Thụy Điển: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Thụy Điển: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Thụy Điển: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Thụy Điển kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Thụy Điển cho người nói các ngôn ngữ khác"
     },
     "zh": {
       "name": "Tiếng Trung cho người Việt",
-      "title": "Tiếng Trung: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Trung: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Trung: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Trung kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Trung cho người nói các ngôn ngữ khác"
     },
     "ja": {
       "name": "Tiếng Nhật cho người Việt",
-      "title": "Tiếng Nhật: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Nhật: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Nhật: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Nhật kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Nhật cho người nói các ngôn ngữ khác"
     },
     "ko": {
       "name": "Tiếng Hàn cho người Việt",
-      "title": "Tiếng Hàn: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Hàn: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Hàn: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Hàn kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Hàn cho người nói các ngôn ngữ khác"
     },
     "es": {
       "name": "Tiếng Tây Ban Nha cho người Việt",
-      "title": "Tiếng Tây Ban Nha: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Tây Ban Nha: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Tây Ban Nha: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Tây Ban Nha kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Tây Ban Nha cho người nói các ngôn ngữ khác"
     },
     "fr": {
       "name": "Tiếng Pháp cho người Việt",
-      "title": "Tiếng Pháp: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Pháp: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Pháp: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Pháp kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Pháp cho người nói các ngôn ngữ khác"
     },
     "pt": {
       "name": "Tiếng Bồ Đào Nha cho người Việt",
-      "title": "Tiếng Bồ Đào Nha: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Bồ Đào Nha: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Bồ Đào Nha: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Bồ Đào Nha kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Bồ Đào Nha cho người nói các ngôn ngữ khác"
     },
     "it": {
       "name": "Tiếng Ý cho người Việt",
-      "title": "Tiếng Ý: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Ý: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Ý: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Ý kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Ý cho người nói các ngôn ngữ khác"
     },
     "ru": {
       "name": "Tiếng Nga cho người Việt",
-      "title": "Tiếng Nga: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Nga: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Nga: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Nga kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Nga cho người nói các ngôn ngữ khác"
     },
     "pl": {
       "name": "Tiếng Ba Lan cho người Việt",
-      "title": "Tiếng Ba Lan: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Ba Lan: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Ba Lan: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Ba Lan kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Ba Lan cho người nói các ngôn ngữ khác"
     },
     "uk": {
       "name": "Tiếng Ukraina cho người Việt",
-      "title": "Tiếng Ukraina: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Ukraina: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Ukraina: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Ukraina kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Ukraina cho người nói các ngôn ngữ khác"
     },
     "sr": {
       "name": "Tiếng Serbia cho người Việt",
-      "title": "Tiếng Serbia: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Serbia: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Serbia: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Serbia kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Serbia cho người nói các ngôn ngữ khác"
     },
     "ga": {
       "name": "Tiếng Ireland cho người Việt",
-      "title": "Tiếng Ireland: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Ireland: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Ireland: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Ireland kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Ireland cho người nói các ngôn ngữ khác"
     },
     "gd": {
       "name": "Tiếng Gaelic Scotland cho người Việt",
-      "title": "Tiếng Gaelic Scotland: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Gaelic Scotland: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Gaelic Scotland: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Gaelic Scotland kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Gaelic Scotland cho người nói các ngôn ngữ khác"
     },
     "ar": {
       "name": "Tiếng Ả Rập cho người Việt",
-      "title": "Tiếng Ả Rập: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Ả Rập: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Ả Rập: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Ả Rập kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Ả Rập cho người nói các ngôn ngữ khác"
     },
     "tr": {
       "name": "Tiếng Thổ Nhĩ Kỳ cho người Việt",
-      "title": "Tiếng Thổ Nhĩ Kỳ: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Thổ Nhĩ Kỳ: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Thổ Nhĩ Kỳ: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Thổ Nhĩ Kỳ kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Thổ Nhĩ Kỳ cho người nói các ngôn ngữ khác"
     },
     "el": {
       "name": "Tiếng Hy Lạp cho người Việt",
-      "title": "Tiếng Hy Lạp: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Hy Lạp: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Hy Lạp: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Hy Lạp kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Hy Lạp cho người nói các ngôn ngữ khác"
     },
     "hu": {
       "name": "Tiếng Hungary cho người Việt",
-      "title": "Tiếng Hungary: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Hungary: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Hungary: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Hungary kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Hungary cho người nói các ngôn ngữ khác"
     },
     "hy": {
       "name": "Tiếng Armenia cho người Việt",
-      "title": "Tiếng Armenia: bộ thẻ Anki miễn phí — AnkiGen",
+      "title": "Tiếng Armenia: bộ thẻ Anki miễn phí — Ankenning",
       "description": "Bộ thẻ Anki miễn phí để học tiếng Armenia: {words} trong {modules}, có nghĩa tiếng Việt và câu ví dụ, dùng cho Anki và AnkiDroid.",
       "lede": "Bộ thẻ Anki miễn phí gồm các từ tiếng Armenia kèm nghĩa tiếng Việt, tạo ngay trong trình duyệt của bạn.",
       "others": "Tiếng Armenia cho người nói các ngôn ngữ khác"

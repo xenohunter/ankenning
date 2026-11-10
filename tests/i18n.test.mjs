@@ -129,11 +129,11 @@ test('the page loads the same texts from the bundle as from the source files', a
 
 test('the page’s address carries the config and the interface language', async () => {
   const app = createApp({ loader: fixtureLoader(), meta, initial: validate({}, meta) });
-  assert.equal(app.address('https://example.test/ankigen/'), 'https://example.test/ankigen/?lang=en', 'no config yet: no hash');
+  assert.equal(app.address('https://example.test/ankenning/'), 'https://example.test/ankenning/?lang=en', 'no config yet: no hash');
   app.update(() => ({ learn: 'ja', know: 'ru' }));
   use('ru');
   try {
-    assert.equal(app.address('https://example.test/ankigen/?lang=de#old'), 'https://example.test/ankigen/?lang=ru#v1&l=ja&k=ru&x=2');
+    assert.equal(app.address('https://example.test/ankenning/?lang=de#old'), 'https://example.test/ankenning/?lang=ru#v1&l=ja&k=ru&x=2');
     assert.equal(app.address('http://localhost/?data=tests%2Ffixtures%2Fdata'), 'http://localhost/?data=tests%2Ffixtures%2Fdata&lang=ru#v1&l=ja&k=ru&x=2', 'other parameters stay');
   } finally {
     use('en');

@@ -18,7 +18,7 @@ Every key of `en` is required, with the same keys inside. `plural` has one entry
 
 How to write:
 - Natural, idiomatic text, the way a good local website would say it: plain and friendly, not salesy, about as long as the English. Address the reader the way such sites usually do in that language (ru «вы», de "du" or "Sie" consistently, ja polite form).
-- Keep as they are: AnkiGen, Anki, AnkiDroid, .apkg, IPA. Anki's menu names ("File → Import", "Tools → Empty Cards") stay in English, because Anki may show them in English; you may add the usual local name in brackets.
+- Keep as they are: Ankenning, Anki, AnkiDroid, .apkg, IPA. Anki's menu names ("File → Import", "Tools → Empty Cards") stay in English, because Anki may show them in English; you may add the usual local name in brackets.
 - **Placeholders** ({module}, {deck}, {caption}, {count}, {example}, {words}, {modules}, {n}) stay exactly as written, once each, untranslated. The pipeline rejects a text whose placeholders differ from the English.
   - {words}, {modules} and {count} become a complete count phrase, already in the right plural form: "3 442 слова", "35 модулей". Put them where that standalone form is correct (after a colon, in a list, as the subject), never after a preposition or verb that would need another case. Rephrase the sentence if you must.
   - {module} becomes a module name, such as "Core I" in your translation; quote it the usual way of your language («…», „…“, 「…」) if it would otherwise have to take a case ending.
@@ -27,7 +27,7 @@ How to write:
 - `languages`: each language's name as a standalone noun, as a list or button would show it (ru "Английский", de "Englisch", ja "英語").
 - `pairs.<code>`: the page for learning that language.
   - `name`: the page heading ("Japanese for Russian speakers" → ru "Японский для русскоговорящих", de "Japanisch für Deutschsprachige").
-  - `title`: the browser and search title. It ends with " — AnkiGen" and stays under 60 characters.
+  - `title`: the browser and search title. It ends with " — Ankenning" and stays under 60 characters.
   - `description`: the search snippet, under 155 characters, with {words} and {modules}.
   - `lede`: one sentence under the heading.
   - `others`: a heading above links to the same language's pages for speakers of other languages.

@@ -490,7 +490,7 @@ async function pilot() {
     const head = `<tr><th>Concept</th><th>Word</th><th>Sent</th><th>Clip</th>${la.lang.stress ? '<th>With stress marks</th>' : ''}</tr>`;
     sections.push(`<h2>${esc(name)} (${code})</h2><p>${esc(label(ctx, code))} · rules ${esc(JSON.stringify(la.setting.text))}</p><table>${head}${rows.join('')}</table>`);
   }
-  const page = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>AnkiGen audio pilot</title><style>
+  const page = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Ankenning audio pilot</title><style>
 body{font:15px/1.4 system-ui,sans-serif;margin:2rem auto;max-width:70rem;padding:0 1rem}table{border-collapse:collapse;width:100%}
 th,td{text-align:left;padding:.25rem .5rem;border-bottom:1px solid #ddd;vertical-align:middle}audio{height:2rem}.r{color:#666}
 </style></head><body><h1>Pronunciation audio pilot</h1><p>Made ${esc(new Date().toISOString())} by tools/audio.mjs pilot.

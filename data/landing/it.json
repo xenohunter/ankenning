@@ -1,16 +1,16 @@
 {
-  "source": "0c79b9ff26ca",
+  "source": "625ddf540119",
   "texts": {
     "decks": "Mazzi",
     "cta": "Crea il tuo mazzo",
-    "ctaNote": "Apre AnkiGen con questa coppia di lingue e il modulo «{module}» selezionato.",
+    "ctaNote": "Apre Ankenning con questa coppia di lingue e il modulo «{module}» selezionato.",
     "deck": "Mazzo Anki: {deck}",
-    "intro": "AnkiGen crea mazzi Anki gratuiti direttamente nel tuo browser: parole divise per argomento, ciascuna con la traduzione e frasi di esempio. Scegli i moduli e cosa mostra ogni scheda, poi scarica un file .apkg per Anki o AnkiDroid. Nessun account, nulla da installare.",
+    "intro": "Ankenning crea mazzi Anki gratuiti direttamente nel tuo browser: parole divise per argomento, ciascuna con la traduzione e frasi di esempio. Scegli i moduli e cosa mostra ogni scheda, poi scarica un file .apkg per Anki o AnkiDroid. Nessun account, nulla da installare.",
     "cardsHeading": "Cosa mostrano le schede",
     "cardsIntro": "Ogni scheda mostra la parola che stai imparando e la sua traduzione. Sei tu a scegliere cos'altro mostrare e su quale lato:",
     "captions": "Le didascalie delle schede, come «{caption}», sono in italiano.",
     "modulesHeading": "Moduli",
-    "modulesIntro": "Una parola che appartiene a più moduli compare una sola volta nel mazzo. Ogni modulo apre AnkiGen con quel solo modulo selezionato; lì puoi aggiungerne altri.",
+    "modulesIntro": "Una parola che appartiene a più moduli compare una sola volta nel mazzo. Ogni modulo apre Ankenning con quel solo modulo selezionato; lì puoi aggiungerne altri.",
     "sampleWords": "Parole di esempio",
     "local": "Parole che esistono solo in questa lingua: {count}, per esempio {example}. Le altre lingue non hanno una parola esatta per queste, quindi le tue schede le spiegano in italiano.",
     "howHeading": "Come funziona",
@@ -19,7 +19,7 @@
     "step3": "Scarica il file .apkg e aprilo con Anki (File → Import), oppure toccalo sul telefono per aprirlo in AnkiDroid.",
     "update": "Hai cambiato i campi, aggiunto moduli o vuoi dati più recenti? Scarica di nuovo e importa il nuovo file in Anki (File → Import) con le opzioni predefinite. Anki aggiorna le note esistenti e la loro impaginazione, aggiunge le parole nuove allo stesso mazzo e conserva i tuoi progressi di ripasso.",
     "aboutHeading": "Sul vocabolario",
-    "about": "Parole, traduzioni e frasi di esempio sono state redatte con un modello di IA e vengono controllate da persone, lingua per lingua. Se qualcosa ti sembra sbagliato, selezionalo su una scheda dell'anteprima in AnkiGen e premi Ctrl+Invio (⌘+Invio su Mac), oppure usa il pulsante Feedback. Ogni segnalazione aiuta a correggere il mazzo per tutti.",
+    "about": "Parole, traduzioni e frasi di esempio sono state redatte con un modello di IA e vengono controllate da persone, lingua per lingua. Se qualcosa ti sembra sbagliato, selezionalo su una scheda dell'anteprima in Ankenning e premi Ctrl+Invio (⌘+Invio su Mac), oppure usa il pulsante Feedback. Ogni segnalazione aiuta a correggere il mazzo per tutti.",
     "moreHeading": "Altri mazzi",
     "moreForYou": "Altri mazzi per chi parla italiano",
     "allDecks": "Tutti i mazzi per coppia di lingue"
@@ -292,154 +292,154 @@
   "pairs": {
     "en": {
       "name": "Inglese per italiani",
-      "title": "Mazzo Anki di inglese per italiani — AnkiGen",
+      "title": "Mazzo Anki di inglese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di inglese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in inglese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Inglese per chi parla altre lingue"
     },
     "de": {
       "name": "Tedesco per italiani",
-      "title": "Mazzo Anki di tedesco per italiani — AnkiGen",
+      "title": "Mazzo Anki di tedesco per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di tedesco per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in tedesco, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Tedesco per chi parla altre lingue"
     },
     "nl": {
       "name": "Olandese per italiani",
-      "title": "Mazzo Anki di olandese per italiani — AnkiGen",
+      "title": "Mazzo Anki di olandese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di olandese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in olandese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Olandese per chi parla altre lingue"
     },
     "sv": {
       "name": "Svedese per italiani",
-      "title": "Mazzo Anki di svedese per italiani — AnkiGen",
+      "title": "Mazzo Anki di svedese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di svedese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in svedese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Svedese per chi parla altre lingue"
     },
     "zh": {
       "name": "Cinese per italiani",
-      "title": "Mazzo Anki di cinese per italiani — AnkiGen",
+      "title": "Mazzo Anki di cinese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di cinese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in cinese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Cinese per chi parla altre lingue"
     },
     "ja": {
       "name": "Giapponese per italiani",
-      "title": "Mazzo Anki di giapponese per italiani — AnkiGen",
+      "title": "Mazzo Anki di giapponese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di giapponese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in giapponese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Giapponese per chi parla altre lingue"
     },
     "vi": {
       "name": "Vietnamita per italiani",
-      "title": "Mazzo Anki di vietnamita per italiani — AnkiGen",
+      "title": "Mazzo Anki di vietnamita per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di vietnamita per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in vietnamita, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Vietnamita per chi parla altre lingue"
     },
     "ko": {
       "name": "Coreano per italiani",
-      "title": "Mazzo Anki di coreano per italiani — AnkiGen",
+      "title": "Mazzo Anki di coreano per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di coreano per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in coreano, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Coreano per chi parla altre lingue"
     },
     "es": {
       "name": "Spagnolo per italiani",
-      "title": "Mazzo Anki di spagnolo per italiani — AnkiGen",
+      "title": "Mazzo Anki di spagnolo per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di spagnolo per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in spagnolo, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Spagnolo per chi parla altre lingue"
     },
     "fr": {
       "name": "Francese per italiani",
-      "title": "Mazzo Anki di francese per italiani — AnkiGen",
+      "title": "Mazzo Anki di francese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di francese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in francese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Francese per chi parla altre lingue"
     },
     "pt": {
       "name": "Portoghese per italiani",
-      "title": "Mazzo Anki di portoghese per italiani — AnkiGen",
+      "title": "Mazzo Anki di portoghese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di portoghese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in portoghese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Portoghese per chi parla altre lingue"
     },
     "ru": {
       "name": "Russo per italiani",
-      "title": "Mazzo Anki di russo per italiani — AnkiGen",
+      "title": "Mazzo Anki di russo per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di russo per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in russo, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Russo per chi parla altre lingue"
     },
     "pl": {
       "name": "Polacco per italiani",
-      "title": "Mazzo Anki di polacco per italiani — AnkiGen",
+      "title": "Mazzo Anki di polacco per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di polacco per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in polacco, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Polacco per chi parla altre lingue"
     },
     "uk": {
       "name": "Ucraino per italiani",
-      "title": "Mazzo Anki di ucraino per italiani — AnkiGen",
+      "title": "Mazzo Anki di ucraino per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di ucraino per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in ucraino, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Ucraino per chi parla altre lingue"
     },
     "sr": {
       "name": "Serbo per italiani",
-      "title": "Mazzo Anki di serbo per italiani — AnkiGen",
+      "title": "Mazzo Anki di serbo per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di serbo per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in serbo, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Serbo per chi parla altre lingue"
     },
     "ga": {
       "name": "Irlandese per italiani",
-      "title": "Mazzo Anki di irlandese per italiani — AnkiGen",
+      "title": "Mazzo Anki di irlandese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di irlandese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in irlandese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Irlandese per chi parla altre lingue"
     },
     "gd": {
       "name": "Gaelico scozzese per italiani",
-      "title": "Mazzo Anki di gaelico scozzese per italiani — AnkiGen",
+      "title": "Mazzo Anki di gaelico scozzese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di gaelico scozzese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in gaelico scozzese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Gaelico scozzese per chi parla altre lingue"
     },
     "ar": {
       "name": "Arabo per italiani",
-      "title": "Mazzo Anki di arabo per italiani — AnkiGen",
+      "title": "Mazzo Anki di arabo per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di arabo per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in arabo, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Arabo per chi parla altre lingue"
     },
     "tr": {
       "name": "Turco per italiani",
-      "title": "Mazzo Anki di turco per italiani — AnkiGen",
+      "title": "Mazzo Anki di turco per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di turco per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in turco, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Turco per chi parla altre lingue"
     },
     "el": {
       "name": "Greco per italiani",
-      "title": "Mazzo Anki di greco per italiani — AnkiGen",
+      "title": "Mazzo Anki di greco per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di greco per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in greco, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Greco per chi parla altre lingue"
     },
     "hu": {
       "name": "Ungherese per italiani",
-      "title": "Mazzo Anki di ungherese per italiani — AnkiGen",
+      "title": "Mazzo Anki di ungherese per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di ungherese per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in ungherese, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Ungherese per chi parla altre lingue"
     },
     "hy": {
       "name": "Armeno per italiani",
-      "title": "Mazzo Anki di armeno per italiani — AnkiGen",
+      "title": "Mazzo Anki di armeno per italiani — Ankenning",
       "description": "Mazzo Anki gratuito di armeno per italiani: {words} in {modules}, con traduzioni in italiano ed esempi, per Anki e AnkiDroid.",
       "lede": "Un mazzo Anki gratuito di parole in armeno, con traduzioni in italiano, creato nel tuo browser.",
       "others": "Armeno per chi parla altre lingue"

@@ -74,7 +74,7 @@ export function mountShare(root, app) {
   });
 
   const native = 'share' in navigator ? h('button', { type: 'button', class: 'button' }, ownIcon('share'), msg('share.more')) : null;
-  native?.addEventListener('click', () => navigator.share({ title: 'AnkiGen', text: text(), url: url() }).catch(() => {}));
+  native?.addEventListener('click', () => navigator.share({ title: 'Ankenning', text: text(), url: url() }).catch(() => {}));
 
   const sites = SHARE_SITES.map((site) => {
     const link = h('a', { class: 'share-site', target: '_blank', rel: 'noopener', 'aria-label': msg('share.on', { site: site.name }), title: site.name }, siteIcon(site.id));
@@ -92,7 +92,7 @@ export function mountShare(root, app) {
         link.hidden = Boolean(site.languages && !site.languages.includes(language()));
         link.href = fill(site.url, values);
       }
-      email.href = `mailto:?subject=AnkiGen&body=${values.text}%0A%0A${values.url}`;
+      email.href = `mailto:?subject=Ankenning&body=${values.text}%0A%0A${values.url}`;
     },
   };
 }

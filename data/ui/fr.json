@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Le vocabulaire a été rédigé par une machine et n'est que partiellement relu. Vos retours sont les bienvenus.",
     "head.draftTopic": "le vocabulaire en brouillon",
@@ -9,7 +9,7 @@
     "head.languageNow": "Langue de l'interface : {language}",
     "help.about": "En savoir plus : {topic}",
     "support": "Soutenir ce projet :",
-    "fatal": "AnkiGen n'a pas pu charger ses listes de mots. Vérifiez votre connexion et rechargez la page.",
+    "fatal": "Ankenning n'a pas pu charger ses listes de mots. Vérifiez votre connexion et rechargez la page.",
     "step.learn": "J'apprends",
     "step.know": "Je parle",
     "step.modules": "Modules",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} Mo",
     "update.title": "Mettre à jour votre deck",
     "update.intro": "Vous avez modifié des champs, ajouté des modules ou voulez des données plus récentes ? Téléchargez à nouveau et importez le nouveau fichier dans Anki (File → Import) avec les options par défaut. Anki met à jour vos notes existantes et leur mise en page, ajoute les nouveaux mots au même deck et conserve votre progression.",
-    "update.edits": "Vos propres modifications et étiquettes sur les notes AnkiGen sont remplacées par la nouvelle version. Les drapeaux, les cartes suspendues et la progression sont conservés.",
+    "update.rename": "Ankenning s'appelait auparavant AnkiGen. Si votre liste de decks dans Anki affiche encore « AnkiGen », renommez ce deck en « Ankenning » avant d'importer une mise à jour, sinon les nouvelles cartes iront dans un second deck.",
+    "update.edits": "Vos propres modifications et étiquettes sur les notes Ankenning sont remplacées par la nouvelle version. Les drapeaux, les cartes suspendues et la progression sont conservés.",
     "update.deck": "Les nouvelles cartes vont dans le deck portant exactement ce nom. Si vous l'avez renommé ou déplacé, elles apparaissent dans un nouveau deck portant le nom d'origine, et vous pouvez les déplacer.",
-    "update.noteType": "Si vous avez modifié les champs du type de note AnkiGen, cochez « Merge note types » lors de l'import, sinon Anki ne pourra pas mettre à jour ces notes.",
+    "update.noteType": "Si vous avez modifié les champs du type de note Ankenning, cochez « Merge note types » lors de l'import, sinon Anki ne pourra pas mettre à jour ces notes.",
     "update.reverse": "Vous avez désactivé les cartes inversées ? Anki conserve les anciennes comme cartes vides. Supprimez-les avec Tools → Empty Cards.",
     "share.copy": "Copier le lien",
     "share.copied": "Lien copié",
@@ -96,7 +97,7 @@
     "list.open": "Liste des mots : {size}",
     "feedback.button": "Commentaires",
     "feedback.title": "Commentaires ({shortcut})",
-    "langs.title": "Langues disponibles — AnkiGen",
+    "langs.title": "Langues disponibles — Ankenning",
     "langs.heading": "Langues disponibles",
     "langs.extras": "Les cartes peuvent aussi afficher : {fields}",
     "langs.build": "Créer un deck",
@@ -108,6 +109,7 @@
     "foot.source": "Code source sur GitHub",
     "foot.license": "Code sous licence {mit} ; vocabulaire sous {cc}.",
     "foot.author": "Créé par {name}",
+    "foot.independent": "Ankenning est un projet indépendant, ni affilié à Anki Software LLC ni approuvé par elle.",
     "fb.title": "Commentaires",
     "fb.close": "Fermer",
     "fb.about": "À propos de {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "ID du concept",
     "audio.label": "Prononciation audio",
-    "audio.warning": "La partie la plus expérimentale d'AnkiGen, encore un prototype : les enregistrements sont générés par une machine et personne ne les a vérifiés. L'accent tonique, les lectures et l'accent peuvent être faux : ne vous y fiez pas. Si c'est votre langue maternelle et que les enregistrements sonnent mal, signalez-le avec le bouton « Commentaires » : au besoin, nous retirerons l'audio de cette langue.",
-    "audio.oldDecks": "Vous avez déjà importé un deck AnkiGen avant l'arrivée de l'audio ? Lors du premier import d'une mise à jour, cochez « Merge note types » dans les options d'import d'Anki ; sinon, Anki ignorera vos notes existantes, car leur type de note comporte désormais un champ pour l'audio.",
+    "audio.warning": "La partie la plus expérimentale d'Ankenning, encore un prototype : les enregistrements sont générés par une machine et personne ne les a vérifiés. L'accent tonique, les lectures et l'accent peuvent être faux : ne vous y fiez pas. Si c'est votre langue maternelle et que les enregistrements sonnent mal, signalez-le avec le bouton « Commentaires » : au besoin, nous retirerons l'audio de cette langue.",
+    "audio.oldDecks": "Vous avez déjà importé un deck Ankenning avant l'arrivée de l'audio ? Lors du premier import d'une mise à jour, cochez « Merge note types » dans les options d'import d'Anki ; sinon, Anki ignorera vos notes existantes, car leur type de note comporte désormais un champ pour l'audio.",
     "audio.help1": "Ajoute un enregistrement de chaque mot que vous apprenez : le mot seul, sans ses exemples, sa traduction ni sa définition. Il est joué au recto des cartes directes et au verso des cartes inversées.",
     "audio.help2": "Les enregistrements sont réalisés avec Google Cloud Text-to-Speech.",
     "audio.help3": "Pour supprimer plus tard les fichiers sonores, désactivez l'audio, téléchargez le deck et importez-le de nouveau, puis supprimez dans Anki les fichiers inutilisés avec Tools → Check Media.",
@@ -179,9 +181,9 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — decks de vocabulaire Anki gratuits en {n} langue",
-      "many": "AnkiGen — decks de vocabulaire Anki gratuits en {n} de langues",
-      "other": "AnkiGen — decks de vocabulaire Anki gratuits en {n} langues"
+      "one": "Ankenning — decks de vocabulaire Anki gratuits en {n} langue",
+      "many": "Ankenning — decks de vocabulaire Anki gratuits en {n} de langues",
+      "other": "Ankenning — decks de vocabulaire Anki gratuits en {n} langues"
     },
     "lede": {
       "one": "Des decks de vocabulaire Anki gratuits en {n} langue, créés directement dans votre navigateur.",
@@ -194,14 +196,14 @@
       "other": "Créez des decks de vocabulaire Anki gratuits directement dans votre navigateur : {n} langues, des modules thématiques et les champs de carte de votre choix. Téléchargez un .apkg pour Anki ou AnkiDroid."
     },
     "langsLede": {
-      "one": "AnkiGen crée des decks Anki en {n} langue, avec des définitions dans la même langue.",
-      "many": "AnkiGen crée des decks Anki en {n} de langues. Apprenez chacune d'elles avec des traductions dans n'importe quelle autre, ou avec des définitions dans la même langue.",
-      "other": "AnkiGen crée des decks Anki en {n} langues. Apprenez chacune d'elles avec des traductions dans n'importe quelle autre, ou avec des définitions dans la même langue."
+      "one": "Ankenning crée des decks Anki en {n} langue, avec des définitions dans la même langue.",
+      "many": "Ankenning crée des decks Anki en {n} de langues. Apprenez chacune d'elles avec des traductions dans n'importe quelle autre, ou avec des définitions dans la même langue.",
+      "other": "Ankenning crée des decks Anki en {n} langues. Apprenez chacune d'elles avec des traductions dans n'importe quelle autre, ou avec des définitions dans la même langue."
     },
     "langsDescription": {
-      "one": "La {n} langue dans laquelle AnkiGen crée des decks de vocabulaire Anki gratuits, et comment en demander une autre.",
-      "many": "Les {n} de langues dans lesquelles AnkiGen crée des decks de vocabulaire Anki gratuits, et comment en demander une autre.",
-      "other": "Les {n} langues dans lesquelles AnkiGen crée des decks de vocabulaire Anki gratuits, et comment en demander une autre."
+      "one": "La {n} langue dans laquelle Ankenning crée des decks de vocabulaire Anki gratuits, et comment en demander une autre.",
+      "many": "Les {n} de langues dans lesquelles Ankenning crée des decks de vocabulaire Anki gratuits, et comment en demander une autre.",
+      "other": "Les {n} langues dans lesquelles Ankenning crée des decks de vocabulaire Anki gratuits, et comment en demander une autre."
     },
     "word": {
       "one": "{n} mot",

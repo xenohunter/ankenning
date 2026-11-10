@@ -1,8 +1,8 @@
-# AnkiGen: product specification
+# Ankenning: product specification
 
 A free single-page web app on GitHub Pages that builds Anki decks (`.apkg`) entirely in the browser from curated vocabulary data. Output is **deterministic**: the same configuration and data version always give the same notes with the same IDs. Re-importing an updated deck updates existing cards and keeps review history.
 
-Repo: https://github.com/xenohunter/ankigen (branch `master`). Site: https://xenohunter.github.io/ankigen/. Support links: https://www.patreon.com/cw/blisstweeting, https://buymeacoffee.com/blisstweeting
+Repo: https://github.com/xenohunter/ankenning (branch `master`). Site: https://xenohunter.github.io/ankenning/. Support links: https://www.patreon.com/cw/blisstweeting, https://buymeacoffee.com/blisstweeting
 
 ## 1. Languages
 
@@ -102,7 +102,7 @@ The most experimental part of the app, and labelled as such.
 - **Voices:** Google Cloud Text-to-Speech only, for the language's exact locale (never a sibling such as pt-BR for pt-PT): a Chirp 3 HD voice (Kore, female, wherever it exists), else Neural2, else WaveNet, else no audio. Today: Chirp 3 HD for 19 languages, WaveNet for Portuguese, none for Armenian, Irish and Scottish Gaelic (Google has no voice for them).
 - **On cards:** the clip plays on the front of forward cards and on the back of reverse cards, never on the reverse question; the forward answer doesn't play it again.
 - **Page:** only when the learned language has audio, the Card options block ends with a line, the "Pronunciation audio" toggle and, always in sight, a muted warning: the most experimental, prototype part of the app; clips are machine-generated and unchecked; stress, readings and accent may be wrong; don't rely on them; native speakers who find them poor are asked to tell us with the Feedback button, and a language's audio is taken down if needed. Its "?" says it covers words only, that the voices are Google Cloud Text-to-Speech's, and how to remove the files (Tools → Check Media). For other languages the block ends as before.
-- While the toggle is on, a light warning frame under it tells people who imported an AnkiGen deck before audio was added to tick "Merge note types" the first time they import an update (§6).
+- While the toggle is on, a light warning frame under it tells people who imported an Ankenning deck before audio was added to tick "Merge note types" the first time they import an update (§6).
 - The choice is `a=1` in the link. It survives switching languages, but is written only for a learned language with audio. With audio on, the Download summary shows the extra size, a download fetches the clips with a progress line, and the preview shows a small play button.
 - Audio coverage is not part of the deploy gate: a word without a clip simply has none.
 
@@ -138,7 +138,8 @@ Always-visible elements:
   - "Support this project:" with two buttons, Patreon and Buy Me a Coffee;
   - links to the decks by language pair, the supported languages and the GitHub repo;
   - the licenses;
-  - "Created by Phil Filippak", the name linking to https://x.com/blisstweeting.
+  - "Created by Phil Filippak", the name linking to https://x.com/blisstweeting;
+  - "Ankenning is an independent project, not affiliated with or endorsed by Anki Software LLC." It is on every page (the app, the languages page and the landing pages), because Anki's steward asked for it when the project left its former name, AnkiGen (ARCHITECTURE §14).
 
 **Supported languages** (`languages.html`, linked from the footer): the languages under the names of their groups, each with its flag, native name, name in the interface language, the field rows only some languages have ("Cards can also show: Reading (furigana) · Romanization · …") and "Build a deck", which opens the app with it as the learned language. Below: "Missing a language?" with **Request a language**, which opens the feedback dialog with the category New language chosen and a question in place of the card line ("Which language would you like to see here? Tell us which language you speak, too."). Same header language menu, footer and Feedback button as the app.
 
@@ -172,9 +173,9 @@ Always-visible elements:
 ## 6. Anki output
 
 - `.apkg` built in the browser (sql.js + zip). Media only with pronunciation audio: the clips, named `ankigen-<lang>-<content hash>.mp3`, so a name never stands for two recordings and a re-import never duplicates one.
-- **One deck per language pair:** `AnkiGen::<Learning> (<Known>)`. Deck, note type and note IDs come from stable hashes, so importing more modules later adds to the same deck, and re-downloading updates notes.
+- **One deck per language pair:** `Ankenning::<Learning> (<Known>)`. Deck, note type and note IDs come from stable hashes, so importing more modules later adds to the same deck, and re-downloading updates notes.
 - **Note order:** canonical order (module tree order, then file order).
-- **Module membership** goes into hierarchical tags: `ankigen::<category>::<module>`.
+- **Module membership** goes into hierarchical tags: `ankenning::<category>::<module>`.
 - The **note type** has a fixed field list. Templates depend on the configuration. Fields the user switched off are left empty.
   - On 2026-10-28 the `Audio` field was appended (20 fields). The site was already reachable then, so a deck downloaded before that needs "Merge note types" ticked once when the next download is imported; otherwise Anki skips its notes as conflicting.
 

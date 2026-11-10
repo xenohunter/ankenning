@@ -1,6 +1,6 @@
 # Unit type: concepts — build the concept inventory for one module
 
-You are building the language-neutral concept inventory of AnkiGen. A concept is one **sense**, labeled in English, that every active language will later express in its own words. Read `docs/DATA_FORMAT.md` §Concepts before starting.
+You are building the language-neutral concept inventory of Ankenning. A concept is one **sense**, labeled in English, that every active language will later express in its own words. Read `docs/DATA_FORMAT.md` §Concepts before starting.
 
 Input: `node tools/gen/plan.mjs show <unit>` gives the module, part (for Core), the list of all modules, active languages with their countries, and every concept ID that already exists.
 

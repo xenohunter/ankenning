@@ -4,7 +4,7 @@ Paste everything below the line into Claude Code, started in the repo root (`/ho
 
 ---
 
-You are building **AnkiGen**, a free, static, single-page web app (GitHub Pages; repo https://github.com/xenohunter/ankigen, site https://xenohunter.github.io/ankigen/). It generates Anki decks (`.apkg`) fully in the browser from curated multilingual vocabulary data. The product, the data contract and the architecture are already decided and documented. Your job is to implement the app and its tooling to that spec, with tests, in milestones.
+You are building **Ankenning**, a free, static, single-page web app (GitHub Pages; repo https://github.com/xenohunter/ankenning, site https://xenohunter.github.io/ankenning/). It generates Anki decks (`.apkg`) fully in the browser from curated multilingual vocabulary data. The product, the data contract and the architecture are already decided and documented. Your job is to implement the app and its tooling to that spec, with tests, in milestones.
 
 **`CLAUDE.md` rules apply throughout.**
 - I commit; you never do.
@@ -43,8 +43,8 @@ Run `node tools/lint-data.mjs --data tests/fixtures/data --meta data/meta` to se
   | Constant | Value |
   |---|---|
   | `PATREON_URL` | `https://www.patreon.com/cw/blisstweeting` |
-  | `REPO_URL` | `https://github.com/xenohunter/ankigen` |
-  | `SITE_URL` | `https://xenohunter.github.io/ankigen/` (all asset paths relative: Pages serves under `/ankigen/`) |
+  | `REPO_URL` | `https://github.com/xenohunter/ankenning` |
+  | `SITE_URL` | `https://xenohunter.github.io/ankenning/` (all asset paths relative: Pages serves under `/ankenning/`) |
   | `FEEDBACK_ENDPOINT` | the Apps Script `/exec` URL. It is public by design (it ships in the page), so it goes straight into `config.js`, not into `.env`. Here's the URL: `https://script.google.com/macros/s/AKfycbyyz5eLFkjHU2NUg5CgILLnt-8zYWKGJODuws0sFeeJh7NKuWOUMF2LwNnqIRQR9xU/exec` |
   | `APP_VERSION` | |
 

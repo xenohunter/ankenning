@@ -36,7 +36,7 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url));
 export const SITE_FILES = ['index.html', 'languages.html', '404.html', 'robots.txt', 'og-image.png', 'favicon.svg', 'apple-touch-icon.png', 'css', 'img', 'src', 'vendor'];
 const LAYERS = ['lang', 'ex', 'ipa', 'etym'];
 /** Written into every site this tool builds; a directory without it is never replaced. */
-const MARKER = '.ankigen-site';
+const MARKER = '.ankenning-site';
 /** GitHub Pages publishes sites up to 1 GB; the build fails above this many MB. */
 export const SITE_LIMIT_MB = 900;
 

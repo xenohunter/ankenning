@@ -62,8 +62,8 @@ test('captions are in the known language; lang attributes mark both languages', 
   assert.match(noteType.templates[0].afmt, /<div class="cap">Beispiele<\/div>/);
   assert.match(noteType.templates[0].qfmt, /<div class="word" lang="ja-JP"/);
   assert.match(noteType.templates[0].afmt, /<div class="translation" lang="de-DE"/);
-  assert.equal(noteType.name, 'AnkiGen 日本語 (Deutsch)');
-  assert.equal((await fixtureDeck({ learn: 'ja', know: '=' })).noteType.name, 'AnkiGen 日本語 (definitions)');
+  assert.equal(noteType.name, 'Ankenning 日本語 (Deutsch)');
+  assert.equal((await fixtureDeck({ learn: 'ja', know: '=' })).noteType.name, 'Ankenning 日本語 (definitions)');
   assert.match(noteType.css, /\.nightMode/);
 });
 

@@ -88,7 +88,7 @@ test('the payload has the keys feedback/Code.gs reads, within its column limits'
 });
 
 test('the body stays within the server limit, even when escaping makes a message longer', () => {
-  const env = { clientId: 'abcd-1234', now: new Date(T0), learning: 'ja', known: 'ru', configUrl: 'https://xenohunter.github.io/ankigen/#v1&l=ja&k=ru', appVersion: '0.1.0', dataVersion: '2026.10.17', browserLang: 'ru' };
+  const env = { clientId: 'abcd-1234', now: new Date(T0), learning: 'ja', known: 'ru', configUrl: 'https://xenohunter.github.io/ankenning/#v1&l=ja&k=ru', appVersion: '0.1.0', dataVersion: '2026.10.17', browserLang: 'ru' };
   const big = payload(report('"\n'.repeat(2000), { selectedText: '\\'.repeat(1000) }), env);
   const body = requestBody(big);
   assert.ok(body.length <= MAX_BODY, String(body.length));

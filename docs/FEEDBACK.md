@@ -4,7 +4,7 @@ Reports from the site arrive as rows in a Google Sheet you own. There are no API
 
 ## One-time setup (about 5 minutes)
 
-1. Create a Google Sheet, e.g. "AnkiGen feedback".
+1. Create a Google Sheet, e.g. "Ankenning feedback".
 2. **Extensions → Apps Script.** Delete the sample code, paste the whole of `feedback/Code.gs`, and save.
 3. In the editor, choose the function **`setup`** and press **Run**. Approve the permission prompt. It needs access to this spreadsheet only. This creates the `Reports` tab with headers.
 4. **Deploy → New deployment →** type **Web app**:
@@ -12,7 +12,7 @@ Reports from the site arrive as rows in a Google Sheet you own. There are no API
    - Who has access: **Anyone**
    - Deploy, then copy the **Web app URL** (ends with `/exec`).
 5. Put that URL into `src/config.js` (`FEEDBACK_ENDPOINT`), or give it to Claude Code.
-6. Test it: open the URL in a browser. It should show `{"ok":true,"service":"ankigen-feedback"}`.
+6. Test it: open the URL in a browser. It should show `{"ok":true,"service":"ankenning-feedback"}`.
 
 **Updating the script later:** Deploy → Manage deployments → edit (pencil) → Version: *New version* → Deploy. This keeps the same URL. A plain "New deployment" would create a new URL.
 

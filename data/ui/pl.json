@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Słownictwo zostało przygotowane maszynowo i jest tylko częściowo sprawdzone. Uwagi są bardzo mile widziane.",
     "head.draftTopic": "wstępna wersja słownictwa",
@@ -9,7 +9,7 @@
     "head.languageNow": "Język interfejsu: {language}",
     "help.about": "Wyjaśnienie: {topic}",
     "support": "Wesprzyj projekt:",
-    "fatal": "AnkiGen nie mógł wczytać list słów. Sprawdź połączenie i odśwież stronę.",
+    "fatal": "Ankenning nie mógł wczytać list słów. Sprawdź połączenie i odśwież stronę.",
     "step.learn": "Uczę się",
     "step.know": "Mówię",
     "step.modules": "Moduły",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Aktualizacja talii",
     "update.intro": "Zmienione pola, nowe moduły albo nowsze dane? Pobierz talię ponownie i zaimportuj nowy plik do Anki (File → Import) z domyślnymi opcjami. Anki zaktualizuje istniejące notatki i ich układ, doda nowe słowa do tej samej talii i zachowa postępy w nauce.",
-    "update.edits": "Twoje własne zmiany i etykiety w notatkach AnkiGen zostaną zastąpione nową wersją. Flagi, zawieszone fiszki i postępy zostaną zachowane.",
+    "update.rename": "Ankenning nazywał się wcześniej AnkiGen. Jeśli na liście talii w Anki nadal widać „AnkiGen”, przed zaimportowaniem aktualizacji zmień nazwę tej talii na „Ankenning”, inaczej nowe fiszki trafią do drugiej talii.",
+    "update.edits": "Twoje własne zmiany i etykiety w notatkach Ankenning zostaną zastąpione nową wersją. Flagi, zawieszone fiszki i postępy zostaną zachowane.",
     "update.deck": "Nowe fiszki trafiają do talii o dokładnie tej nazwie. Jeśli ta talia ma teraz inną nazwę lub jest w innym miejscu, nowe fiszki pojawią się w nowej talii o pierwotnej nazwie i można je przenieść.",
-    "update.noteType": "Jeśli pola typu notatki AnkiGen zostały zmienione, zaznacz przy imporcie „Merge note types”, inaczej Anki nie zaktualizuje tych notatek.",
+    "update.noteType": "Jeśli pola typu notatki Ankenning zostały zmienione, zaznacz przy imporcie „Merge note types”, inaczej Anki nie zaktualizuje tych notatek.",
     "update.reverse": "Wyłączone fiszki odwrotne? Anki zachowa stare jako puste fiszki. Usuń je przez Tools → Empty Cards.",
     "share.copy": "Kopiuj link",
     "share.copied": "Skopiowano link",
@@ -96,7 +97,7 @@
     "list.open": "Lista słów: {size}",
     "feedback.button": "Opinia",
     "feedback.title": "Opinia ({shortcut})",
-    "langs.title": "Obsługiwane języki — AnkiGen",
+    "langs.title": "Obsługiwane języki — Ankenning",
     "langs.heading": "Obsługiwane języki",
     "langs.extras": "Karty mogą też pokazywać: {fields}",
     "langs.build": "Utwórz talię",
@@ -108,6 +109,7 @@
     "foot.source": "Kod źródłowy na GitHubie",
     "foot.license": "Kod na licencji {mit}; słownictwo na licencji {cc}.",
     "foot.author": "Autor: {name}",
+    "foot.independent": "Ankenning to niezależny projekt, który nie jest powiązany z Anki Software LLC ani przez nią popierany.",
     "fb.title": "Opinia",
     "fb.close": "Zamknij",
     "fb.about": "Słowo: {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "ID pojęcia",
     "audio.label": "Wymowa (audio)",
-    "audio.warning": "Najbardziej eksperymentalna część AnkiGen, wciąż prototyp: nagrania są generowane maszynowo i nikt ich nie sprawdził. Akcent wyrazowy, odczyty i wymowa mogą być błędne, więc nie polegaj na nich. Jeśli to twój język ojczysty i nagrania brzmią źle, daj nam znać przyciskiem „Opinia”: w razie potrzeby usuniemy audio dla tego języka.",
-    "audio.oldDecks": "Masz już talię AnkiGen zaimportowaną przed dodaniem audio? Przy pierwszym imporcie aktualizacji zaznacz „Merge note types” w opcjach importu Anki, inaczej Anki pominie twoje istniejące notatki, bo ich typ ma teraz pole na audio.",
+    "audio.warning": "Najbardziej eksperymentalna część Ankenning, wciąż prototyp: nagrania są generowane maszynowo i nikt ich nie sprawdził. Akcent wyrazowy, odczyty i wymowa mogą być błędne, więc nie polegaj na nich. Jeśli to twój język ojczysty i nagrania brzmią źle, daj nam znać przyciskiem „Opinia”: w razie potrzeby usuniemy audio dla tego języka.",
+    "audio.oldDecks": "Masz już talię Ankenning zaimportowaną przed dodaniem audio? Przy pierwszym imporcie aktualizacji zaznacz „Merge note types” w opcjach importu Anki, inaczej Anki pominie twoje istniejące notatki, bo ich typ ma teraz pole na audio.",
     "audio.help1": "Dodaje nagranie każdego słowa, którego się uczysz: tylko samego słowa, bez przykładów, tłumaczenia i definicji. Odtwarza się na przodzie fiszek zwykłych i na tyle fiszek odwrotnych.",
     "audio.help2": "Nagrania powstają w Google Cloud Text-to-Speech.",
     "audio.help3": "Aby później usunąć pliki dźwiękowe, wyłącz audio, pobierz talię i zaimportuj ją ponownie, a potem usuń w Anki nieużywane pliki przez Tools → Check Media.",
@@ -179,10 +181,10 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — darmowe talie słownictwa do Anki w {n} języku",
-      "few": "AnkiGen — darmowe talie słownictwa do Anki w {n} językach",
-      "many": "AnkiGen — darmowe talie słownictwa do Anki w {n} językach",
-      "other": "AnkiGen — darmowe talie słownictwa do Anki w {n} języka"
+      "one": "Ankenning — darmowe talie słownictwa do Anki w {n} języku",
+      "few": "Ankenning — darmowe talie słownictwa do Anki w {n} językach",
+      "many": "Ankenning — darmowe talie słownictwa do Anki w {n} językach",
+      "other": "Ankenning — darmowe talie słownictwa do Anki w {n} języka"
     },
     "lede": {
       "one": "Darmowe talie słownictwa do Anki w {n} języku, tworzone prosto w przeglądarce.",
@@ -197,16 +199,16 @@
       "other": "Twórz darmowe talie słownictwa do Anki prosto w przeglądarce: {n} języka, moduły tematyczne i wybrane przez ciebie pola fiszek. Pobierz plik .apkg dla Anki lub AnkiDroid."
     },
     "langsLede": {
-      "one": "AnkiGen tworzy talie Anki w {n} języku, z definicjami w tym samym języku.",
-      "few": "AnkiGen tworzy talie Anki w {n} językach. Ucz się dowolnego z nich z tłumaczeniami na dowolny inny albo z definicjami w tym samym języku.",
-      "many": "AnkiGen tworzy talie Anki w {n} językach. Ucz się dowolnego z nich z tłumaczeniami na dowolny inny albo z definicjami w tym samym języku.",
-      "other": "AnkiGen tworzy talie Anki w {n} języka. Ucz się dowolnego z nich z tłumaczeniami na dowolny inny albo z definicjami w tym samym języku."
+      "one": "Ankenning tworzy talie Anki w {n} języku, z definicjami w tym samym języku.",
+      "few": "Ankenning tworzy talie Anki w {n} językach. Ucz się dowolnego z nich z tłumaczeniami na dowolny inny albo z definicjami w tym samym języku.",
+      "many": "Ankenning tworzy talie Anki w {n} językach. Ucz się dowolnego z nich z tłumaczeniami na dowolny inny albo z definicjami w tym samym języku.",
+      "other": "Ankenning tworzy talie Anki w {n} języka. Ucz się dowolnego z nich z tłumaczeniami na dowolny inny albo z definicjami w tym samym języku."
     },
     "langsDescription": {
-      "one": "{n} język, w którym AnkiGen tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny.",
-      "few": "{n} języki, w których AnkiGen tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny.",
-      "many": "{n} języków, w których AnkiGen tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny.",
-      "other": "{n} języka, w których AnkiGen tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny."
+      "one": "{n} język, w którym Ankenning tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny.",
+      "few": "{n} języki, w których Ankenning tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny.",
+      "many": "{n} języków, w których Ankenning tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny.",
+      "other": "{n} języka, w których Ankenning tworzy darmowe talie słownictwa do Anki, i jak zaproponować kolejny."
     },
     "word": {
       "one": "{n} słowo",

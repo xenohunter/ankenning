@@ -1,10 +1,10 @@
-# AnkiGen: architecture
+# Ankenning: architecture
 
 Audience: the engineer (Claude Code) implementing the web app. Product decisions are in `SPEC.md` and the data contract is in `DATA_FORMAT.md`. This file explains how the pieces fit together.
 
 ## 1. Constraints
 
-- **Static site on GitHub Pages** at `https://xenohunter.github.io/ankigen/`. It is served under `/ankigen/`, so use only relative URLs. No server code except the feedback Apps Script.
+- **Static site on GitHub Pages** at `https://xenohunter.github.io/ankenning/`. It is served under `/ankenning/`, so use only relative URLs. No server code except the feedback Apps Script.
 - **No build step for the app.** Native ES modules, vanilla JS with JSDoc types (`// @ts-check` on every module), plain CSS. Dependencies are **vendored** with pinned versions in `vendor/` (no CDN at runtime):
   - `sql.js` (WASM SQLite)
   - `fflate` (zip)
@@ -207,6 +207,7 @@ Produces the HTML for each Anki field, given the note and config. All text is es
 - Decks are matched by **name**, not id: the deck id only links cards to the deck inside the file, and the importer gives a new deck an id of its own. So the deck name (§7.3) is part of a language pair's identity, like the GUID prefix: never change a language's `native` name in `languages.json`.
 - `csum` = first 8 hex digits of SHA-1 of the stripped first field (Word), as an int (Anki's rule).
 - Changing a prefix version (`v1`) is a breaking change for every user. Don't do it.
+- The prefix keeps the project's former name, AnkiGen, on purpose (§14).
 
 ### 7.3 Collection
 
@@ -215,9 +216,9 @@ Produces the HTML for each Anki field, given the note and config. All text is es
   - `decks` also holds the "Default" deck (id 1) that every schema-11 collection has. Importers skip it, because it holds no cards.
   - `dconf` is Anki's "Default" preset. Our deck uses it, so users keep their own options.
   - The note type's legacy `req` (which cards a note gets) is computed the way Anki computes it. Anki ≥ 2.1.28 recomputes it on import and gets the same result.
-- Deck name: `AnkiGen::<Learning native name> (<Known native name>)`; for same-language mode, `AnkiGen::<name> (definitions)`.
-- Deck description: `Made with AnkiGen · data <version>`, where "AnkiGen" links to the site with this config's hash, so users can reopen their settings to download an update.
-- Tags: `ankigen::<category>::<module>` for every selected module the concept belongs to, sorted (Anki keeps tags sorted). Use the module IDs from `modules.json`.
+- Deck name: `Ankenning::<Learning native name> (<Known native name>)`; for same-language mode, `Ankenning::<name> (definitions)`. Until November 2026 it was `AnkiGen::…`; §7.4 says what that means for an update.
+- Deck description: `Made with Ankenning · data <version>`, where "Ankenning" links to the site with this config's hash, so users can reopen their settings to download an update.
+- Tags: `ankenning::<category>::<module>` for every selected module the concept belongs to, sorted (Anki keeps tags sorted). Use the module IDs from `modules.json`.
 - Notes: `sfld` and `csum` come from the stripped Word field, as Anki computes them. `mod` and `usn` per §7.4.
 - Cards:
   - One per template whose question is not blank: the forward card always, the reverse card when Reverse = 1. This uses `cardOrds` in `deck/render.js`, the same check the preview uses.
@@ -225,7 +226,7 @@ Produces the HTML for each Anki field, given the note and config. All text is es
 - Zip with `fflate` entries `collection.anki2`, the clips and `media`, fixed entry mtime 1980-01-01 00:00, deterministic order.
   - Without audio `media` is `{}`. With audio the clips the notes name are entries `0`, `1`, … (stored, not deflated: MP3 is compressed already) in order of first use in the notes, and `media` maps them to their names, `{"0": "ankigen-ru-7f5f35a1b51dbce6.mp3", …}`. The order comes from the notes, not from how the clips were fetched, so a fixed clock still gives identical bytes. A clip a note names but the caller didn't pass is an error, never a silent broken button.
   - A clip's name is its content hash: Anki matches media by name, so one name never stands for two recordings, and importing the same clip again adds nothing.
-- File name: `ankigen-<learn>-<know>-<data version>.apkg`; same-language decks repeat the language (`ankigen-en-en-…`).
+- File name: `ankenning-<learn>-<know>-<data version>.apkg`; same-language decks repeat the language (`ankenning-en-en-…`).
 - `buildApkg` takes the initialized sql.js module as a parameter and returns the bytes; the page wraps them in a Blob.
 
 ### 7.4 Timestamps and updates
@@ -244,14 +245,19 @@ What re-importing does was checked against the Anki backend itself: the `anki` P
 - **Reverse turned off:** the existing reverse cards stay but are blank ("The front of this card is blank"). Tools → Empty Cards deletes them.
 - **The user's own edits and tags** on these notes, including "marked" and "leech", are replaced by the new version.
 - **A renamed or moved deck:** existing cards stay where they are; new cards go to a re-created deck with the original name.
+- **The rename from AnkiGen** (checked on 2026-11-10 with the 26.9.3 backend), an `Ankenning::…` file imported over an `AnkiGen::…` deck with default options:
+  - The notes update (same GUIDs). The note type keeps its id and takes the new name. The tags become `ankenning::…`; Check Database clears the old ones from the tag list.
+  - The existing cards stay in `AnkiGen::…`, and new cards go to a new `Ankenning::…` deck. Renaming the `AnkiGen` deck to `Ankenning` before the import keeps everything in one deck, whose description then gets the new link. The update help says so (`update.rename`).
+  - Renaming `AnkiGen` onto an existing `Ankenning` deck gives `Ankenning+`: Anki doesn't merge decks. Moving the new cards into the old deck (Browse → Change Deck), deleting the empty `Ankenning` deck and then renaming works.
+  - The clips keep their names (§14), so no media is added again.
 - **A note type the user changed** (e.g. added a field):
-  - Without "Merge note types": notes are not updated, and Anki adds an unused copy "AnkiGen … +" of the incoming note type.
+  - Without "Merge note types": notes are not updated, and Anki adds an unused copy "Ankenning … +" of the incoming note type.
   - With it: notes update, but the user's extra field is emptied.
 - **Pronunciation audio** (checked on 2026-10-28 with the same three backends):
   - With audio, the clips land in `collection.media` byte for byte; the same file again adds no media ("already present").
   - Turning audio on later: notes and templates update, the clips are added. Turning it off: the `Audio` field is emptied and the clips stay; Tools → Check Media lists them as unused.
   - The forward card plays the clip on the question only, the reverse card on the answer only.
-  - A deck from before the `Audio` field (19 fields), then one with it, with default options: "conflicting", nothing updated (and Anki keeps a copy "AnkiGen … +" of the new note type). With "Merge note types" ticked, at once or on a later import: the notes update, with their clips, and the copy goes.
+  - A deck from before the `Audio` field (19 fields), then one with it, with default options: "conflicting", nothing updated (and Anki keeps a copy "Ankenning … +" of the new note type). With "Merge note types" ticked, at once or on a later import: the notes update, with their clips, and the copy goes.
   - When testing by hand or in scripts, build each file after the previous import, or give it a later clock: an importer may stamp updated notes with the import time, and then an older file counts as a duplicate.
 
 The manual checks on real devices are in `docs/ANKI_CHECKLIST.md`. The user-facing summary of all this is the "?" next to Download (`update.*` in `src/ui/strings.js`).
@@ -264,7 +270,7 @@ The manual checks on real devices are in `docs/ANKI_CHECKLIST.md`. The user-faci
 
   What the user sees is what Anki shows.
 - **Preview:** each face is rendered in an `<iframe srcdoc sandbox="allow-scripts">` with `card.css`, inside `<body class="card">` like Anki's reviewer. Light/dark follows the page (`nightMode` on the body).
-  - The frames have an opaque origin: they can't reach the page, its storage or its address, and the page can't read them. Their only script is a small bridge (`bridge` in `ui/preview.js`) that posts `{ankigen: 1, type}` messages to the page: `size` (the body's height, on load, resize and when fonts arrive), `selection` (the selected text and where it is, or null) and `shortcut` (Ctrl/Cmd+Enter). The page answers `clear` after a report quoted the selection. The page accepts messages only from its own frames and keeps only the fields and lengths a report uses.
+  - The frames have an opaque origin: they can't reach the page, its storage or its address, and the page can't read them. Their only script is a small bridge (`bridge` in `ui/preview.js`) that posts `{ankenning: 1, type}` messages to the page: `size` (the body's height, on load, resize and when fonts arrive), `selection` (the selected text and where it is, or null) and `shortcut` (Ctrl/Cmd+Enter). The page answers `clear` after a report quoted the selection. The page accepts messages only from its own frames and keeps only the fields and lengths a report uses.
   - Why not `allow-same-origin` without scripts: browser extensions inject scripts into every frame, and in such a frame Chrome blocks them and logs "Blocked script execution in 'about:srcdoc'…" for each face. With `allow-scripts` alone the extensions run, nothing is logged, and the frames stay isolated from the page. (Both flags together would let the frames lift their own sandbox.)
   - **Audio:** `deck/render.js` draws `[sound:…]` with a `sound` renderer, here `ui/audio.js`'s play button. The page fetches the clip (one byte range of its pack) and puts it into the frame as a `data:` URL; the frame's second script (`PLAYER`) plays it on the click. So the frame needs nothing from the page, and the sound starts within the click, which browsers require for audio. The button is disabled while its clip loads. The preview never plays by itself, and the word list has no audio.
   - A face never scrolls: its frame takes the face's whole height (plus the frame's borders), and the frame's document hides overflow. When the faces don't fit, the panel scrolls them under its heading and buttons.
@@ -312,14 +318,14 @@ The manual checks on real devices are in `docs/ANKI_CHECKLIST.md`. The user-faci
 
 ## 10. SEO
 
-- `<title>`: "AnkiGen — free Anki vocabulary decks in 23 languages".
+- `<title>`: "Ankenning — free Anki vocabulary decks in 23 languages".
 - Meta description, canonical URL, Open Graph and Twitter card (with `og-image.png`, 1200×630, rendered from `tools/og-image.html`).
 - `<meta name="author">` and `twitter:creator` for the author (`AUTHOR_NAME`, `AUTHOR_URL` in `src/config.js`).
 - `<meta name="google-site-verification">` on the app page, for Search Console (`docs/AFTER_LAUNCH.md`).
 - JSON-LD `@graph`: the `WebApplication` (free offer, `inLanguage` list, `featureList`, screenshot, license, author), the `WebSite` it is part of, and the author as a `Person` with `sameAs` (X, Patreon, Buy Me a Coffee).
 - Semantic headings, `noscript` text describing the tool, `robots.txt`, and `sitemap.xml` (built with the landing pages).
 - These static files repeat URLs from `src/config.js` and the language count, because crawlers and link previews run no scripts. `tests/site.test.mjs` checks that they agree with `config.js` and `languages.json`.
-- Crawlers read `robots.txt` only at the root of a host. For a project site that is `xenohunter.github.io/robots.txt`, outside this repository, so submit `sitemap.xml` in Google Search Console instead. The file under `/ankigen/` is harmless.
+- Crawlers read `robots.txt` only at the root of a host. For a project site that is `xenohunter.github.io/robots.txt`, outside this repository, so submit `sitemap.xml` in Google Search Console instead. The file under `/ankenning/` is harmless.
 - **Speed:** `index.html` has a `modulepreload` link for every module of the first load (the test checks the list), so the browser fetches them all at once instead of in four rounds. The footer appears only after the first render, so it doesn't jump down while the steps appear.
 - **Languages page:** `languages.html` has its own title, description, canonical URL and JSON-LD (a `WebPage` with its `BreadcrumbList` and an `ItemList` of the languages as `Language`), and the list itself in its HTML, in English; `tests/site.test.mjs` checks them against `languages.json` and `fields.json`, its modulepreload links against `src/languages-page.js`, and its footer against `index.html`'s.
 - The canonical URL is the bare app address; `?lang=` addresses are the same page in another interface language (§13), not separate pages. Search engines get the languages from the landing pages, which are written in their visitors' languages.
@@ -384,3 +390,15 @@ The page speaks the 23 languages (SPEC §4). `src/ui/i18n.js` holds the language
 - **Group names:** the chips' groups (`languages.json` `groups`) are named by the texts `group.<id>` of `ui/strings.js`, translated like every other text.
 - **Checks:** `tools/ui-texts.mjs check` (also in `lint-data`): every English text present and non-empty, the same `{placeholders}`, every plural category with exactly one `{n}`, no HTML, full-width punctuation in Chinese and Japanese, each language's spelling checks (`spellingProblems` of `tools/lib/data.mjs`: Arabic punctuation, Russian letters in Ukrainian…), prose not left in English and in the language's script, no unknown keys. Each file records the hash of the English it follows (`source`); when the English changes, lint warns until the translation is updated and stamped again (`tools/ui-texts.mjs stamp <code>`, which also writes it in canonical order). The translations are written by hand (or by Claude Code), not by the API pipeline.
 - **Adding an interface language:** a complete `data/ui/<code>.json` (stamped), the language in `UI_LANGUAGES` and in the early check of `index.html` and `languages.html`, its landing translation for the module texts, and a flag if its country is new. A newly active language also goes into `languages.html`'s list (the site test says what to write).
+
+## 14. Former name
+
+The project was called AnkiGen until November 2026, at `https://xenohunter.github.io/ankigen/`. Anki's new steward asked for "Anki" to leave the product's name (describing it as working with Anki is fine) and for a visible note that it is independent: `foot.independent`, in the footer of every page.
+
+- **Kept on purpose**, because users already have them:
+  - the ID prefix `ankigen/v1/` (§7.2): another prefix would make every note a new note, without its review history;
+  - the clip names `ankigen-<lang>-<hash>.mp3` (§7.3): new names would add every clip to users' collections, and AnkiWeb, a second time;
+  - the localStorage keys `ankigen:config`, `ankigen:lang` and `ankigen:feedback`: the new address has the same origin (`xenohunter.github.io`), so saved settings carry over;
+  - the `ANKIGEN_*` variables of `tools/gen/batch.mjs` in `.env`.
+- **Renamed:** everything people see, including the deck, the note type, the tags and the file name inside Anki. `update.rename` tells owners of older decks to rename the `AnkiGen` deck before updating (§7.4).
+- **The old address** is served by the repository `xenohunter/ankigen`, which holds only redirect pages: one per page the site had at the rename, with `rel=canonical`, an instant meta refresh and a script that keeps `?lang=` and the `#…` configuration, and a `404.html` that maps every other path the same way. Every deck made before the rename links to the old address from its description, so the redirect stays up.

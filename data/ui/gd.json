@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Chaidh am briathrachas a dhreachdadh le inneal agus cha deach ach pàirt dheth a sgrùdadh. Tha fàilte mhòr air beachdan.",
     "head.draftTopic": "am briathrachas dreachd",
@@ -9,7 +9,7 @@
     "head.languageNow": "Cànan na h-eadar-aghaidh: {language}",
     "help.about": "Mu dheidhinn: {topic}",
     "support": "Cuir taic ris a’ phròiseact seo:",
-    "fatal": "Cha b’ urrainn do AnkiGen na liostaichean fhaclan aige a luchdadh. Thoir sùil air a’ cheangal agad agus ath-luchdaich an duilleag.",
+    "fatal": "Cha b’ urrainn do Ankenning na liostaichean fhaclan aige a luchdadh. Thoir sùil air a’ cheangal agad agus ath-luchdaich an duilleag.",
     "step.learn": "Tha mi ag ionnsachadh",
     "step.know": "Tha mi a’ bruidhinn",
     "step.modules": "Modalan",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Am pasgan agad ùrachadh",
     "update.intro": "An do dh’atharraich thu raointean, an do chuir thu modalan ris, no a bheil thu ag iarraidh dàta nas ùire? Luchdaich a-nuas a-rithist agus ion-phortaich am faidhle ùr do Anki (File → Import) leis na roghainnean bunaiteach. Ùraichidh Anki na nòtaichean agad is an coltas, cuiridh e faclan ùra ris an aon phasgan, agus cumaidh e d’ adhartas ath-sgrùdaidh.",
-    "update.edits": "Thèid an tionndadh ùr a chur an àite nan atharraichean is nan tagaichean agad fhèin air nòtaichean AnkiGen. Thèid brataichean, cairtean a chaidh a chur à rèim agus d’ adhartas a chumail.",
+    "update.rename": "B’ e AnkiGen an t-ainm a bh’ air Ankenning roimhe. Ma tha “AnkiGen” fhathast ri fhaicinn air liosta nam pasgan agad ann an Anki, thoir an t-ainm “Ankenning” air a’ phasgan sin mus dèan thu ion-phortadh air ùrachadh, air neo thèid na cairtean ùra do phasgan eile.",
+    "update.edits": "Thèid an tionndadh ùr a chur an àite nan atharraichean is nan tagaichean agad fhèin air nòtaichean Ankenning. Thèid brataichean, cairtean a chaidh a chur à rèim agus d’ adhartas a chumail.",
     "update.deck": "Thèid cairtean ùra dhan phasgan aig a bheil an dearbh ainm seo. Ma thug thu ainm ùr air no ma ghluais thu e, nochdaidh iad ann am pasgan ùr leis an ainm thùsail, agus faodaidh tu an gluasad.",
-    "update.noteType": "Ma dh’atharraich thu raointean seòrsa nòta AnkiGen, cuir cromag ri “Merge note types” nuair a nì thu ion-phortadh, air neo chan urrainn do Anki na nòtaichean seo ùrachadh.",
+    "update.noteType": "Ma dh’atharraich thu raointean seòrsa nòta Ankenning, cuir cromag ri “Merge note types” nuair a nì thu ion-phortadh, air neo chan urrainn do Anki na nòtaichean seo ùrachadh.",
     "update.reverse": "An do chuir thu dheth na cairtean air ais? Cumaidh Anki an fheadhainn a bh’ ann mar chairtean bàna. Thoir air falbh iad le Tools → Empty Cards.",
     "share.copy": "Dèan lethbhreac dhen cheangal",
     "share.copied": "Chaidh lethbhreac a dhèanamh dhen cheangal",
@@ -96,7 +97,7 @@
     "list.open": "Liosta fhaclan: {size}",
     "feedback.button": "Beachdan",
     "feedback.title": "Beachdan ({shortcut})",
-    "langs.title": "Cànanan le taic — AnkiGen",
+    "langs.title": "Cànanan le taic — Ankenning",
     "langs.heading": "Cànanan le taic",
     "langs.extras": "Faodaidh na cairtean seo a shealltainn cuideachd: {fields}",
     "langs.build": "Tog pasgan",
@@ -108,6 +109,7 @@
     "foot.source": "An còd tùsail air GitHub",
     "foot.license": "Còd fo cheadachas {mit}; briathrachas fo {cc}.",
     "foot.author": "Air a chruthachadh le {name}",
+    "foot.independent": "’S e pròiseact neo-eisimeileach a th’ ann an Ankenning, gun cheangal ri Anki Software LLC agus gun taic bhuapa.",
     "fb.title": "Beachdan",
     "fb.close": "Dùin",
     "fb.about": "Mu {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "ID a’ bhun-bheachd",
     "audio.label": "Fuaimneachadh (fuaim)",
-    "audio.warning": "Am pàirt as deuchainniche de AnkiGen, prototaip fhathast: chaidh na clàraidhean a chruthachadh le inneal agus cha do rinn duine sgrùdadh orra. Faodaidh am beum, na leughaidhean agus an dualchainnt a bhith ceàrr, mar sin na cuir earbsa annta. Mas e fileantach dùthchasach a th’ annad agus ma tha iad dona, innis dhuinn leis a’ phutan Beachdan: bheir sinn air falbh fuaim cànain ma bhios feum air.",
-    "audio.oldDecks": "An do dh’ion-phortaich thu pasgan AnkiGen mus deach fuaim a chur ris? A’ chiad turas a nì thu ion-phortadh air ùrachadh, cuir cromag ri “Merge note types” ann an roghainnean ion-phortaidh Anki; air neo leumaidh Anki thairis air na nòtaichean agad, oir tha raon airson na fuaime aig an seòrsa nòta aca a-nis.",
+    "audio.warning": "Am pàirt as deuchainniche de Ankenning, prototaip fhathast: chaidh na clàraidhean a chruthachadh le inneal agus cha do rinn duine sgrùdadh orra. Faodaidh am beum, na leughaidhean agus an dualchainnt a bhith ceàrr, mar sin na cuir earbsa annta. Mas e fileantach dùthchasach a th’ annad agus ma tha iad dona, innis dhuinn leis a’ phutan Beachdan: bheir sinn air falbh fuaim cànain ma bhios feum air.",
+    "audio.oldDecks": "An do dh’ion-phortaich thu pasgan Ankenning mus deach fuaim a chur ris? A’ chiad turas a nì thu ion-phortadh air ùrachadh, cuir cromag ri “Merge note types” ann an roghainnean ion-phortaidh Anki; air neo leumaidh Anki thairis air na nòtaichean agad, oir tha raon airson na fuaime aig an seòrsa nòta aca a-nis.",
     "audio.help1": "Cuiridh e clàradh de gach facal a tha thu ag ionnsachadh ris: am facal a-mhàin, chan e na h-eisimpleirean, an t-eadar-theangachadh no am mìneachadh aige. Cluichidh e air aghaidh nan cairtean air adhart agus air cùl nan cairtean air ais.",
     "audio.help2": "Thèid na clàraidhean a dhèanamh le Google Cloud Text-to-Speech.",
     "audio.help3": "Gus na faidhlichean fuaime a thoirt air falbh nas fhaide air adhart, cuir dheth an fhuaim, luchdaich a-nuas am pasgan is ion-phortaich e a-rithist, agus an uair sin sguab às na faidhlichean nach eil gan cleachdadh le Tools → Check Media ann an Anki.",
@@ -179,10 +181,10 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — pasganan briathrachais Anki an-asgaidh: {n} chànan",
-      "two": "AnkiGen — pasganan briathrachais Anki an-asgaidh: {n} chànan",
-      "few": "AnkiGen — pasganan briathrachais Anki an-asgaidh: {n} cànanan",
-      "other": "AnkiGen — pasganan briathrachais Anki an-asgaidh: {n} cànan"
+      "one": "Ankenning — pasganan briathrachais Anki an-asgaidh: {n} chànan",
+      "two": "Ankenning — pasganan briathrachais Anki an-asgaidh: {n} chànan",
+      "few": "Ankenning — pasganan briathrachais Anki an-asgaidh: {n} cànanan",
+      "other": "Ankenning — pasganan briathrachais Anki an-asgaidh: {n} cànan"
     },
     "lede": {
       "one": "Pasganan briathrachais Anki an-asgaidh, {n} chànan, air an togail nad bhrabhsair fhèin.",
@@ -197,16 +199,16 @@
       "other": "Tog pasganan briathrachais Anki an-asgaidh nad bhrabhsair: {n} cànan, modalan cuspaireil agus na raointean cairte a tha thu ag iarraidh. Luchdaich a-nuas faidhle .apkg airson Anki no AnkiDroid."
     },
     "langsLede": {
-      "one": "Nì AnkiGen pasganan Anki: {n} chànan, le mìneachaidhean san aon chànan.",
-      "two": "Nì AnkiGen pasganan Anki: {n} chànan. Ionnsaich fear seach fear dhiubh tron fhear eile, no leis fhèin le mìneachaidhean san aon chànan.",
-      "few": "Nì AnkiGen pasganan Anki: {n} cànanan. Ionnsaich gin dhiubh tro chànan sam bith eile, no leis fhèin le mìneachaidhean san aon chànan.",
-      "other": "Nì AnkiGen pasganan Anki: {n} cànan. Ionnsaich gin dhiubh tro chànan sam bith eile, no leis fhèin le mìneachaidhean san aon chànan."
+      "one": "Nì Ankenning pasganan Anki: {n} chànan, le mìneachaidhean san aon chànan.",
+      "two": "Nì Ankenning pasganan Anki: {n} chànan. Ionnsaich fear seach fear dhiubh tron fhear eile, no leis fhèin le mìneachaidhean san aon chànan.",
+      "few": "Nì Ankenning pasganan Anki: {n} cànanan. Ionnsaich gin dhiubh tro chànan sam bith eile, no leis fhèin le mìneachaidhean san aon chànan.",
+      "other": "Nì Ankenning pasganan Anki: {n} cànan. Ionnsaich gin dhiubh tro chànan sam bith eile, no leis fhèin le mìneachaidhean san aon chànan."
     },
     "langsDescription": {
-      "one": "An {n} chànan anns an dèan AnkiGen pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile.",
-      "two": "An {n} chànan anns an dèan AnkiGen pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile.",
-      "few": "Na {n} cànanan anns an dèan AnkiGen pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile.",
-      "other": "Na {n} cànan anns an dèan AnkiGen pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile."
+      "one": "An {n} chànan anns an dèan Ankenning pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile.",
+      "two": "An {n} chànan anns an dèan Ankenning pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile.",
+      "few": "Na {n} cànanan anns an dèan Ankenning pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile.",
+      "other": "Na {n} cànan anns an dèan Ankenning pasganan briathrachais Anki an-asgaidh, agus mar a dh’iarras tu fear eile."
     },
     "word": {
       "one": "{n} fhacal",

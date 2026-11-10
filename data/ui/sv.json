@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Ordförrådet är maskinframtaget och bara delvis granskat. All återkoppling är välkommen.",
     "head.draftTopic": "utkastet till ordförråd",
@@ -9,7 +9,7 @@
     "head.languageNow": "Gränssnittets språk: {language}",
     "help.about": "Om {topic}",
     "support": "Stöd projektet:",
-    "fatal": "AnkiGen kunde inte läsa in sina ordlistor. Kontrollera anslutningen och ladda om sidan.",
+    "fatal": "Ankenning kunde inte läsa in sina ordlistor. Kontrollera anslutningen och ladda om sidan.",
     "step.learn": "Jag lär mig",
     "step.know": "Jag talar",
     "step.modules": "Moduler",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Uppdatera din lek",
     "update.intro": "Har du ändrat fält, lagt till moduler eller vill du ha nyare data? Ladda ner igen och importera den nya filen i Anki (File → Import) med standardinställningarna. Anki uppdaterar dina befintliga anteckningar och deras layout, lägger nya ord i samma lek och behåller dina framsteg i repetitionen.",
-    "update.edits": "Dina egna ändringar och taggar på AnkiGen-anteckningar ersätts av den nya versionen. Flaggor, avstängda kort och framsteg behålls.",
+    "update.rename": "Ankenning hette tidigare AnkiGen. Om din leklista i Anki fortfarande visar ”AnkiGen”, byt namn på den leken till ”Ankenning” innan du importerar en uppdatering, annars hamnar de nya korten i en andra lek.",
+    "update.edits": "Dina egna ändringar och taggar på Ankenning-anteckningar ersätts av den nya versionen. Flaggor, avstängda kort och framsteg behålls.",
     "update.deck": "Nya kort hamnar i leken med exakt det här namnet. Om du har döpt om eller flyttat den hamnar de i en ny lek med det ursprungliga namnet, och du kan flytta dem.",
-    "update.noteType": "Om du har ändrat fälten i AnkiGens anteckningstyp, kryssa i ”Merge note types” vid importen, annars kan Anki inte uppdatera de här anteckningarna.",
+    "update.noteType": "Om du har ändrat fälten i Ankennings anteckningstyp, kryssa i ”Merge note types” vid importen, annars kan Anki inte uppdatera de här anteckningarna.",
     "update.reverse": "Har du stängt av omvända kort? Anki behåller de gamla som tomma kort. Ta bort dem med Tools → Empty Cards.",
     "share.copy": "Kopiera länk",
     "share.copied": "Länken har kopierats",
@@ -96,7 +97,7 @@
     "list.open": "Ordlista: {size}",
     "feedback.button": "Feedback",
     "feedback.title": "Feedback ({shortcut})",
-    "langs.title": "Språk som stöds — AnkiGen",
+    "langs.title": "Språk som stöds — Ankenning",
     "langs.heading": "Språk som stöds",
     "langs.extras": "Korten kan också visa: {fields}",
     "langs.build": "Skapa en lek",
@@ -108,6 +109,7 @@
     "foot.source": "Källkod på GitHub",
     "foot.license": "Koden under {mit}-licensen; ordförrådet under {cc}.",
     "foot.author": "Skapad av {name}",
+    "foot.independent": "Ankenning är ett oberoende projekt, inte knutet till eller godkänt av Anki Software LLC.",
     "fb.title": "Feedback",
     "fb.close": "Stäng",
     "fb.about": "Om {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "begrepps-ID",
     "audio.label": "Uttalsljud",
-    "audio.warning": "Den mest experimentella delen av AnkiGen, fortfarande en prototyp: inspelningarna är maskingenererade och ingen har kontrollerat dem. Betoning, läsningar och accent kan vara fel, så lita inte på dem. Om du har språket som modersmål och de låter dåligt, berätta det för oss med knappen Feedback: vid behov tar vi bort ljudet för ett språk.",
-    "audio.oldDecks": "Importerade du en AnkiGen-lek innan ljudet lades till? Första gången du importerar en uppdatering, kryssa i ”Merge note types” i Ankis importinställningar; annars hoppar Anki över dina befintliga anteckningar, eftersom deras anteckningstyp nu har ett fält för ljudet.",
+    "audio.warning": "Den mest experimentella delen av Ankenning, fortfarande en prototyp: inspelningarna är maskingenererade och ingen har kontrollerat dem. Betoning, läsningar och accent kan vara fel, så lita inte på dem. Om du har språket som modersmål och de låter dåligt, berätta det för oss med knappen Feedback: vid behov tar vi bort ljudet för ett språk.",
+    "audio.oldDecks": "Importerade du en Ankenning-lek innan ljudet lades till? Första gången du importerar en uppdatering, kryssa i ”Merge note types” i Ankis importinställningar; annars hoppar Anki över dina befintliga anteckningar, eftersom deras anteckningstyp nu har ett fält för ljudet.",
     "audio.help1": "Lägger till en inspelning av varje ord du lär dig: bara ordet, inte exemplen, översättningen eller förklaringen. Den spelas på framsidan av framåtkort och på baksidan av omvända kort.",
     "audio.help2": "Inspelningarna görs med Google Cloud Text-to-Speech.",
     "audio.help3": "Om du senare vill ta bort ljudfilerna: stäng av ljudet, ladda ner leken och importera den igen, och radera sedan de oanvända filerna med Tools → Check Media i Anki.",
@@ -179,8 +181,8 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — gratis ordförrådslekar för Anki på {n} språk",
-      "other": "AnkiGen — gratis ordförrådslekar för Anki på {n} språk"
+      "one": "Ankenning — gratis ordförrådslekar för Anki på {n} språk",
+      "other": "Ankenning — gratis ordförrådslekar för Anki på {n} språk"
     },
     "lede": {
       "one": "Gratis ordförrådslekar för Anki på {n} språk, skapade direkt i din webbläsare.",
@@ -191,12 +193,12 @@
       "other": "Skapa gratis ordförrådslekar för Anki direkt i webbläsaren: {n} språk, ämnesmoduler och de kortfält du vill ha. Ladda ner en .apkg-fil för Anki eller AnkiDroid."
     },
     "langsLede": {
-      "one": "AnkiGen gör Anki-lekar på {n} språk, med förklaringar på samma språk.",
-      "other": "AnkiGen gör Anki-lekar på {n} språk. Lär dig vilket som helst av dem från vilket annat som helst, eller på egen hand med förklaringar på samma språk."
+      "one": "Ankenning gör Anki-lekar på {n} språk, med förklaringar på samma språk.",
+      "other": "Ankenning gör Anki-lekar på {n} språk. Lär dig vilket som helst av dem från vilket annat som helst, eller på egen hand med förklaringar på samma språk."
     },
     "langsDescription": {
-      "one": "Det {n} språk som AnkiGen gör gratis ordförrådslekar för Anki på, och hur du önskar ett till.",
-      "other": "De {n} språk som AnkiGen gör gratis ordförrådslekar för Anki på, och hur du önskar ett till."
+      "one": "Det {n} språk som Ankenning gör gratis ordförrådslekar för Anki på, och hur du önskar ett till.",
+      "other": "De {n} språk som Ankenning gör gratis ordförrådslekar för Anki på, och hur du önskar ett till."
     },
     "word": {
       "one": "{n} ord",

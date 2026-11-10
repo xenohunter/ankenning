@@ -1,10 +1,10 @@
 {
-  "name": "ankigen",
+  "name": "ankenning",
   "version": "1.0.0",
   "private": true,
   "description": "Free Anki vocabulary decks in 15 languages, generated entirely in the browser.",
-  "homepage": "https://xenohunter.github.io/ankigen/",
-  "repository": "github:xenohunter/ankigen",
+  "homepage": "https://xenohunter.github.io/ankenning/",
+  "repository": "github:xenohunter/ankenning",
   "license": "MIT",
   "type": "module",
   "engines": {

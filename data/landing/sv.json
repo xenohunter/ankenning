@@ -1,16 +1,16 @@
 {
-  "source": "69afa0f8ff07",
+  "source": "c57b23478254",
   "texts": {
     "decks": "Kortlekar",
     "cta": "Skapa din kortlek",
-    "ctaNote": "Öppnar AnkiGen med det här språkparet och modulen {module} förvald.",
+    "ctaNote": "Öppnar Ankenning med det här språkparet och modulen {module} förvald.",
     "deck": "Anki-kortlek: {deck}",
-    "intro": "AnkiGen skapar kostnadsfria Anki-kortlekar direkt i webbläsaren: ord indelade efter ämne, vart och ett med översättning och exempelmeningar. Välj moduler och vad varje kort ska visa, och ladda sedan ned en .apkg-fil för Anki eller AnkiDroid. Inget konto, inget att installera.",
+    "intro": "Ankenning skapar kostnadsfria Anki-kortlekar direkt i webbläsaren: ord indelade efter ämne, vart och ett med översättning och exempelmeningar. Välj moduler och vad varje kort ska visa, och ladda sedan ned en .apkg-fil för Anki eller AnkiDroid. Inget konto, inget att installera.",
     "cardsHeading": "Vad korten visar",
     "cardsIntro": "Varje kort visar ordet du lär dig och dess översättning. Du väljer vad mer det ska visa, och på vilken sida:",
     "captions": "Kortens etiketter, till exempel ”{caption}”, är på svenska.",
     "modulesHeading": "Moduler",
-    "modulesIntro": "Ett ord som hör till flera moduler finns bara en gång i kortleken. Varje modul öppnar AnkiGen med just den modulen vald; där kan du lägga till fler.",
+    "modulesIntro": "Ett ord som hör till flera moduler finns bara en gång i kortleken. Varje modul öppnar Ankenning med just den modulen vald; där kan du lägga till fler.",
     "sampleWords": "Exempelord",
     "local": "Ord som bara det här språket har: {count}, till exempel {example}. Andra språk har inget exakt motsvarande ord, så korten förklarar dem på svenska.",
     "howHeading": "Så fungerar det",
@@ -19,7 +19,7 @@
     "step3": "Ladda ned .apkg-filen och öppna den med Anki (File → Import), eller tryck på den i mobilen för att öppna den i AnkiDroid.",
     "update": "Har du ändrat fält, lagt till moduler eller vill du ha nyare data? Ladda ned igen och importera den nya filen i Anki (File → Import) med standardalternativen. Anki uppdaterar dina befintliga anteckningar och deras layout, lägger till nya ord i samma kortlek och behåller dina repetitionsframsteg.",
     "aboutHeading": "Om ordförrådet",
-    "about": "Ord, översättningar och exempelmeningar har tagits fram med en AI-modell och granskas av människor, språk för språk. Om något ser fel ut: markera det på ett förhandsgranskningskort i AnkiGen och tryck Ctrl+Enter (⌘+Enter på Mac), eller använd knappen Feedback där. Varje rapport hjälper till att förbättra kortleken för alla.",
+    "about": "Ord, översättningar och exempelmeningar har tagits fram med en AI-modell och granskas av människor, språk för språk. Om något ser fel ut: markera det på ett förhandsgranskningskort i Ankenning och tryck Ctrl+Enter (⌘+Enter på Mac), eller använd knappen Feedback där. Varje rapport hjälper till att förbättra kortleken för alla.",
     "moreHeading": "Fler kortlekar",
     "moreForYou": "Fler kortlekar för svensktalande",
     "allDecks": "Alla kortlekar per språkpar"
@@ -292,154 +292,154 @@
   "pairs": {
     "en": {
       "name": "Engelska för svensktalande",
-      "title": "Gratis Anki-kortlek i engelska — AnkiGen",
+      "title": "Gratis Anki-kortlek i engelska — Ankenning",
       "description": "Gratis Anki-kortlek i engelska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på engelska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Engelska för talare av andra språk"
     },
     "de": {
       "name": "Tyska för svensktalande",
-      "title": "Gratis Anki-kortlek i tyska — AnkiGen",
+      "title": "Gratis Anki-kortlek i tyska — Ankenning",
       "description": "Gratis Anki-kortlek i tyska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på tyska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Tyska för talare av andra språk"
     },
     "nl": {
       "name": "Nederländska för svensktalande",
-      "title": "Gratis Anki-kortlek i nederländska — AnkiGen",
+      "title": "Gratis Anki-kortlek i nederländska — Ankenning",
       "description": "Gratis Anki-kortlek i nederländska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på nederländska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Nederländska för talare av andra språk"
     },
     "zh": {
       "name": "Kinesiska för svensktalande",
-      "title": "Gratis Anki-kortlek i kinesiska — AnkiGen",
+      "title": "Gratis Anki-kortlek i kinesiska — Ankenning",
       "description": "Gratis Anki-kortlek i kinesiska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på kinesiska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Kinesiska för talare av andra språk"
     },
     "ja": {
       "name": "Japanska för svensktalande",
-      "title": "Gratis Anki-kortlek i japanska — AnkiGen",
+      "title": "Gratis Anki-kortlek i japanska — Ankenning",
       "description": "Gratis Anki-kortlek i japanska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på japanska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Japanska för talare av andra språk"
     },
     "vi": {
       "name": "Vietnamesiska för svensktalande",
-      "title": "Gratis Anki-kortlek i vietnamesiska — AnkiGen",
+      "title": "Gratis Anki-kortlek i vietnamesiska — Ankenning",
       "description": "Gratis Anki-kortlek i vietnamesiska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på vietnamesiska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Vietnamesiska för talare av andra språk"
     },
     "ko": {
       "name": "Koreanska för svensktalande",
-      "title": "Gratis Anki-kortlek i koreanska — AnkiGen",
+      "title": "Gratis Anki-kortlek i koreanska — Ankenning",
       "description": "Gratis Anki-kortlek i koreanska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på koreanska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Koreanska för talare av andra språk"
     },
     "es": {
       "name": "Spanska för svensktalande",
-      "title": "Gratis Anki-kortlek i spanska — AnkiGen",
+      "title": "Gratis Anki-kortlek i spanska — Ankenning",
       "description": "Gratis Anki-kortlek i spanska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på spanska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Spanska för talare av andra språk"
     },
     "fr": {
       "name": "Franska för svensktalande",
-      "title": "Gratis Anki-kortlek i franska — AnkiGen",
+      "title": "Gratis Anki-kortlek i franska — Ankenning",
       "description": "Gratis Anki-kortlek i franska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på franska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Franska för talare av andra språk"
     },
     "pt": {
       "name": "Portugisiska för svensktalande",
-      "title": "Gratis Anki-kortlek i portugisiska — AnkiGen",
+      "title": "Gratis Anki-kortlek i portugisiska — Ankenning",
       "description": "Gratis Anki-kortlek i portugisiska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på portugisiska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Portugisiska för talare av andra språk"
     },
     "it": {
       "name": "Italienska för svensktalande",
-      "title": "Gratis Anki-kortlek i italienska — AnkiGen",
+      "title": "Gratis Anki-kortlek i italienska — Ankenning",
       "description": "Gratis Anki-kortlek i italienska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på italienska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Italienska för talare av andra språk"
     },
     "ru": {
       "name": "Ryska för svensktalande",
-      "title": "Gratis Anki-kortlek i ryska — AnkiGen",
+      "title": "Gratis Anki-kortlek i ryska — Ankenning",
       "description": "Gratis Anki-kortlek i ryska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på ryska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Ryska för talare av andra språk"
     },
     "pl": {
       "name": "Polska för svensktalande",
-      "title": "Gratis Anki-kortlek i polska — AnkiGen",
+      "title": "Gratis Anki-kortlek i polska — Ankenning",
       "description": "Gratis Anki-kortlek i polska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på polska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Polska för talare av andra språk"
     },
     "uk": {
       "name": "Ukrainska för svensktalande",
-      "title": "Gratis Anki-kortlek i ukrainska — AnkiGen",
+      "title": "Gratis Anki-kortlek i ukrainska — Ankenning",
       "description": "Gratis Anki-kortlek i ukrainska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på ukrainska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Ukrainska för talare av andra språk"
     },
     "sr": {
       "name": "Serbiska för svensktalande",
-      "title": "Gratis Anki-kortlek i serbiska — AnkiGen",
+      "title": "Gratis Anki-kortlek i serbiska — Ankenning",
       "description": "Gratis Anki-kortlek i serbiska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på serbiska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Serbiska för talare av andra språk"
     },
     "ga": {
       "name": "Iriska för svensktalande",
-      "title": "Gratis Anki-kortlek i iriska — AnkiGen",
+      "title": "Gratis Anki-kortlek i iriska — Ankenning",
       "description": "Gratis Anki-kortlek i iriska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på iriska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Iriska för talare av andra språk"
     },
     "gd": {
       "name": "Skotsk gaeliska för svensktalande",
-      "title": "Gratis Anki-kortlek i skotsk gaeliska — AnkiGen",
+      "title": "Gratis Anki-kortlek i skotsk gaeliska — Ankenning",
       "description": "Gratis Anki-kortlek i skotsk gaeliska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på skotsk gaeliska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Skotsk gaeliska för talare av andra språk"
     },
     "ar": {
       "name": "Arabiska för svensktalande",
-      "title": "Gratis Anki-kortlek i arabiska — AnkiGen",
+      "title": "Gratis Anki-kortlek i arabiska — Ankenning",
       "description": "Gratis Anki-kortlek i arabiska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på arabiska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Arabiska för talare av andra språk"
     },
     "tr": {
       "name": "Turkiska för svensktalande",
-      "title": "Gratis Anki-kortlek i turkiska — AnkiGen",
+      "title": "Gratis Anki-kortlek i turkiska — Ankenning",
       "description": "Gratis Anki-kortlek i turkiska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på turkiska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Turkiska för talare av andra språk"
     },
     "el": {
       "name": "Grekiska för svensktalande",
-      "title": "Gratis Anki-kortlek i grekiska — AnkiGen",
+      "title": "Gratis Anki-kortlek i grekiska — Ankenning",
       "description": "Gratis Anki-kortlek i grekiska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på grekiska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Grekiska för talare av andra språk"
     },
     "hu": {
       "name": "Ungerska för svensktalande",
-      "title": "Gratis Anki-kortlek i ungerska — AnkiGen",
+      "title": "Gratis Anki-kortlek i ungerska — Ankenning",
       "description": "Gratis Anki-kortlek i ungerska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på ungerska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Ungerska för talare av andra språk"
     },
     "hy": {
       "name": "Armeniska för svensktalande",
-      "title": "Gratis Anki-kortlek i armeniska — AnkiGen",
+      "title": "Gratis Anki-kortlek i armeniska — Ankenning",
       "description": "Gratis Anki-kortlek i armeniska för svensktalande: {words} i {modules}, med översättningar och exempel. För Anki och AnkiDroid.",
       "lede": "En gratis Anki-kortlek med ord på armeniska och svenska översättningar, skapad direkt i webbläsaren.",
       "others": "Armeniska för talare av andra språk"

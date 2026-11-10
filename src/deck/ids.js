@@ -7,7 +7,8 @@
 // note's position. Anki never matches on them (it shifts a clashing ID on import), but it shows them
 // as "Created"/"Added" dates and the `added:N` search compares card IDs.
 //
-// Never change the `ankigen/v1/` prefix: every user's notes would turn into new notes.
+// Never change the `ankigen/v1/` prefix: every user's notes would turn into new notes. It keeps the
+// project's former name, AnkiGen, on purpose (ARCHITECTURE §14).
 
 const PREFIX = 'ankigen/v1/';
 

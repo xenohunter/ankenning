@@ -141,7 +141,7 @@ export function noteFields(note, ctx) {
   };
 }
 
-/** Merged members say the same word. @param {Note} note @param {DeckContext} ctx */
+/** Merged members say the same word. The `ankigen-` prefix (the former name) stays: users' collections already hold these clips. @param {Note} note @param {DeckContext} ctx */
 function soundTag(note, ctx) {
   const hash = ctx.audio && note.conceptIds.map((id) => ctx.audio?.clips.get(id)).find(Boolean);
   return hash ? `[sound:ankigen-${ctx.learn.code}-${hash}.mp3]` : '';

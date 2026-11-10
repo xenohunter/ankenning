@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "De woordenschat is machinaal opgesteld en nog maar deels gecontroleerd. Feedback is heel welkom.",
     "head.draftTopic": "de conceptwoordenschat",
@@ -9,7 +9,7 @@
     "head.languageNow": "Taal van de interface: {language}",
     "help.about": "Over {topic}",
     "support": "Steun dit project:",
-    "fatal": "AnkiGen kon de woordenlijsten niet laden. Controleer je verbinding en laad de pagina opnieuw.",
+    "fatal": "Ankenning kon de woordenlijsten niet laden. Controleer je verbinding en laad de pagina opnieuw.",
     "step.learn": "Ik leer",
     "step.know": "Ik spreek",
     "step.modules": "Modules",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Je deck bijwerken",
     "update.intro": "Velden gewijzigd, modules toegevoegd of nieuwere gegevens nodig? Download opnieuw en importeer het nieuwe bestand in Anki (File → Import) met de standaardopties. Anki werkt je bestaande notities en hun opmaak bij, voegt nieuwe woorden toe aan hetzelfde deck en behoudt je voortgang.",
-    "update.edits": "Je eigen wijzigingen en labels in AnkiGen-notities worden vervangen door de nieuwe versie. Vlaggen, opgeschorte kaarten en voortgang blijven behouden.",
+    "update.rename": "Ankenning heette vroeger AnkiGen. Staat er in je decklijst in Anki nog ‘AnkiGen’, hernoem dat deck dan naar ‘Ankenning’ voordat je een update importeert; anders komen de nieuwe kaarten in een tweede deck.",
+    "update.edits": "Je eigen wijzigingen en labels in Ankenning-notities worden vervangen door de nieuwe versie. Vlaggen, opgeschorte kaarten en voortgang blijven behouden.",
     "update.deck": "Nieuwe kaarten komen in het deck met precies deze naam. Heb je het hernoemd of verplaatst, dan verschijnen ze in een nieuw deck met de oorspronkelijke naam, en kun je ze verplaatsen.",
-    "update.noteType": "Heb je de velden van het AnkiGen-notitietype gewijzigd, vink dan bij het importeren ‘Merge note types’ aan; anders kan Anki deze notities niet bijwerken.",
+    "update.noteType": "Heb je de velden van het Ankenning-notitietype gewijzigd, vink dan bij het importeren ‘Merge note types’ aan; anders kan Anki deze notities niet bijwerken.",
     "update.reverse": "Omgekeerde kaarten uitgezet? Anki houdt de oude als lege kaarten. Verwijder ze met Tools → Empty Cards.",
     "share.copy": "Link kopiëren",
     "share.copied": "Link gekopieerd",
@@ -96,7 +97,7 @@
     "list.open": "Woordenlijst: {size}",
     "feedback.button": "Feedback",
     "feedback.title": "Feedback ({shortcut})",
-    "langs.title": "Ondersteunde talen — AnkiGen",
+    "langs.title": "Ondersteunde talen — Ankenning",
     "langs.heading": "Ondersteunde talen",
     "langs.extras": "Kaarten kunnen ook tonen: {fields}",
     "langs.build": "Deck maken",
@@ -108,6 +109,7 @@
     "foot.source": "Broncode op GitHub",
     "foot.license": "Code onder de {mit}-licentie; woordenschat onder {cc}.",
     "foot.author": "Gemaakt door {name}",
+    "foot.independent": "Ankenning is een onafhankelijk project, niet gelieerd aan of goedgekeurd door Anki Software LLC.",
     "fb.title": "Feedback",
     "fb.close": "Sluiten",
     "fb.about": "Over {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "concept-ID",
     "audio.label": "Uitspraak (audio)",
-    "audio.warning": "Het meest experimentele deel van AnkiGen, nog maar een prototype: de opnames zijn machinaal gemaakt en niemand heeft ze gecontroleerd. Klemtoon, lezing en accent kunnen fout zijn, dus vertrouw er niet op. Is het je moedertaal en klinken de opnames slecht? Laat het ons weten met de knop ‘Feedback’: zo nodig halen we de audio van die taal weg.",
-    "audio.oldDecks": "Heb je al een AnkiGen-deck geïmporteerd voordat er audio was? Vink de eerste keer dat je een update importeert ‘Merge note types’ aan in de importopties van Anki; anders slaat Anki je bestaande notities over, omdat hun notitietype nu een veld voor de audio heeft.",
+    "audio.warning": "Het meest experimentele deel van Ankenning, nog maar een prototype: de opnames zijn machinaal gemaakt en niemand heeft ze gecontroleerd. Klemtoon, lezing en accent kunnen fout zijn, dus vertrouw er niet op. Is het je moedertaal en klinken de opnames slecht? Laat het ons weten met de knop ‘Feedback’: zo nodig halen we de audio van die taal weg.",
+    "audio.oldDecks": "Heb je al een Ankenning-deck geïmporteerd voordat er audio was? Vink de eerste keer dat je een update importeert ‘Merge note types’ aan in de importopties van Anki; anders slaat Anki je bestaande notities over, omdat hun notitietype nu een veld voor de audio heeft.",
     "audio.help1": "Voegt een opname toe van elk woord dat je leert: alleen het woord, niet de voorbeelden, de vertaling of de definitie. De opname speelt op de voorkant van gewone kaarten en op de achterkant van omgekeerde kaarten.",
     "audio.help2": "De opnames worden gemaakt met Google Cloud Text-to-Speech.",
     "audio.help3": "Wil je de geluidsbestanden later verwijderen? Zet de audio uit, download het deck en importeer het opnieuw, en verwijder daarna in Anki de ongebruikte bestanden met Tools → Check Media.",
@@ -179,8 +181,8 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — gratis Anki-woordenschatdecks in {n} taal",
-      "other": "AnkiGen — gratis Anki-woordenschatdecks in {n} talen"
+      "one": "Ankenning — gratis Anki-woordenschatdecks in {n} taal",
+      "other": "Ankenning — gratis Anki-woordenschatdecks in {n} talen"
     },
     "lede": {
       "one": "Gratis Anki-woordenschatdecks in {n} taal, direct in je browser gemaakt.",
@@ -191,12 +193,12 @@
       "other": "Maak gratis Anki-woordenschatdecks direct in je browser: {n} talen, themamodules en de kaartvelden die je wilt. Download een .apkg voor Anki of AnkiDroid."
     },
     "langsLede": {
-      "one": "AnkiGen maakt Anki-decks in {n} taal, met definities in dezelfde taal.",
-      "other": "AnkiGen maakt Anki-decks in {n} talen. Leer elk ervan met vertalingen in elke andere taal, of met definities in dezelfde taal."
+      "one": "Ankenning maakt Anki-decks in {n} taal, met definities in dezelfde taal.",
+      "other": "Ankenning maakt Anki-decks in {n} talen. Leer elk ervan met vertalingen in elke andere taal, of met definities in dezelfde taal."
     },
     "langsDescription": {
-      "one": "De {n} taal waarin AnkiGen gratis Anki-woordenschatdecks maakt, en hoe je een andere aanvraagt.",
-      "other": "De {n} talen waarin AnkiGen gratis Anki-woordenschatdecks maakt, en hoe je een andere aanvraagt."
+      "one": "De {n} taal waarin Ankenning gratis Anki-woordenschatdecks maakt, en hoe je een andere aanvraagt.",
+      "other": "De {n} talen waarin Ankenning gratis Anki-woordenschatdecks maakt, en hoe je een andere aanvraagt."
     },
     "word": {
       "one": "{n} woord",

@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Bộ từ vựng do máy soạn và mới được kiểm tra một phần. Mọi góp ý đều rất đáng quý.",
     "head.draftTopic": "bộ từ vựng bản nháp",
@@ -9,7 +9,7 @@
     "head.languageNow": "Ngôn ngữ giao diện: {language}",
     "help.about": "Giới thiệu: {topic}",
     "support": "Ủng hộ dự án này:",
-    "fatal": "AnkiGen không tải được danh sách từ. Hãy kiểm tra kết nối và tải lại trang.",
+    "fatal": "Ankenning không tải được danh sách từ. Hãy kiểm tra kết nối và tải lại trang.",
     "step.learn": "Tôi đang học",
     "step.know": "Tôi nói",
     "step.modules": "Chủ đề",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Cập nhật bộ thẻ của bạn",
     "update.intro": "Bạn đã đổi trường, thêm chủ đề hay muốn dữ liệu mới hơn? Hãy tải xuống lại và nhập tệp mới vào Anki (File → Import) với tùy chọn mặc định. Anki sẽ cập nhật các ghi chú hiện có và bố cục của chúng, thêm từ mới vào cùng bộ thẻ và giữ nguyên tiến độ ôn tập của bạn.",
-    "update.edits": "Những chỉnh sửa và thẻ đánh dấu (tag) của riêng bạn trên ghi chú AnkiGen sẽ bị phiên bản mới thay thế. Cờ, thẻ bị tạm hoãn và tiến độ vẫn được giữ.",
+    "update.rename": "Ankenning trước đây có tên là AnkiGen. Nếu danh sách bộ thẻ trong Anki vẫn hiển thị “AnkiGen”, hãy đổi tên bộ thẻ đó thành “Ankenning” trước khi nhập bản cập nhật, nếu không thẻ mới sẽ vào một bộ thẻ thứ hai.",
+    "update.edits": "Những chỉnh sửa và thẻ đánh dấu (tag) của riêng bạn trên ghi chú Ankenning sẽ bị phiên bản mới thay thế. Cờ, thẻ bị tạm hoãn và tiến độ vẫn được giữ.",
     "update.deck": "Thẻ mới sẽ vào bộ thẻ có đúng tên này. Nếu bạn đã đổi tên hoặc di chuyển bộ thẻ, thẻ mới sẽ xuất hiện trong một bộ thẻ mới mang tên gốc, và bạn có thể di chuyển chúng.",
-    "update.noteType": "Nếu bạn đã thay đổi các trường của kiểu ghi chú AnkiGen, hãy đánh dấu “Merge note types” khi nhập, nếu không Anki không thể cập nhật những ghi chú này.",
+    "update.noteType": "Nếu bạn đã thay đổi các trường của kiểu ghi chú Ankenning, hãy đánh dấu “Merge note types” khi nhập, nếu không Anki không thể cập nhật những ghi chú này.",
     "update.reverse": "Bạn đã tắt thẻ đảo ngược? Anki giữ các thẻ cũ thành thẻ trống. Hãy xóa chúng bằng Tools → Empty Cards.",
     "share.copy": "Sao chép liên kết",
     "share.copied": "Đã sao chép liên kết",
@@ -96,7 +97,7 @@
     "list.open": "Danh sách từ: {size}",
     "feedback.button": "Góp ý",
     "feedback.title": "Góp ý ({shortcut})",
-    "langs.title": "Các ngôn ngữ được hỗ trợ — AnkiGen",
+    "langs.title": "Các ngôn ngữ được hỗ trợ — Ankenning",
     "langs.heading": "Các ngôn ngữ được hỗ trợ",
     "langs.extras": "Thẻ còn có thể hiển thị: {fields}",
     "langs.build": "Tạo bộ thẻ",
@@ -108,6 +109,7 @@
     "foot.source": "Mã nguồn trên GitHub",
     "foot.license": "Mã nguồn theo giấy phép {mit}; từ vựng theo giấy phép {cc}.",
     "foot.author": "Tạo bởi {name}",
+    "foot.independent": "Ankenning là một dự án độc lập, không liên kết với Anki Software LLC và không được công ty này chứng thực.",
     "fb.title": "Góp ý",
     "fb.close": "Đóng",
     "fb.about": "Về {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "mã khái niệm",
     "audio.label": "Âm thanh phát âm",
-    "audio.warning": "Phần thử nghiệm nhất của AnkiGen, vẫn đang là bản mẫu: các bản ghi âm do máy tạo ra và chưa ai kiểm tra. Trọng âm, cách đọc và giọng có thể sai, vì vậy đừng quá tin vào chúng. Nếu bạn là người bản ngữ và thấy chúng nghe tệ, hãy báo cho chúng tôi bằng nút Góp ý: khi cần, chúng tôi sẽ gỡ âm thanh của một ngôn ngữ.",
-    "audio.oldDecks": "Bạn đã nhập một bộ thẻ AnkiGen từ trước khi có âm thanh? Lần đầu nhập bản cập nhật, hãy đánh dấu “Merge note types” trong tùy chọn nhập của Anki; nếu không Anki sẽ bỏ qua các ghi chú hiện có của bạn, vì kiểu ghi chú của chúng giờ đã có thêm một trường cho âm thanh.",
+    "audio.warning": "Phần thử nghiệm nhất của Ankenning, vẫn đang là bản mẫu: các bản ghi âm do máy tạo ra và chưa ai kiểm tra. Trọng âm, cách đọc và giọng có thể sai, vì vậy đừng quá tin vào chúng. Nếu bạn là người bản ngữ và thấy chúng nghe tệ, hãy báo cho chúng tôi bằng nút Góp ý: khi cần, chúng tôi sẽ gỡ âm thanh của một ngôn ngữ.",
+    "audio.oldDecks": "Bạn đã nhập một bộ thẻ Ankenning từ trước khi có âm thanh? Lần đầu nhập bản cập nhật, hãy đánh dấu “Merge note types” trong tùy chọn nhập của Anki; nếu không Anki sẽ bỏ qua các ghi chú hiện có của bạn, vì kiểu ghi chú của chúng giờ đã có thêm một trường cho âm thanh.",
     "audio.help1": "Thêm bản ghi âm cho mỗi từ bạn học: chỉ từ đó, không có ví dụ, bản dịch hay lời giải nghĩa. Âm thanh phát ở mặt trước của thẻ xuôi và mặt sau của thẻ đảo ngược.",
     "audio.help2": "Các bản ghi âm được tạo bằng Google Cloud Text-to-Speech.",
     "audio.help3": "Để xóa các tệp âm thanh sau này, hãy tắt âm thanh, tải bộ thẻ xuống và nhập lại, rồi xóa các tệp không dùng bằng Tools → Check Media trong Anki.",
@@ -179,7 +181,7 @@
   },
   "plural": {
     "title": {
-      "other": "AnkiGen — bộ thẻ từ vựng Anki miễn phí cho {n} ngôn ngữ"
+      "other": "Ankenning — bộ thẻ từ vựng Anki miễn phí cho {n} ngôn ngữ"
     },
     "lede": {
       "other": "Bộ thẻ từ vựng Anki miễn phí cho {n} ngôn ngữ, tạo ngay trong trình duyệt của bạn."
@@ -188,10 +190,10 @@
       "other": "Tạo bộ thẻ từ vựng Anki miễn phí ngay trong trình duyệt: {n} ngôn ngữ, các chủ đề và những trường thẻ bạn muốn. Tải xuống tệp .apkg cho Anki hoặc AnkiDroid."
     },
     "langsLede": {
-      "other": "AnkiGen tạo bộ thẻ Anki cho {n} ngôn ngữ. Học bất kỳ ngôn ngữ nào qua một ngôn ngữ khác, hoặc học riêng với lời giải nghĩa bằng chính ngôn ngữ đó."
+      "other": "Ankenning tạo bộ thẻ Anki cho {n} ngôn ngữ. Học bất kỳ ngôn ngữ nào qua một ngôn ngữ khác, hoặc học riêng với lời giải nghĩa bằng chính ngôn ngữ đó."
     },
     "langsDescription": {
-      "other": "{n} ngôn ngữ mà AnkiGen tạo bộ thẻ từ vựng Anki miễn phí, và cách đề xuất thêm ngôn ngữ."
+      "other": "{n} ngôn ngữ mà Ankenning tạo bộ thẻ từ vựng Anki miễn phí, và cách đề xuất thêm ngôn ngữ."
     },
     "word": {
       "other": "{n} từ"

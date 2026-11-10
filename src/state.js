@@ -52,7 +52,7 @@
  */
 
 export const SAME = '=';
-export const STORAGE_KEY = 'ankigen:config';
+export const STORAGE_KEY = 'ankigen:config'; // the former name: saved settings survive the rename (same origin)
 
 const PLACEMENT_CODE = { off: 'o', front: 'f', back: 'b', on: 'n', word: 'w' };
 const SCRIPT_CODE = { cyrl: 'c', latn: 'l' };

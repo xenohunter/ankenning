@@ -15,9 +15,9 @@ import { addEnglish, t } from './i18n.js';
 export const AUDIO_STRINGS = {
   'audio.label': 'Pronunciation audio',
   'audio.warning':
-    'The most experimental part of AnkiGen, still a prototype: the recordings are machine-generated and nobody has checked them. Stress, readings and accent may be wrong, so don’t rely on them. If you are a native speaker and they sound poor, please tell us with the Feedback button: we take a language’s audio down if needed.',
+    'The most experimental part of Ankenning, still a prototype: the recordings are machine-generated and nobody has checked them. Stress, readings and accent may be wrong, so don’t rely on them. If you are a native speaker and they sound poor, please tell us with the Feedback button: we take a language’s audio down if needed.',
   'audio.oldDecks':
-    'Already imported an AnkiGen deck before audio was added? The first time you import an update, tick “Merge note types” in Anki’s import options; otherwise Anki skips your existing notes, because their note type now has a field for the audio.',
+    'Already imported an Ankenning deck before audio was added? The first time you import an update, tick “Merge note types” in Anki’s import options; otherwise Anki skips your existing notes, because their note type now has a field for the audio.',
   'audio.help1':
     'Adds a recording of each word you learn: the word only, not its examples, translation or definition. It plays on the front of forward cards and on the back of reverse cards.',
   'audio.help2': 'The recordings are made with Google Cloud Text-to-Speech.',

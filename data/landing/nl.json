@@ -1,16 +1,16 @@
 {
-  "source": "63395a750e0f",
+  "source": "c6b68b03df9e",
   "texts": {
     "decks": "Decks",
     "cta": "Maak je deck",
-    "ctaNote": "Opent AnkiGen met dit taalpaar en {module} gekozen.",
+    "ctaNote": "Opent Ankenning met dit taalpaar en {module} gekozen.",
     "deck": "Anki-deck: {deck}",
-    "intro": "AnkiGen maakt gratis Anki-decks direct in je browser: woorden per thema, elk met vertaling en voorbeeldzinnen. Kies de modules en wat elke kaart toont, en download een .apkg-bestand voor Anki of AnkiDroid. Geen account, niets te installeren.",
+    "intro": "Ankenning maakt gratis Anki-decks direct in je browser: woorden per thema, elk met vertaling en voorbeeldzinnen. Kies de modules en wat elke kaart toont, en download een .apkg-bestand voor Anki of AnkiDroid. Geen account, niets te installeren.",
     "cardsHeading": "Wat de kaarten tonen",
     "cardsIntro": "Elke kaart toont het woord dat je leert en de vertaling ervan. Jij kiest wat er verder op staat en op welke kant:",
     "captions": "Kaartlabels, zoals “{caption}”, zijn in het Nederlands.",
     "modulesHeading": "Modules",
-    "modulesIntro": "Een woord dat in meerdere modules zit, komt maar één keer in het deck voor. Elke module opent AnkiGen met alleen die module gekozen; daar kun je er meer toevoegen.",
+    "modulesIntro": "Een woord dat in meerdere modules zit, komt maar één keer in het deck voor. Elke module opent Ankenning met alleen die module gekozen; daar kun je er meer toevoegen.",
     "sampleWords": "Voorbeeldwoorden",
     "local": "Woorden die alleen deze taal heeft: {count}, zoals {example}. Andere talen hebben er geen exact woord voor, dus je kaarten leggen ze uit in je eigen taal.",
     "howHeading": "Hoe het werkt",
@@ -19,7 +19,7 @@
     "step3": "Download het .apkg-bestand en open het met Anki (File → Import), of tik erop op je telefoon om het in AnkiDroid te openen.",
     "update": "Velden gewijzigd, modules toegevoegd of nieuwere gegevens nodig? Download opnieuw en importeer het nieuwe bestand in Anki (File → Import) met de standaardopties. Anki werkt je bestaande notities en hun opmaak bij, voegt nieuwe woorden toe aan hetzelfde deck en behoudt je voortgang.",
     "aboutHeading": "Over de woordenschat",
-    "about": "Woorden, vertalingen en voorbeeldzinnen zijn opgesteld met een AI-model en worden, taal voor taal, door mensen gecontroleerd. Ziet iets er verkeerd uit, selecteer het dan op een voorbeeldkaart in AnkiGen en druk op Ctrl+Enter (⌘+Enter op een Mac), of gebruik daar de knop Feedback. Elke melding helpt het deck voor iedereen te verbeteren.",
+    "about": "Woorden, vertalingen en voorbeeldzinnen zijn opgesteld met een AI-model en worden, taal voor taal, door mensen gecontroleerd. Ziet iets er verkeerd uit, selecteer het dan op een voorbeeldkaart in Ankenning en druk op Ctrl+Enter (⌘+Enter op een Mac), of gebruik daar de knop Feedback. Elke melding helpt het deck voor iedereen te verbeteren.",
     "moreHeading": "Meer decks",
     "moreForYou": "Meer decks voor Nederlandstaligen",
     "allDecks": "Alle decks per taalpaar"
@@ -292,154 +292,154 @@
   "pairs": {
     "en": {
       "name": "Engels voor Nederlandstaligen",
-      "title": "Gratis Engels Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Engels Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Engels te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Engelse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Engels voor sprekers van andere talen"
     },
     "de": {
       "name": "Duits voor Nederlandstaligen",
-      "title": "Gratis Duits Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Duits Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Duits te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Duitse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Duits voor sprekers van andere talen"
     },
     "sv": {
       "name": "Zweeds voor Nederlandstaligen",
-      "title": "Gratis Zweeds Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Zweeds Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Zweeds te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Zweedse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Zweeds voor sprekers van andere talen"
     },
     "zh": {
       "name": "Chinees voor Nederlandstaligen",
-      "title": "Gratis Chinees Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Chinees Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Chinees te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Chinese woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Chinees voor sprekers van andere talen"
     },
     "ja": {
       "name": "Japans voor Nederlandstaligen",
-      "title": "Gratis Japans Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Japans Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Japans te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Japanse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Japans voor sprekers van andere talen"
     },
     "vi": {
       "name": "Vietnamees voor Nederlandstaligen",
-      "title": "Vietnamees Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Vietnamees Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Vietnamees te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Vietnamese woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Vietnamees voor sprekers van andere talen"
     },
     "ko": {
       "name": "Koreaans voor Nederlandstaligen",
-      "title": "Gratis Koreaans Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Koreaans Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Koreaans te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Koreaanse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Koreaans voor sprekers van andere talen"
     },
     "es": {
       "name": "Spaans voor Nederlandstaligen",
-      "title": "Gratis Spaans Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Spaans Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Spaans te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Spaanse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Spaans voor sprekers van andere talen"
     },
     "fr": {
       "name": "Frans voor Nederlandstaligen",
-      "title": "Gratis Frans Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Frans Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Frans te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Franse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Frans voor sprekers van andere talen"
     },
     "pt": {
       "name": "Portugees voor Nederlandstaligen",
-      "title": "Gratis Portugees Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Portugees Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Portugees te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Portugese woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Portugees voor sprekers van andere talen"
     },
     "it": {
       "name": "Italiaans voor Nederlandstaligen",
-      "title": "Gratis Italiaans Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Italiaans Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Italiaans te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Italiaanse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Italiaans voor sprekers van andere talen"
     },
     "ru": {
       "name": "Russisch voor Nederlandstaligen",
-      "title": "Gratis Russisch Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Russisch Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Russisch te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Russische woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Russisch voor sprekers van andere talen"
     },
     "pl": {
       "name": "Pools voor Nederlandstaligen",
-      "title": "Gratis Pools Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Pools Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Pools te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Poolse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Pools voor sprekers van andere talen"
     },
     "uk": {
       "name": "Oekraïens voor Nederlandstaligen",
-      "title": "Gratis Oekraïens Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Oekraïens Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Oekraïens te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Oekraïense woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Oekraïens voor sprekers van andere talen"
     },
     "sr": {
       "name": "Servisch voor Nederlandstaligen",
-      "title": "Gratis Servisch Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Servisch Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Servisch te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Servische woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Servisch voor sprekers van andere talen"
     },
     "ga": {
       "name": "Iers voor Nederlandstaligen",
-      "title": "Gratis Iers Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Iers Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Iers te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Ierse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Iers voor sprekers van andere talen"
     },
     "gd": {
       "name": "Schots-Gaelisch voor Nederlandstaligen",
-      "title": "Schots-Gaelisch Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Schots-Gaelisch Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Schots-Gaelisch te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Schots-Gaelische woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Schots-Gaelisch voor sprekers van andere talen"
     },
     "ar": {
       "name": "Arabisch voor Nederlandstaligen",
-      "title": "Gratis Arabisch Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Arabisch Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Arabisch te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Arabische woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Arabisch voor sprekers van andere talen"
     },
     "tr": {
       "name": "Turks voor Nederlandstaligen",
-      "title": "Gratis Turks Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Turks Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Turks te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Turkse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Turks voor sprekers van andere talen"
     },
     "el": {
       "name": "Grieks voor Nederlandstaligen",
-      "title": "Gratis Grieks Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Grieks Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Grieks te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Griekse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Grieks voor sprekers van andere talen"
     },
     "hu": {
       "name": "Hongaars voor Nederlandstaligen",
-      "title": "Gratis Hongaars Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Hongaars Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Hongaars te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Hongaarse woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Hongaars voor sprekers van andere talen"
     },
     "hy": {
       "name": "Armeens voor Nederlandstaligen",
-      "title": "Gratis Armeens Anki-deck voor Nederlandstaligen — AnkiGen",
+      "title": "Gratis Armeens Anki-deck voor Nederlandstaligen — Ankenning",
       "description": "Gratis Anki-deck om Armeens te leren: {words} in {modules}, met Nederlandse vertalingen en voorbeelden, voor Anki en AnkiDroid.",
       "lede": "Een gratis Anki-deck met Armeense woorden en Nederlandse vertalingen, gemaakt in je browser.",
       "others": "Armeens voor sprekers van andere talen"

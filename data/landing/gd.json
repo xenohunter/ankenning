@@ -1,16 +1,16 @@
 {
-  "source": "fc437bdfe330",
+  "source": "ff7058655ba1",
   "texts": {
     "decks": "Deicean",
     "cta": "Tog an deic agad",
-    "ctaNote": "Fosglaidh seo AnkiGen leis a' chàraid seo agus “{module}” air a thaghadh.",
+    "ctaNote": "Fosglaidh seo Ankenning leis a' chàraid seo agus “{module}” air a thaghadh.",
     "deck": "Deic Anki: {deck}",
-    "intro": "Togaidh AnkiGen deicean Anki an-asgaidh dìreach nad bhrobhsair: faclan a rèir cuspair, gach fear le eadar-theangachadh agus seantansan eisimpleir. Tagh na mòidealan agus na tha gach cairt a' sealltainn, agus luchdaich a-nuas faidhle .apkg airson Anki no AnkiDroid. Gun chunntas, gun a bhith a' stàladh dad.",
+    "intro": "Togaidh Ankenning deicean Anki an-asgaidh dìreach nad bhrobhsair: faclan a rèir cuspair, gach fear le eadar-theangachadh agus seantansan eisimpleir. Tagh na mòidealan agus na tha gach cairt a' sealltainn, agus luchdaich a-nuas faidhle .apkg airson Anki no AnkiDroid. Gun chunntas, gun a bhith a' stàladh dad.",
     "cardsHeading": "Na tha na cairtean a' sealltainn",
     "cardsIntro": "Tha gach cairt a' sealltainn an fhacail a tha thu ag ionnsachadh agus an eadar-theangachaidh aige. Is e thusa a roghnaicheas dè eile a chithear, agus air dè an taobh:",
     "captions": "Tha caipsean nan cairtean, mar “{caption}”, sa Ghàidhlig.",
     "modulesHeading": "Mòidealan",
-    "modulesIntro": "Chan eil facal a bhuineas do dh'iomadh mòideal sa deic ach aon turas. Fosglaidh gach mòideal AnkiGen leis a' mhòideal sin a-mhàin air a thaghadh; faodaidh tu barrachd a chur ris an sin.",
+    "modulesIntro": "Chan eil facal a bhuineas do dh'iomadh mòideal sa deic ach aon turas. Fosglaidh gach mòideal Ankenning leis a' mhòideal sin a-mhàin air a thaghadh; faodaidh tu barrachd a chur ris an sin.",
     "sampleWords": "Faclan eisimpleir",
     "local": "Faclan a tha sa chànan seo a-mhàin: {count}, mar {example}. Chan eil facal ceart aig cànanan eile orra, agus mar sin mìnichidh na cairtean agad iad nad chànan fhèin.",
     "howHeading": "Mar a dh'obraicheas e",
@@ -19,7 +19,7 @@
     "step3": "Luchdaich a-nuas am faidhle .apkg agus fosgail ann an Anki e (File → Import), no thoir tap air air a' fòn agad airson fhosgladh ann an AnkiDroid.",
     "update": "An do dh'atharraich thu raointean, an do chuir thu mòidealan ris, no a bheil thu ag iarraidh dàta nas ùire? Luchdaich a-nuas a-rithist agus ion-phortaich am faidhle ùr do Anki (File → Import) leis na roghainnean bunaiteach. Ùraichidh Anki na notaichean a th' agad cheana agus an cruth, cuiridh e faclan ùra ris an aon deic, agus cumaidh e an adhartas ath-bhreithneachaidh agad.",
     "aboutHeading": "Mun stòr-fhacail",
-    "about": "Chaidh na faclan, na h-eadar-theangachaidhean agus na seantansan eisimpleir a dhreachdadh le modal AI agus tha daoine gan sgrùdadh, cànan air chànan. Ma tha rudeigin a' coimhead ceàrr, tagh e air cairt ro-sheallaidh ann an AnkiGen agus brùth Ctrl+Enter (⌘+Enter air Mac), no cleachd am putan Fios-air-ais an sin. Cuidichidh gach aithisg le bhith a' càradh nam faclan do gach neach.",
+    "about": "Chaidh na faclan, na h-eadar-theangachaidhean agus na seantansan eisimpleir a dhreachdadh le modal AI agus tha daoine gan sgrùdadh, cànan air chànan. Ma tha rudeigin a' coimhead ceàrr, tagh e air cairt ro-sheallaidh ann an Ankenning agus brùth Ctrl+Enter (⌘+Enter air Mac), no cleachd am putan Fios-air-ais an sin. Cuidichidh gach aithisg le bhith a' càradh nam faclan do gach neach.",
     "moreHeading": "Barrachd deicean",
     "moreForYou": "Barrachd deicean do luchd na Gàidhlig",
     "allDecks": "Na deicean uile a rèir càraid chànanan"
@@ -292,154 +292,154 @@
   "pairs": {
     "en": {
       "name": "Beurla do luchd na Gàidhlig",
-      "title": "Deic Anki: Beurla do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Beurla do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Beurla: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Beurla le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Beurla do luchd-labhairt cànanan eile"
     },
     "de": {
       "name": "Gearmailtis do luchd na Gàidhlig",
-      "title": "Deic Anki: Gearmailtis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Gearmailtis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Gearmailtis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Gearmailtis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Gearmailtis do luchd-labhairt cànanan eile"
     },
     "nl": {
       "name": "Ollainnis do luchd na Gàidhlig",
-      "title": "Deic Anki: Ollainnis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Ollainnis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Ollainnis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Ollainnis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Ollainnis do luchd-labhairt cànanan eile"
     },
     "sv": {
       "name": "Suainis do luchd na Gàidhlig",
-      "title": "Deic Anki: Suainis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Suainis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Suainis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Suainis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Suainis do luchd-labhairt cànanan eile"
     },
     "zh": {
       "name": "Sìnis do luchd na Gàidhlig",
-      "title": "Deic Anki: Sìnis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Sìnis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Sìnis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Sìnis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Sìnis do luchd-labhairt cànanan eile"
     },
     "ja": {
       "name": "Seapanais do luchd na Gàidhlig",
-      "title": "Deic Anki: Seapanais do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Seapanais do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Seapanais: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Seapanais le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Seapanais do luchd-labhairt cànanan eile"
     },
     "vi": {
       "name": "Bhietnamais do luchd na Gàidhlig",
-      "title": "Deic Anki: Bhietnamais do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Bhietnamais do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Bhietnamais: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Bhietnamais le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Bhietnamais do luchd-labhairt cànanan eile"
     },
     "ko": {
       "name": "Coirèanais do luchd na Gàidhlig",
-      "title": "Deic Anki: Coirèanais do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Coirèanais do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Coirèanais: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Coirèanais le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Coirèanais do luchd-labhairt cànanan eile"
     },
     "es": {
       "name": "Spàinntis do luchd na Gàidhlig",
-      "title": "Deic Anki: Spàinntis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Spàinntis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Spàinntis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Spàinntis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Spàinntis do luchd-labhairt cànanan eile"
     },
     "fr": {
       "name": "Fraingis do luchd na Gàidhlig",
-      "title": "Deic Anki: Fraingis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Fraingis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Fraingis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Fraingis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Fraingis do luchd-labhairt cànanan eile"
     },
     "pt": {
       "name": "Portagailis do luchd na Gàidhlig",
-      "title": "Deic Anki: Portagailis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Portagailis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Portagailis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Portagailis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Portagailis do luchd-labhairt cànanan eile"
     },
     "it": {
       "name": "Eadailtis do luchd na Gàidhlig",
-      "title": "Deic Anki: Eadailtis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Eadailtis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Eadailtis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Eadailtis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Eadailtis do luchd-labhairt cànanan eile"
     },
     "ru": {
       "name": "Ruisis do luchd na Gàidhlig",
-      "title": "Deic Anki: Ruisis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Ruisis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Ruisis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Ruisis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Ruisis do luchd-labhairt cànanan eile"
     },
     "pl": {
       "name": "Pòlainnis do luchd na Gàidhlig",
-      "title": "Deic Anki: Pòlainnis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Pòlainnis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Pòlainnis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Pòlainnis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Pòlainnis do luchd-labhairt cànanan eile"
     },
     "uk": {
       "name": "Ucràinis do luchd na Gàidhlig",
-      "title": "Deic Anki: Ucràinis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Ucràinis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Ucràinis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Ucràinis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Ucràinis do luchd-labhairt cànanan eile"
     },
     "sr": {
       "name": "Sèirbis do luchd na Gàidhlig",
-      "title": "Deic Anki: Sèirbis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Sèirbis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Sèirbis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Sèirbis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Sèirbis do luchd-labhairt cànanan eile"
     },
     "ga": {
       "name": "Gaeilge do luchd na Gàidhlig",
-      "title": "Deic Anki: Gaeilge do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Gaeilge do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Gaeilge: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Gaeilge le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Gaeilge do luchd-labhairt cànanan eile"
     },
     "ar": {
       "name": "Arabais do luchd na Gàidhlig",
-      "title": "Deic Anki: Arabais do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Arabais do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Arabais: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Arabais le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Arabais do luchd-labhairt cànanan eile"
     },
     "tr": {
       "name": "Turcais do luchd na Gàidhlig",
-      "title": "Deic Anki: Turcais do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Turcais do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Turcais: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Turcais le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Turcais do luchd-labhairt cànanan eile"
     },
     "el": {
       "name": "Greugais do luchd na Gàidhlig",
-      "title": "Deic Anki: Greugais do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Greugais do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Greugais: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Greugais le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Greugais do luchd-labhairt cànanan eile"
     },
     "hu": {
       "name": "Ungairis do luchd na Gàidhlig",
-      "title": "Deic Anki: Ungairis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Ungairis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Ungairis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Ungairis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Ungairis do luchd-labhairt cànanan eile"
     },
     "hy": {
       "name": "Airmeinis do luchd na Gàidhlig",
-      "title": "Deic Anki: Airmeinis do luchd na Gàidhlig — AnkiGen",
+      "title": "Deic Anki: Airmeinis do luchd na Gàidhlig — Ankenning",
       "description": "Deic Anki an-asgaidh airson Airmeinis: {words} ({modules}), le eadar-theangachaidhean Gàidhlig is eisimpleirean, airson Anki is AnkiDroid.",
       "lede": "Deic Anki an-asgaidh de fhaclan Airmeinis le eadar-theangachaidhean Gàidhlig, a thèid a thogail nad bhrobhsair.",
       "others": "Airmeinis do luchd-labhairt cànanan eile"

@@ -88,7 +88,7 @@ export function mountFeedback({ app, storage }) {
   /** A quote that was reported stays selected otherwise, and the next report would quote it again. @param {ReportContext | null} context */
   function onSent(context) {
     if (!context?.selectedText) return;
-    frameSelection?.frame.postMessage({ ankigen: 1, type: 'clear' }, '*'); // a frame's origin is opaque
+    frameSelection?.frame.postMessage({ ankenning: 1, type: 'clear' }, '*'); // a frame's origin is opaque
     document.getSelection()?.removeAllRanges();
     frameSelection = null;
   }

@@ -1,16 +1,16 @@
 {
-  "source": "09e27ff47335",
+  "source": "f444755314f2",
   "texts": {
     "decks": "Deiceanna",
     "cta": "Cruthaigh do dheic",
-    "ctaNote": "Osclaíonn sé AnkiGen leis an bpéire seo agus {module} roghnaithe.",
+    "ctaNote": "Osclaíonn sé Ankenning leis an bpéire seo agus {module} roghnaithe.",
     "deck": "Deic Anki: {deck}",
-    "intro": "Cruthaíonn AnkiGen deiceanna Anki saor in aisce díreach i do bhrabhsálaí: focail de réir téama, agus a n-aistriúchán agus abairtí samplacha le gach ceann. Roghnaigh na modúil agus an rud a thaispeánfaidh gach cárta, agus ansin íosluchtaigh comhad .apkg do Anki nó AnkiDroid. Níl cuntas ag teastáil, agus ní gá aon rud a shuiteáil.",
+    "intro": "Cruthaíonn Ankenning deiceanna Anki saor in aisce díreach i do bhrabhsálaí: focail de réir téama, agus a n-aistriúchán agus abairtí samplacha le gach ceann. Roghnaigh na modúil agus an rud a thaispeánfaidh gach cárta, agus ansin íosluchtaigh comhad .apkg do Anki nó AnkiDroid. Níl cuntas ag teastáil, agus ní gá aon rud a shuiteáil.",
     "cardsHeading": "Cad a thaispeánann na cártaí",
     "cardsIntro": "Taispeánann gach cárta an focal atá á fhoghlaim agat agus a aistriúchán. Roghnaíonn tú cad eile a thaispeánfaidh sé, agus ar cén taobh:",
     "captions": "Tá fotheidil na gcártaí, mar shampla “{caption}”, i nGaeilge.",
     "modulesHeading": "Modúil",
-    "modulesIntro": "Má bhaineann focal le roinnt modúl, níl sé sa deic ach uair amháin. Osclaíonn gach modúl AnkiGen agus gan ach an modúl sin roghnaithe; is féidir leat tuilleadh a chur leis ansin.",
+    "modulesIntro": "Má bhaineann focal le roinnt modúl, níl sé sa deic ach uair amháin. Osclaíonn gach modúl Ankenning agus gan ach an modúl sin roghnaithe; is féidir leat tuilleadh a chur leis ansin.",
     "sampleWords": "Focail shamplacha",
     "local": "Focail nach bhfuil ach sa teanga seo: {count}, mar shampla {example}. Níl focal cruinn orthu seo i dteangacha eile, mar sin míníonn do chártaí iad i do theanga féin.",
     "howHeading": "Conas a oibríonn sé",
@@ -19,7 +19,7 @@
     "step3": "Íosluchtaigh an comhad .apkg agus oscail le Anki é (File → Import), nó tapáil air ar do ghuthán chun é a oscailt in AnkiDroid.",
     "update": "Réimsí athraithe, modúil nua curtha leis, nó sonraí níos nuaí uait? Íosluchtaigh arís é agus iompórtáil an comhad nua in Anki (File → Import) leis na roghanna réamhshocraithe. Nuashonraíonn Anki do nótaí atá ann cheana agus a leagan amach, cuireann sé focail nua leis an deic chéanna, agus coinníonn sé do dhul chun cinn athbhreithnithe.",
     "aboutHeading": "Faoin stór focal",
-    "about": "Dréachtaíodh na focail, na haistriúcháin agus na habairtí samplacha le samhail AI, agus tá daoine á seiceáil, teanga ar theanga. Má tá rud éigin mícheart, roghnaigh é ar chárta réamhamhairc in AnkiGen agus brúigh Ctrl+Enter (⌘+Enter ar Mac), nó úsáid an cnaipe Feedback ansin. Cabhraíonn gach tuarascáil leis an deic a cheartú do chách.",
+    "about": "Dréachtaíodh na focail, na haistriúcháin agus na habairtí samplacha le samhail AI, agus tá daoine á seiceáil, teanga ar theanga. Má tá rud éigin mícheart, roghnaigh é ar chárta réamhamhairc in Ankenning agus brúigh Ctrl+Enter (⌘+Enter ar Mac), nó úsáid an cnaipe Feedback ansin. Cabhraíonn gach tuarascáil leis an deic a cheartú do chách.",
     "moreHeading": "Tuilleadh deiceanna",
     "moreForYou": "Tuilleadh deiceanna do chainteoirí Gaeilge",
     "allDecks": "Gach deic de réir péire teanga"
@@ -292,154 +292,154 @@
   "pairs": {
     "en": {
       "name": "Béarla do chainteoirí Gaeilge",
-      "title": "Béarla do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Béarla do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Béarla do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Bhéarla agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Béarla do chainteoirí teangacha eile"
     },
     "de": {
       "name": "Gearmáinis do chainteoirí Gaeilge",
-      "title": "Gearmáinis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Gearmáinis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Gearmáinis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Ghearmáinis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Gearmáinis do chainteoirí teangacha eile"
     },
     "nl": {
       "name": "Ollainnis do chainteoirí Gaeilge",
-      "title": "Ollainnis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Ollainnis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Ollainnis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail san Ollainnis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Ollainnis do chainteoirí teangacha eile"
     },
     "sv": {
       "name": "Sualainnis do chainteoirí Gaeilge",
-      "title": "Sualainnis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Sualainnis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Sualainnis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa tSualainnis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Sualainnis do chainteoirí teangacha eile"
     },
     "zh": {
       "name": "Sínis do chainteoirí Gaeilge",
-      "title": "Sínis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Sínis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Sínis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa tSínis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Sínis do chainteoirí teangacha eile"
     },
     "ja": {
       "name": "Seapáinis do chainteoirí Gaeilge",
-      "title": "Seapáinis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Seapáinis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Seapáinis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa tSeapáinis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Seapáinis do chainteoirí teangacha eile"
     },
     "vi": {
       "name": "Vítneamais do chainteoirí Gaeilge",
-      "title": "Vítneamais do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Vítneamais do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Vítneamais do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Vítneamais agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Vítneamais do chainteoirí teangacha eile"
     },
     "ko": {
       "name": "Cóiréis do chainteoirí Gaeilge",
-      "title": "Cóiréis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Cóiréis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Cóiréis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Chóiréis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Cóiréis do chainteoirí teangacha eile"
     },
     "es": {
       "name": "Spáinnis do chainteoirí Gaeilge",
-      "title": "Spáinnis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Spáinnis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Spáinnis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Spáinnis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Spáinnis do chainteoirí teangacha eile"
     },
     "fr": {
       "name": "Fraincis do chainteoirí Gaeilge",
-      "title": "Fraincis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Fraincis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Fraincis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Fhraincis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Fraincis do chainteoirí teangacha eile"
     },
     "pt": {
       "name": "Portaingéilis do chainteoirí Gaeilge",
-      "title": "Portaingéilis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Portaingéilis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Portaingéilis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Phortaingéilis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Portaingéilis do chainteoirí teangacha eile"
     },
     "it": {
       "name": "Iodáilis do chainteoirí Gaeilge",
-      "title": "Iodáilis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Iodáilis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Iodáilis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail san Iodáilis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Iodáilis do chainteoirí teangacha eile"
     },
     "ru": {
       "name": "Rúisis do chainteoirí Gaeilge",
-      "title": "Rúisis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Rúisis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Rúisis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Rúisis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Rúisis do chainteoirí teangacha eile"
     },
     "pl": {
       "name": "Polainnis do chainteoirí Gaeilge",
-      "title": "Polainnis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Polainnis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Polainnis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Pholainnis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Polainnis do chainteoirí teangacha eile"
     },
     "uk": {
       "name": "Úcráinis do chainteoirí Gaeilge",
-      "title": "Úcráinis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Úcráinis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Úcráinis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail san Úcráinis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Úcráinis do chainteoirí teangacha eile"
     },
     "sr": {
       "name": "Seirbis do chainteoirí Gaeilge",
-      "title": "Seirbis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Seirbis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Seirbis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa tSeirbis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Seirbis do chainteoirí teangacha eile"
     },
     "gd": {
       "name": "Gaeilge na hAlban do chainteoirí Gaeilge",
-      "title": "Gaeilge na hAlban do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Gaeilge na hAlban do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Gaeilge na hAlban do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail i nGaeilge na hAlban agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Gaeilge na hAlban do chainteoirí teangacha eile"
     },
     "ar": {
       "name": "Araibis do chainteoirí Gaeilge",
-      "title": "Araibis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Araibis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Araibis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail san Araibis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Araibis do chainteoirí teangacha eile"
     },
     "tr": {
       "name": "Tuircis do chainteoirí Gaeilge",
-      "title": "Tuircis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Tuircis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Tuircis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Tuircis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Tuircis do chainteoirí teangacha eile"
     },
     "el": {
       "name": "Gréigis do chainteoirí Gaeilge",
-      "title": "Gréigis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Gréigis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Gréigis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail sa Ghréigis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Gréigis do chainteoirí teangacha eile"
     },
     "hu": {
       "name": "Ungáiris do chainteoirí Gaeilge",
-      "title": "Ungáiris do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Ungáiris do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Ungáiris do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail san Ungáiris agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Ungáiris do chainteoirí teangacha eile"
     },
     "hy": {
       "name": "Airméinis do chainteoirí Gaeilge",
-      "title": "Airméinis do Ghaeilgeoirí: deic Anki — AnkiGen",
+      "title": "Airméinis do Ghaeilgeoirí: deic Anki — Ankenning",
       "description": "Airméinis do Ghaeilgeoirí: deic Anki saor in aisce, {words} agus {modules}, le haistriúcháin agus samplaí. Do Anki agus AnkiDroid.",
       "lede": "Deic Anki saor in aisce le focail san Airméinis agus aistriúcháin Ghaeilge, cruthaithe i do bhrabhsálaí.",
       "others": "Airméinis do chainteoirí teangacha eile"

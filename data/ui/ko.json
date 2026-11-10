@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "어휘는 기계로 초안을 만들었고 일부만 검수되었습니다. 의견은 언제든 환영합니다.",
     "head.draftTopic": "어휘 초안",
@@ -9,7 +9,7 @@
     "head.languageNow": "인터페이스 언어: {language}",
     "help.about": "{topic} 안내",
     "support": "이 프로젝트 후원하기:",
-    "fatal": "AnkiGen이 단어 목록을 불러오지 못했습니다. 연결을 확인하고 페이지를 새로고침해 주세요.",
+    "fatal": "Ankenning이 단어 목록을 불러오지 못했습니다. 연결을 확인하고 페이지를 새로고침해 주세요.",
     "step.learn": "배우는 언어",
     "step.know": "사용하는 언어",
     "step.modules": "모듈",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "덱 업데이트",
     "update.intro": "필드를 바꿨거나, 모듈을 추가했거나, 더 새로운 데이터가 필요한가요? 다시 내려받아 새 파일을 기본 옵션 그대로 Anki에 가져오세요(File → Import). 기존 노트와 레이아웃이 업데이트되고, 새 단어는 같은 덱에 추가되며, 학습 기록은 그대로 유지됩니다.",
-    "update.edits": "AnkiGen 노트에 직접 한 편집과 태그는 새 버전으로 바뀝니다. 플래그, 보류한 카드, 학습 기록은 그대로 남습니다.",
+    "update.rename": "Ankenning의 예전 이름은 AnkiGen입니다. Anki의 덱 목록에 아직 'AnkiGen'이 보이면, 업데이트를 가져오기 전에 그 덱의 이름을 'Ankenning'으로 바꾸세요. 그러지 않으면 새 카드가 다른 덱에 들어갑니다.",
+    "update.edits": "Ankenning 노트에 직접 한 편집과 태그는 새 버전으로 바뀝니다. 플래그, 보류한 카드, 학습 기록은 그대로 남습니다.",
     "update.deck": "새 카드는 이 이름과 똑같은 덱에 들어갑니다. 덱 이름을 바꾸거나 옮겼다면 원래 이름의 새 덱에 나타나며, 거기서 옮길 수 있어요.",
-    "update.noteType": "AnkiGen 노트 유형의 필드를 바꿨다면 가져올 때 'Merge note types'를 체크하세요. 그러지 않으면 Anki가 이 노트들을 업데이트할 수 없습니다.",
+    "update.noteType": "Ankenning 노트 유형의 필드를 바꿨다면 가져올 때 'Merge note types'를 체크하세요. 그러지 않으면 Anki가 이 노트들을 업데이트할 수 없습니다.",
     "update.reverse": "역방향 카드를 껐나요? 예전 카드는 빈 카드로 남습니다. Tools → Empty Cards로 지우세요.",
     "share.copy": "링크 복사",
     "share.copied": "링크를 복사했습니다",
@@ -96,7 +97,7 @@
     "list.open": "단어 목록: {size}",
     "feedback.button": "피드백",
     "feedback.title": "피드백({shortcut})",
-    "langs.title": "지원 언어 — AnkiGen",
+    "langs.title": "지원 언어 — Ankenning",
     "langs.heading": "지원 언어",
     "langs.extras": "카드에 추가로 표시할 수 있는 항목: {fields}",
     "langs.build": "덱 만들기",
@@ -108,6 +109,7 @@
     "foot.source": "GitHub 소스",
     "foot.license": "코드는 {mit} 라이선스, 어휘는 {cc} 라이선스입니다.",
     "foot.author": "만든 사람: {name}",
+    "foot.independent": "Ankenning은 독립 프로젝트로, Anki Software LLC와 제휴 관계가 없으며 그 승인을 받지도 않았습니다.",
     "fb.title": "피드백",
     "fb.close": "닫기",
     "fb.about": "단어: {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "이모지",
     "fb.field.conceptId": "개념 ID",
     "audio.label": "발음 오디오",
-    "audio.warning": "AnkiGen에서 가장 실험적인 기능으로, 아직 시제품 단계입니다. 녹음은 기계가 만들었고 아무도 확인하지 않았습니다. 강세, 읽기, 억양이 틀릴 수 있으니 믿고 의지하지 마세요. 모국어 화자이신데 녹음 품질이 좋지 않다면 '피드백' 버튼으로 알려 주세요. 필요하면 해당 언어의 오디오를 내리겠습니다.",
-    "audio.oldDecks": "오디오가 추가되기 전에 AnkiGen 덱을 가져온 적이 있나요? 업데이트를 처음 가져올 때 Anki 가져오기 옵션에서 'Merge note types'를 체크하세요. 그러지 않으면 노트 유형에 오디오 필드가 새로 생겨서 Anki가 기존 노트를 건너뜁니다.",
+    "audio.warning": "Ankenning에서 가장 실험적인 기능으로, 아직 시제품 단계입니다. 녹음은 기계가 만들었고 아무도 확인하지 않았습니다. 강세, 읽기, 억양이 틀릴 수 있으니 믿고 의지하지 마세요. 모국어 화자이신데 녹음 품질이 좋지 않다면 '피드백' 버튼으로 알려 주세요. 필요하면 해당 언어의 오디오를 내리겠습니다.",
+    "audio.oldDecks": "오디오가 추가되기 전에 Ankenning 덱을 가져온 적이 있나요? 업데이트를 처음 가져올 때 Anki 가져오기 옵션에서 'Merge note types'를 체크하세요. 그러지 않으면 노트 유형에 오디오 필드가 새로 생겨서 Anki가 기존 노트를 건너뜁니다.",
     "audio.help1": "배우는 단어마다 녹음을 추가합니다. 단어만 들어 있고 예문, 번역, 뜻풀이는 없습니다. 정방향 카드의 앞면과 역방향 카드의 뒷면에서 재생됩니다.",
     "audio.help2": "녹음은 Google Cloud Text-to-Speech로 만듭니다.",
     "audio.help3": "나중에 소리 파일을 지우려면 오디오를 끄고 덱을 다시 내려받아 가져온 다음, Anki의 Tools → Check Media로 쓰지 않는 파일을 삭제하세요.",
@@ -179,7 +181,7 @@
   },
   "plural": {
     "title": {
-      "other": "AnkiGen — {n}개 언어의 무료 Anki 단어 덱"
+      "other": "Ankenning — {n}개 언어의 무료 Anki 단어 덱"
     },
     "lede": {
       "other": "{n}개 언어의 무료 Anki 단어 덱을 브라우저에서 바로 만드세요."
@@ -188,10 +190,10 @@
       "other": "브라우저에서 바로 무료 Anki 단어 덱을 만드세요. {n}개 언어, 주제별 모듈, 원하는 카드 필드를 고를 수 있습니다. Anki나 AnkiDroid용 .apkg 파일을 내려받으세요."
     },
     "langsLede": {
-      "other": "AnkiGen은 {n}개 언어로 Anki 덱을 만듭니다. 어떤 언어든 다른 언어의 번역과 함께, 또는 같은 언어의 뜻풀이로 배울 수 있습니다."
+      "other": "Ankenning은 {n}개 언어로 Anki 덱을 만듭니다. 어떤 언어든 다른 언어의 번역과 함께, 또는 같은 언어의 뜻풀이로 배울 수 있습니다."
     },
     "langsDescription": {
-      "other": "AnkiGen이 무료 Anki 단어 덱을 만드는 {n}개 언어와 다른 언어를 요청하는 방법."
+      "other": "Ankenning이 무료 Anki 단어 덱을 만드는 {n}개 언어와 다른 언어를 요청하는 방법."
     },
     "word": {
       "other": "단어 {n}개"

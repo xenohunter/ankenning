@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "Is meaisín a dhréachtaigh an stór focal agus níl ach cuid de seiceáilte. Fáiltítear go mór roimh aiseolas.",
     "head.draftTopic": "an stór focal dréachta",
@@ -9,7 +9,7 @@
     "head.languageNow": "Teanga an chomhéadain: {language}",
     "help.about": "Faoi: {topic}",
     "support": "Tacaigh leis an tionscadal seo:",
-    "fatal": "Níorbh fhéidir le AnkiGen a liostaí focal a lódáil. Seiceáil do cheangal agus athlódáil an leathanach.",
+    "fatal": "Níorbh fhéidir le Ankenning a liostaí focal a lódáil. Seiceáil do cheangal agus athlódáil an leathanach.",
     "step.learn": "Táim ag foghlaim",
     "step.know": "Labhraím",
     "step.modules": "Modúil",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "Do phaca a nuashonrú",
     "update.intro": "Ar athraigh tú réimsí, ar chuir tú modúil leis, nó an bhfuil sonraí níos nuaí uait? Íoslódáil arís agus iompórtáil an comhad nua isteach in Anki (File → Import) leis na roghanna réamhshocraithe. Nuashonraíonn Anki do nótaí agus a leagan amach, cuireann sé focail nua leis an bpaca céanna, agus coinníonn sé do dhul chun cinn athbhreithnithe.",
-    "update.edits": "Cuirtear an leagan nua in ionad d’athruithe agus do chlibeanna féin ar nótaí AnkiGen. Coinnítear bratacha, cártaí ar fionraí agus do dhul chun cinn.",
+    "update.rename": "AnkiGen an t-ainm a bhí ar Ankenning roimhe seo. Má tá “AnkiGen” fós le feiceáil i liosta na bpacaí in Anki, athainmnigh an paca sin mar “Ankenning” sula n-iompórtálann tú nuashonrú, nó rachaidh na cártaí nua isteach i bpaca eile.",
+    "update.edits": "Cuirtear an leagan nua in ionad d’athruithe agus do chlibeanna féin ar nótaí Ankenning. Coinnítear bratacha, cártaí ar fionraí agus do dhul chun cinn.",
     "update.deck": "Téann cártaí nua isteach sa phaca a bhfuil an t-ainm seo go díreach air. Má d’athainmnigh tú nó má bhog tú é, beidh siad i bpaca nua leis an ainm bunaidh, agus is féidir leat iad a bhogadh.",
-    "update.noteType": "Má d’athraigh tú réimsí an chineáil nóta AnkiGen, cuir tic le “Merge note types” agus tú ag iompórtáil, nó ní féidir le Anki na nótaí seo a nuashonrú.",
+    "update.noteType": "Má d’athraigh tú réimsí an chineáil nóta Ankenning, cuir tic le “Merge note types” agus tú ag iompórtáil, nó ní féidir le Anki na nótaí seo a nuashonrú.",
     "update.reverse": "Ar mhúch tú na cártaí droim ar ais? Coinníonn Anki na seancheanna mar chártaí bána. Bain iad le Tools → Empty Cards.",
     "share.copy": "Cóipeáil an nasc",
     "share.copied": "Cóipeáladh an nasc",
@@ -96,7 +97,7 @@
     "list.open": "Liosta focal: {size}",
     "feedback.button": "Aiseolas",
     "feedback.title": "Aiseolas ({shortcut})",
-    "langs.title": "Teangacha a dtacaítear leo — AnkiGen",
+    "langs.title": "Teangacha a dtacaítear leo — Ankenning",
     "langs.heading": "Teangacha a dtacaítear leo",
     "langs.extras": "Is féidir leis na cártaí seo a thaispeáint freisin: {fields}",
     "langs.build": "Tóg paca",
@@ -108,6 +109,7 @@
     "foot.source": "An cód foinseach ar GitHub",
     "foot.license": "Cód faoin gceadúnas {mit}; stór focal faoi {cc}.",
     "foot.author": "Cruthaithe ag {name}",
+    "foot.independent": "Is tionscadal neamhspleách é Ankenning. Níl baint aige le Anki Software LLC, agus níl sé formhuinithe acu.",
     "fb.title": "Aiseolas",
     "fb.close": "Dún",
     "fb.about": "Faoi {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "aitheantas coincheapa",
     "audio.label": "Fuaimniú (fuaim)",
-    "audio.warning": "An chuid is turgnamhaí de AnkiGen, fréamhshamhail fós: is meaisín a ghin na taifeadtaí agus níor sheiceáil aon duine iad. D’fhéadfadh an bhéim, na léamha agus an blas a bheith mícheart, mar sin ná bí ag brath orthu. Más cainteoir dúchais thú agus nach bhfuil siad go maith, inis dúinn leis an gcnaipe Aiseolas: bainfimid fuaim teanga anuas más gá.",
-    "audio.oldDecks": "Ar iompórtáil tú paca AnkiGen sular cuireadh fuaim leis? An chéad uair a iompórtálfaidh tú nuashonrú, cuir tic le “Merge note types” i roghanna iompórtála Anki; murach sin, scipeálfaidh Anki do nótaí, mar tá réimse don fhuaim ag a gcineál nóta anois.",
+    "audio.warning": "An chuid is turgnamhaí de Ankenning, fréamhshamhail fós: is meaisín a ghin na taifeadtaí agus níor sheiceáil aon duine iad. D’fhéadfadh an bhéim, na léamha agus an blas a bheith mícheart, mar sin ná bí ag brath orthu. Más cainteoir dúchais thú agus nach bhfuil siad go maith, inis dúinn leis an gcnaipe Aiseolas: bainfimid fuaim teanga anuas más gá.",
+    "audio.oldDecks": "Ar iompórtáil tú paca Ankenning sular cuireadh fuaim leis? An chéad uair a iompórtálfaidh tú nuashonrú, cuir tic le “Merge note types” i roghanna iompórtála Anki; murach sin, scipeálfaidh Anki do nótaí, mar tá réimse don fhuaim ag a gcineál nóta anois.",
     "audio.help1": "Cuireann sé taifeadadh de gach focal atá á fhoghlaim agat leis: an focal amháin, ní a shamplaí, a aistriúchán ná a shainmhíniú. Seinntear é ar aghaidh na gcártaí díreacha agus ar chúl na gcártaí droim ar ais.",
     "audio.help2": "Déantar na taifeadtaí le Google Cloud Text-to-Speech.",
     "audio.help3": "Chun na comhaid fuaime a bhaint níos déanaí, múch an fhuaim, íoslódáil an paca agus iompórtáil arís é, ansin scrios na comhaid nach n-úsáidtear le Tools → Check Media in Anki.",
@@ -179,11 +181,11 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — pacaí stór focal Anki saor in aisce: {n} teanga",
-      "two": "AnkiGen — pacaí stór focal Anki saor in aisce: {n} theanga",
-      "few": "AnkiGen — pacaí stór focal Anki saor in aisce: {n} theanga",
-      "many": "AnkiGen — pacaí stór focal Anki saor in aisce: {n} dteanga",
-      "other": "AnkiGen — pacaí stór focal Anki saor in aisce: {n} teanga"
+      "one": "Ankenning — pacaí stór focal Anki saor in aisce: {n} teanga",
+      "two": "Ankenning — pacaí stór focal Anki saor in aisce: {n} theanga",
+      "few": "Ankenning — pacaí stór focal Anki saor in aisce: {n} theanga",
+      "many": "Ankenning — pacaí stór focal Anki saor in aisce: {n} dteanga",
+      "other": "Ankenning — pacaí stór focal Anki saor in aisce: {n} teanga"
     },
     "lede": {
       "one": "Pacaí stór focal Anki saor in aisce, {n} teanga, tógtha i do bhrabhsálaí féin.",
@@ -200,18 +202,18 @@
       "other": "Tóg pacaí stór focal Anki saor in aisce i do bhrabhsálaí féin: {n} teanga, modúil théamacha agus na réimsí cártaí is mian leat. Íoslódáil comhad .apkg do Anki nó AnkiDroid."
     },
     "langsLede": {
-      "one": "Déanann AnkiGen pacaí Anki: {n} teanga, le sainmhínithe sa teanga chéanna.",
-      "two": "Déanann AnkiGen pacaí Anki: {n} theanga. Foghlaim ceachtar acu tríd an gceann eile, nó leis féin le sainmhínithe sa teanga chéanna.",
-      "few": "Déanann AnkiGen pacaí Anki: {n} theanga. Foghlaim aon cheann acu trí cheann ar bith eile, nó leis féin le sainmhínithe sa teanga chéanna.",
-      "many": "Déanann AnkiGen pacaí Anki: {n} dteanga. Foghlaim aon cheann acu trí cheann ar bith eile, nó leis féin le sainmhínithe sa teanga chéanna.",
-      "other": "Déanann AnkiGen pacaí Anki: {n} teanga. Foghlaim aon cheann acu trí cheann ar bith eile, nó leis féin le sainmhínithe sa teanga chéanna."
+      "one": "Déanann Ankenning pacaí Anki: {n} teanga, le sainmhínithe sa teanga chéanna.",
+      "two": "Déanann Ankenning pacaí Anki: {n} theanga. Foghlaim ceachtar acu tríd an gceann eile, nó leis féin le sainmhínithe sa teanga chéanna.",
+      "few": "Déanann Ankenning pacaí Anki: {n} theanga. Foghlaim aon cheann acu trí cheann ar bith eile, nó leis féin le sainmhínithe sa teanga chéanna.",
+      "many": "Déanann Ankenning pacaí Anki: {n} dteanga. Foghlaim aon cheann acu trí cheann ar bith eile, nó leis féin le sainmhínithe sa teanga chéanna.",
+      "other": "Déanann Ankenning pacaí Anki: {n} teanga. Foghlaim aon cheann acu trí cheann ar bith eile, nó leis féin le sainmhínithe sa teanga chéanna."
     },
     "langsDescription": {
-      "one": "An {n} teanga ina ndéanann AnkiGen pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
-      "two": "An {n} theanga ina ndéanann AnkiGen pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
-      "few": "Na {n} theanga ina ndéanann AnkiGen pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
-      "many": "Na {n} dteanga ina ndéanann AnkiGen pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
-      "other": "Na {n} teanga ina ndéanann AnkiGen pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh."
+      "one": "An {n} teanga ina ndéanann Ankenning pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
+      "two": "An {n} theanga ina ndéanann Ankenning pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
+      "few": "Na {n} theanga ina ndéanann Ankenning pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
+      "many": "Na {n} dteanga ina ndéanann Ankenning pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh.",
+      "other": "Na {n} teanga ina ndéanann Ankenning pacaí stór focal Anki saor in aisce, agus conas ceann eile a iarraidh."
     },
     "word": {
       "one": "{n} fhocal",

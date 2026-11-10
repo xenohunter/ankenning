@@ -1,5 +1,5 @@
 {
-  "source": "c2ece1a31fde",
+  "source": "5e6401bfa3be",
   "texts": {
     "head.draft": "A szókincset gép készítette, és csak részben ellenőrizték. Minden visszajelzést szívesen fogadunk.",
     "head.draftTopic": "a szókincs vázlata",
@@ -9,7 +9,7 @@
     "head.languageNow": "A felület nyelve: {language}",
     "help.about": "Tudnivalók: {topic}",
     "support": "Támogasd a projektet:",
-    "fatal": "Az AnkiGen nem tudta betölteni a szólistákat. Ellenőrizd a kapcsolatot, és töltsd újra az oldalt.",
+    "fatal": "Az Ankenning nem tudta betölteni a szólistákat. Ellenőrizd a kapcsolatot, és töltsd újra az oldalt.",
     "step.learn": "Ezt tanulom",
     "step.know": "Ezt beszélem",
     "step.modules": "Modulok",
@@ -60,9 +60,10 @@
     "download.audioSize": "+{size} MB",
     "update.title": "A pakli frissítése",
     "update.intro": "Mezőket változtattál, modulokat adtál hozzá, vagy frissebb adatokat szeretnél? Töltsd le újra, és importáld az új fájlt az Ankiba (File → Import) az alapbeállításokkal. Az Anki frissíti a meglévő jegyzeteidet és azok kinézetét, az új szavakat ugyanabba a pakliba teszi, a tanulási előrehaladásodat pedig megtartja.",
-    "update.edits": "Az AnkiGen-jegyzeteken végzett saját módosításaidat és címkéidet az új változat felülírja. A zászlók, a felfüggesztett kártyák és az előrehaladás megmaradnak.",
+    "update.rename": "Az Ankenning korábban AnkiGen néven futott. Ha az Anki paklilistájában még „AnkiGen” látható, frissítés importálása előtt nevezd át azt a paklit „Ankenning” névre, különben az új kártyák egy második pakliba kerülnek.",
+    "update.edits": "Az Ankenning-jegyzeteken végzett saját módosításaidat és címkéidet az új változat felülírja. A zászlók, a felfüggesztett kártyák és az előrehaladás megmaradnak.",
     "update.deck": "Az új kártyák a pontosan ilyen nevű pakliba kerülnek. Ha átnevezted vagy áthelyezted, egy új, eredeti nevű pakliban jelennek meg, és áthelyezheted őket.",
-    "update.noteType": "Ha megváltoztattad az AnkiGen jegyzettípus mezőit, importáláskor jelöld be a „Merge note types” lehetőséget, különben az Anki nem tudja frissíteni ezeket a jegyzeteket.",
+    "update.noteType": "Ha megváltoztattad az Ankenning jegyzettípus mezőit, importáláskor jelöld be a „Merge note types” lehetőséget, különben az Anki nem tudja frissíteni ezeket a jegyzeteket.",
     "update.reverse": "Kikapcsoltad a fordított kártyákat? Az Anki a régieket üres kártyaként megtartja. Töröld őket a Tools → Empty Cards menüponttal.",
     "share.copy": "Hivatkozás másolása",
     "share.copied": "Hivatkozás másolva",
@@ -96,7 +97,7 @@
     "list.open": "Szólista: {size}",
     "feedback.button": "Visszajelzés",
     "feedback.title": "Visszajelzés ({shortcut})",
-    "langs.title": "Támogatott nyelvek — AnkiGen",
+    "langs.title": "Támogatott nyelvek — Ankenning",
     "langs.heading": "Támogatott nyelvek",
     "langs.extras": "A kártyák ezeket is mutathatják: {fields}",
     "langs.build": "Pakli készítése",
@@ -108,6 +109,7 @@
     "foot.source": "Forráskód a GitHubon",
     "foot.license": "A kód {mit} licenc alatt; a szókincs {cc} alatt.",
     "foot.author": "Készítette: {name}",
+    "foot.independent": "Az Ankenning független projekt, nem kapcsolódik az Anki Software LLC-hez, és nem is annak jóváhagyásával készült.",
     "fb.title": "Visszajelzés",
     "fb.close": "Bezárás",
     "fb.about": "Erről: {word}",
@@ -168,8 +170,8 @@
     "fb.field.emoji": "emoji",
     "fb.field.conceptId": "fogalomazonosító",
     "audio.label": "Kiejtés (hang)",
-    "audio.warning": "Az AnkiGen legkísérletibb része, még prototípus: a felvételeket gép készítette, és senki sem ellenőrizte őket. A hangsúly, az olvasat és a kiejtés hibás lehet, ezért ne hagyatkozz rájuk. Ha anyanyelvi beszélő vagy, és rosszul szólnak, jelezd nekünk a Visszajelzés gombbal: ha kell, levesszük egy nyelv hanganyagát.",
-    "audio.oldDecks": "Még a hang bevezetése előtt importáltál egy AnkiGen-paklit? Amikor először importálsz frissítést, jelöld be a „Merge note types” lehetőséget az Anki importálási beállításaiban; különben az Anki kihagyja a meglévő jegyzeteidet, mert a jegyzettípusukban most már van egy mező a hangnak.",
+    "audio.warning": "Az Ankenning legkísérletibb része, még prototípus: a felvételeket gép készítette, és senki sem ellenőrizte őket. A hangsúly, az olvasat és a kiejtés hibás lehet, ezért ne hagyatkozz rájuk. Ha anyanyelvi beszélő vagy, és rosszul szólnak, jelezd nekünk a Visszajelzés gombbal: ha kell, levesszük egy nyelv hanganyagát.",
+    "audio.oldDecks": "Még a hang bevezetése előtt importáltál egy Ankenning-paklit? Amikor először importálsz frissítést, jelöld be a „Merge note types” lehetőséget az Anki importálási beállításaiban; különben az Anki kihagyja a meglévő jegyzeteidet, mert a jegyzettípusukban most már van egy mező a hangnak.",
     "audio.help1": "Felvételt ad minden tanult szóhoz: csak a szóhoz, a példákhoz, a fordításhoz és a meghatározáshoz nem. Az előre kártyák elején és a fordított kártyák hátoldalán szól.",
     "audio.help2": "A felvételek a Google Cloud Text-to-Speech szolgáltatással készülnek.",
     "audio.help3": "Ha később törölni szeretnéd a hangfájlokat, kapcsold ki a hangot, töltsd le a paklit, importáld újra, majd töröld a nem használt fájlokat az Anki Tools → Check Media menüpontjával.",
@@ -179,8 +181,8 @@
   },
   "plural": {
     "title": {
-      "one": "AnkiGen — ingyenes Anki-szókártyapaklik {n} nyelven",
-      "other": "AnkiGen — ingyenes Anki-szókártyapaklik {n} nyelven"
+      "one": "Ankenning — ingyenes Anki-szókártyapaklik {n} nyelven",
+      "other": "Ankenning — ingyenes Anki-szókártyapaklik {n} nyelven"
     },
     "lede": {
       "one": "Ingyenes Anki-szókártyapaklik {n} nyelven, közvetlenül a böngésződben elkészítve.",
@@ -191,12 +193,12 @@
       "other": "Készíts ingyenes Anki-szókártyapaklikat közvetlenül a böngésződben: {n} nyelv, tematikus modulok és a kívánt kártyamezők. Tölts le egy .apkg fájlt az Ankihoz vagy az AnkiDroidhoz."
     },
     "langsLede": {
-      "one": "Az AnkiGen {n} nyelven készít Anki-paklikat, ugyanazon a nyelven írt meghatározásokkal.",
-      "other": "Az AnkiGen {n} nyelven készít Anki-paklikat. Bármelyiket tanulhatod bármelyik másikból, vagy önmagában, ugyanazon a nyelven írt meghatározásokkal."
+      "one": "Az Ankenning {n} nyelven készít Anki-paklikat, ugyanazon a nyelven írt meghatározásokkal.",
+      "other": "Az Ankenning {n} nyelven készít Anki-paklikat. Bármelyiket tanulhatod bármelyik másikból, vagy önmagában, ugyanazon a nyelven írt meghatározásokkal."
     },
     "langsDescription": {
-      "one": "Az a {n} nyelv, amelyen az AnkiGen ingyenes Anki-szókártyapaklikat készít, és hogyan kérhetsz egy újabbat.",
-      "other": "Az a {n} nyelv, amelyen az AnkiGen ingyenes Anki-szókártyapaklikat készít, és hogyan kérhetsz egy újabbat."
+      "one": "Az a {n} nyelv, amelyen az Ankenning ingyenes Anki-szókártyapaklikat készít, és hogyan kérhetsz egy újabbat.",
+      "other": "Az a {n} nyelv, amelyen az Ankenning ingyenes Anki-szókártyapaklikat készít, és hogyan kérhetsz egy újabbat."
     },
     "word": {
       "one": "{n} szó",

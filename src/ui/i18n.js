@@ -8,7 +8,7 @@ import { PLURALS, STRINGS } from './strings.js';
 
 /** The interface languages, in the order of the language chips: English and those with a data/ui translation. */
 export const UI_LANGUAGES = ['en', 'de', 'nl', 'sv', 'zh', 'ja', 'vi', 'ko', 'es', 'fr', 'pt', 'it', 'ru', 'pl', 'uk', 'sr', 'ar', 'tr', 'el', 'hu', 'hy', 'ga', 'gd'];
-/** The user's last choice, in localStorage. */
+/** The user's last choice, in localStorage (under the former name, so it survives the rename). */
 export const LANGUAGE_KEY = 'ankigen:lang';
 
 /** @typedef {Record<string, string>} Forms  plural category (Intl.PluralRules) → text */

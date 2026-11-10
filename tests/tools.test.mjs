@@ -63,12 +63,12 @@ test('labels.json layout: one line per key group, languages in registry order', 
 });
 
 test('tools/apkg.mjs writes the same package as buildApkg for a config hash', async () => {
-  const out = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-apkg-'));
+  const out = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-apkg-'));
   try {
     const now = 1_792_300_000_000;
     const args = ['tools/apkg.mjs', '#v1&l=ru&k=en&m=core-1,time&r=1', '--data', 'tests/fixtures/data', '--out', out, '--now', String(now)];
     const stdout = execFileSync(process.execPath, args, { cwd: new URL('..', import.meta.url), encoding: 'utf8' });
-    assert.match(stdout, /AnkiGen::Русский \(English\), 11 notes, 22 cards/);
+    assert.match(stdout, /Ankenning::Русский \(English\), 11 notes, 22 cards/);
     const deck = await fixtureDeck({ learn: 'ru', know: 'en', modules: ['core-1', 'time'], reverse: true });
     const file = path.join(out, apkgFileName(deck.config, deck.meta));
     const expected = await buildApkg({ SQL: await loadSqlJs(), config: deck.config, meta: deck.meta, deck, now });
@@ -79,7 +79,7 @@ test('tools/apkg.mjs writes the same package as buildApkg for a config hash', as
 });
 
 test('tools/bundle.mjs: the site serves the same data from its bundles as the source files do', async () => {
-  const site = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-site-'));
+  const site = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-site-'));
   try {
     const stdout = run(['tools/bundle.mjs', '--site', site, '--data', 'tests/fixtures/data']);
     const version = JSON.parse(fs.readFileSync(new URL('data/meta/version.json', REPO), 'utf8')).data;
@@ -156,7 +156,7 @@ test('tools/bundle.mjs: the site serves the same data from its bundles as the so
 });
 
 test('tools/bundle.mjs never replaces a directory it did not build', () => {
-  const other = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-other-'));
+  const other = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-other-'));
   try {
     fs.writeFileSync(path.join(other, 'keep.txt'), 'mine');
     const refused = runStatus(['tools/bundle.mjs', '--site', other, '--data', 'tests/fixtures/data']);
@@ -219,7 +219,7 @@ test('an example target shows the word: lint flags a target that is an alt, and 
 });
 
 test('an exfix unit replaces example slots, and its merge fails while a slot still shows an alt', () => {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-exfix-'));
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-exfix-'));
   try {
     fs.cpSync(new URL('tests/fixtures/data', REPO), dir, { recursive: true });
     fs.cpSync(new URL('data/meta', REPO), path.join(dir, 'meta'), { recursive: true });
@@ -290,7 +290,7 @@ test('lint knows the spelling of the languages added in 2026: stress, vowel mark
 });
 
 test('lint checks the chip groups: every language in one group, English first, by speakers, "other" last, active in their order', () => {
-  const meta = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-meta-'));
+  const meta = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-meta-'));
   try {
     fs.cpSync(new URL('data/meta', REPO), meta, { recursive: true });
     const file = path.join(meta, 'languages.json');
@@ -318,7 +318,7 @@ test('lint checks the chip groups: every language in one group, English first, b
 
 test('local units add the own concepts of a staged language with a country; a lang unit then sends only what is missing', () => {
   // Italian and Arabic staged again, as they were before their activation.
-  const meta = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-meta-'));
+  const meta = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-meta-'));
   try {
     fs.cpSync(new URL('data/meta', REPO), meta, { recursive: true });
     const file = path.join(meta, 'languages.json');
@@ -345,7 +345,7 @@ test('local units add the own concepts of a staged language with a country; a la
 });
 
 test('merge-unit holds a unit to its own language: other languages’ problems are not its errors', () => {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-merge-'));
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-merge-'));
   try {
     fs.cpSync(new URL('tests/fixtures/data', REPO), dir, { recursive: true });
     fs.cpSync(new URL('data/meta', REPO), path.join(dir, 'meta'), { recursive: true });
@@ -380,7 +380,7 @@ test('merge-unit holds a unit to its own language: other languages’ problems a
 });
 
 test('merge-unit writes a landing translation and checks it, and lint-data checks data/landing', () => {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-landing-'));
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-landing-'));
   try {
     fs.cpSync(new URL('tests/fixtures/data', REPO), dir, { recursive: true });
     fs.cpSync(new URL('data/meta', REPO), path.join(dir, 'meta'), { recursive: true });
@@ -424,7 +424,7 @@ test('lint-data --gate: the deploy needs an entry for every concept in every act
   assert.ok(failing.stdout.includes(`Deploy gate: ${missing.length} active language(s) incomplete: ${missing.map((/** @type {string} */ c) => `${c} 0/15`).join(', ')}`), failing.stdout);
 
   // A registry with only the fixture languages active (the others staged) passes.
-  const meta = fs.mkdtempSync(path.join(os.tmpdir(), 'ankigen-meta-'));
+  const meta = fs.mkdtempSync(path.join(os.tmpdir(), 'ankenning-meta-'));
   try {
     fs.cpSync(new URL('data/meta', REPO), meta, { recursive: true });
     const languages = JSON.parse(fs.readFileSync(path.join(meta, 'languages.json'), 'utf8'));

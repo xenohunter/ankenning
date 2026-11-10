@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { AUTHOR_NAME, AUTHOR_URL, BUY_ME_A_COFFEE_URL, DATA_LICENSE_URL, PATREON_URL, REPO_URL, SITE_URL } from '../src/config.js';
 import { decodeHash, moduleIds, validate } from '../src/state.js';
+import { STRINGS } from '../src/ui/strings.js';
 import { assembleConcepts, moduleOrder } from '../src/data/loader.js';
 import { moduleCounts, selectNotes } from '../src/deck/select.js';
 import { DECKS_DIR, LANGUAGES_PAGE, checkTexts, englishTexts, landingFiles, landingSite, pairPage, slug, textsSource } from '../tools/landing.mjs';
@@ -84,7 +85,7 @@ test('every page has its own title and description, its canonical address and br
   assert.equal(titles.size, pages.length + 1);
   assert.equal(descriptions.size, pages.length + 1);
   const ja = files['decks/japanese-for-russian-speakers/index.html'];
-  assert.match(ja, /<title>Free Japanese Anki deck for Russian speakers — AnkiGen<\/title>/);
+  assert.match(ja, /<title>Free Japanese Anki deck for Russian speakers — Ankenning<\/title>/);
   assert.match(ja, /<h1>Japanese for Russian speakers<\/h1>/);
 });
 
@@ -115,7 +116,7 @@ test('a page shows the deck the app builds: its size, the words per module, samp
   const config = validate({ learn: 'ja', know: 'ru', modules: moduleIds(meta) }, meta);
   const [ja, ru] = [await loader.getLanguage('ja'), await loader.getLanguage('ru')];
   const notes = selectNotes(config, meta, concepts, ja, ru);
-  assert.match(html, new RegExp(`<p class="lp-facts">${notes.length} words · 7 modules · Anki deck: AnkiGen::日本語 \\(Русский\\)</p>`));
+  assert.match(html, new RegExp(`<p class="lp-facts">${notes.length} words · 7 modules · Anki deck: Ankenning::日本語 \\(Русский\\)</p>`));
   const counts = moduleCounts(config, meta, concepts, ja, ru);
   const listed = [...html.matchAll(/<h4><a href="[^"]*m=([\w-]+)&amp;[^"]*">[^<]*<\/a>(?: <span class="badge">18\+<\/span>)? <span class="lp-count">(\d+) words?<\/span><\/h4>/g)];
   assert.deepEqual(
@@ -170,6 +171,7 @@ test('the pages share the app’s icons, link preview and footer; their absolute
     for (const rel of ['icon', 'apple-touch-icon', 'stylesheet']) assert.equal(head(text, 'rel', rel), root + head(index, 'rel', rel), `${file}: ${rel}`);
     for (const url of [PATREON_URL, BUY_ME_A_COFFEE_URL, REPO_URL, `${REPO_URL}/blob/master/LICENSE`, DATA_LICENSE_URL, AUTHOR_URL]) assert.ok(text.includes(`href="${url}"`), `${file} links to ${url}`);
     assert.ok(text.includes(`<p class="foot-line">Created by <a href="${AUTHOR_URL}" target="_blank" rel="noopener">${AUTHOR_NAME}</a></p>`), `${file}: the author`);
+    assert.ok(text.includes(`<p class="foot-line">${STRINGS['foot.independent']}</p>`), `${file}: the note that the project is independent of Anki`);
     assert.doesNotMatch(text, /· App |Data \d/, `${file}: no versions in the footer, as in the app`);
     assert.equal(head(text, 'name', 'author'), AUTHOR_NAME);
     assert.doesNotMatch(text, /<script(?! type="application\/ld\+json")/, 'no scripts but the structured data');
@@ -199,14 +201,14 @@ test('with a translation, the pages for its speakers are in their language', asy
   const ru = fakeRussian();
   assert.deepEqual(checkTexts(ru, meta, 'ru'), []);
   /** The app's texts in Russian (data/ui): the footer's. */
-  const ui = { ru: { texts: { support: 'Ру Support this project:', 'foot.decks': 'Ру Decks by language pair', 'foot.author': 'Ру Created by {name}' } } };
+  const ui = { ru: { texts: { support: 'Ру Support this project:', 'foot.decks': 'Ру Decks by language pair', 'foot.author': 'Ру Created by {name}', 'foot.independent': 'Ру Independent' } } };
   const out = await landingSite(fixtureLoader(), { ru }, ui);
   const html = out['decks/japanese-for-russian-speakers/index.html'];
   assert.match(html, /^<!doctype html>\n<html lang="ru-RU">/);
   assert.match(html, /<meta property="og:locale" content="ru_RU">/);
-  assert.match(html, /<title>Ру Free Japanese Anki deck for Russian speakers — AnkiGen<\/title>/);
+  assert.match(html, /<title>Ру Free Japanese Anki deck for Russian speakers — Ankenning<\/title>/);
   assert.match(html, /<h1>Ру Japanese for Russian speakers<\/h1>/);
-  assert.match(html, /<p class="lp-facts">14 слов · 7 модулей · Ру Anki deck: AnkiGen::日本語 \(Русский\)<\/p>/, 'Russian plural forms');
+  assert.match(html, /<p class="lp-facts">14 слов · 7 модулей · Ру Anki deck: Ankenning::日本語 \(Русский\)<\/p>/, 'Russian plural forms');
   assert.match(html, /Ру Core I<\/a> <span class="lp-count">12 слов<\/span>/);
   assert.match(html, /Ру Time &amp; calendar<\/a> <span class="lp-count">2 слова<\/span>/);
   assert.match(html, /Ру Survival phrases<\/a> <span class="lp-count">1 слово<\/span>/);
@@ -216,6 +218,7 @@ test('with a translation, the pages for its speakers are in their language', asy
   assert.match(html, /<p class="support">Ру Support this project: <span><a class="button" href="[^"]+" [^>]*>Patreon<\/a> <a class="button" href="[^"]+" [^>]*>Buy Me a Coffee<\/a><\/span><\/p>/, 'brand names stay as they are');
   assert.match(html, /<a href="\.\.\/\.\.\/decks\/">Ру Decks by language pair<\/a> · <a href="\.\.\/\.\.\/languages\.html\?lang=ru">Supported languages<\/a> · <a href="[^"]+" [^>]*>Source on GitHub<\/a>/, 'the footer, from data/ui; English where it has no text');
   assert.match(html, new RegExp(`Ру Created by <a href="${AUTHOR_URL}"[^>]*>${AUTHOR_NAME}</a>`));
+  assert.match(html, /<p class="foot-line">Ру Independent<\/p>/, 'the independence note, from data/ui');
   assert.match(out['decks/japanese-for-english-speakers/index.html'], /<p class="support">Support this project: /, 'pages in English have the English footer');
   assert.match(html, /<a href="\.\.\/english-for-russian-speakers\/" lang="ru-RU">Ру English<\/a>/, 'decks for the same speakers, named in their language');
   assert.match(html, /<a href="\.\.\/japanese-for-english-speakers\/" lang="en">Japanese for English speakers<\/a>/, 'pages in English are named in English');
@@ -238,7 +241,7 @@ test('an incomplete or outdated translation leaves its pages in English', async 
 
 test('checkTexts names what is wrong with a translation', () => {
   const ru = fakeRussian();
-  ru.texts.ctaNote = 'Откроется AnkiGen';
+  ru.texts.ctaNote = 'Откроется Ankenning';
   ru.texts.about = englishTexts(meta, 'ru').texts.about;
   ru.texts.intro = 'Latin letters only';
   ru.texts.step1 = 'Выберите <b>модули</b>';

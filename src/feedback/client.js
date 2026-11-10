@@ -61,7 +61,7 @@ export const LIMITS = {
 /** The same check as feedback/Code.gs. */
 export const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-export const STORAGE_KEY = 'ankigen:feedback';
+export const STORAGE_KEY = 'ankigen:feedback'; // the former name, kept (ARCHITECTURE §14)
 const CLIENT_ID = /^[A-Za-z0-9-]{8,64}$/;
 
 /** FNV-1a, 32 bits, as 8 hex digits. @param {string} text */

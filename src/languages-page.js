@@ -1,5 +1,5 @@
 // @ts-check
-// The languages page (languages.html, SPEC §4): the languages AnkiGen makes decks in, each named in the
+// The languages page (languages.html, SPEC §4): the languages Ankenning makes decks in, each named in the
 // interface language, with the card rows only some languages have and a link that starts a deck in it; and
 // "Request a language", which opens the feedback dialog with the New language category chosen. The list is in
 // the page's HTML, in English (for crawlers, and without scripts); this module translates it.
